@@ -1,0 +1,80 @@
+/*
+All things with an ID or class of blog
+ */
+.blog--container
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+  margin-top: 2rem
+  //height: 100%
+
+.blog
+  flex: 1 1
+  max-width: 500px
+  min-width: 350px
+  display: flex
+
+
+  &--insider
+    padding: .5rem
+
+  &--title
+    color: $burnt-siena
+    +center(center, center)
+
+  &--date
+    color: $burnt-siena
+
+  &--content
+    color: $compliment
+  &--tags
+    width: 35%
+    font-family: $font-stack-right
+    text-align: center
+    border-radius: 20px
+    margin-top: 10px
+  &--keys
+    color: #fff
+
+
+.blog--head
+  width: 80%
+  //margin: 0 auto
+  height: 8rem
+  +center(center, center)
+  padding-bottom: 0
+
+.blogs
+  max-width: 90%
+  @extend .blog
+  &--tags
+    width: 15%
+    @extend .blog--tags
+
+.hidden
+  display: none
+
+@media only print
+  p
+    font-size: points(16)
+  .blog--title
+    font-size: points(32)
+  .blogs
+    background-color: #fff
+    line-height: 1.5
+    color: #000
+    font-family: Georgia, "Times New Roman", Times, serif
+  .statement
+    font-size: points(19px)
+  .blog--date
+    font-size: points(19px)
+
+@page
+  margin: 2cm
+
+.nomargin
+  margin-left: 5px
+  padding: 0
+  list-style-type: none
+  padding-top: 5px
+

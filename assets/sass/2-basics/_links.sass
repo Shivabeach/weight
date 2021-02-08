@@ -1,0 +1,25 @@
+@charset "UTF-8"
+/* Links */
+a
+  color: map-get($greenie, "prime")
+  text-decoration: none
+  transition: all ease-out .25s
+  font-family: $font-stack-lucida-grande
+  box-shadow: 1px 2px 2px $bg700 //drk gray
+  padding-right: 3px
+  text-shadow: 1px 1px 1px $white
+
+  &:visited
+    color: map-get($greenie, "text")
+    text-decoration: overline
+    font-family: $font-stack-garamond
+
+  &:hover
+    color: map-get($greenie, "color")
+    box-shadow: 1px 2px 2px $white
+
+
+  &:focus, :active
+    color: $gold
+    text-shadow: 1px 1px 3px black
+
