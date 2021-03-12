@@ -1,0 +1,1 @@
+"use strict";const date=document.getElementById("date2"),title=document.getElementById("title"),content=document.getElementById("content"),tag=document.getElementById("tags"),blogger=document.getElementById("blogger");document.hasFocus()&&(title.style.backgroundColor="#00ff00");

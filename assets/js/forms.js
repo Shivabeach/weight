@@ -5,10 +5,16 @@
  */
 
 'use strict';
+const date = document.getElementById('date2');
+const title = document.getElementById('title');
+const content = document.getElementById('content');
+const tag = document.getElementById('tags');
+const blogger = document.getElementById('blogger');
+
 let keys = document.querySelector('.blog--keys');
 if (keys !== null) {
 	const splitter = keys.textContent.split(',');
-	splitter.forEach(function(suc, i) {
+	splitter.forEach(function (suc, i) {
 		const html = `<p>${suc}</p>`;
 		keys.insertAdjacentHTML('afterbegin', html);
 	});
@@ -27,7 +33,7 @@ if (keys !== null) {
 
 //colors the positive/negative tags
 const tags = document.querySelectorAll('.blog--tags');
-tags.forEach(function(tag, i) {
+tags.forEach(function (tag, i) {
 	if (tag.textContent === 'Positive') {
 		tag.style.backgroundColor = '#ffff00';
 		tag.style.color = '#000';
@@ -38,7 +44,7 @@ tags.forEach(function(tag, i) {
 });
 
 const tagg = document.querySelectorAll('.blogs--tags');
-tagg.forEach(function(tag1, i) {
+tagg.forEach(function (tag1, i) {
 	if (tag1.textContent === 'Positive') {
 		tag1.style.backgroundColor = '#ffff00';
 		tag1.style.color = '#000';

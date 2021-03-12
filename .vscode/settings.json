@@ -4,5 +4,10 @@
     "window.inactiveBorder": "#82b1ff",
     "activityBar.activeBorder": "#07000f",
     "activityBar.activeBackground": "#ff0000"
-  }
+  },
+  "editor.minimap.enabled": false,
+  "editor.suggest.showFolders": false,
+  "editor.suggest.showReferences": false,
+  "editor.parameterHints.enabled": false,
+  "editor.hover.enabled": false
 }

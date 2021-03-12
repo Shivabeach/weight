@@ -1,33 +1,37 @@
 <body>
-	<nav>
-		<?php	$this->load->view("includes/menu.html");?>
-	</nav>
-	<header>
-		<h1 id="head"><?=ucwords($header);?></h1>
-	</header>
-	<main class="container">
-		<div class="container--left">
-			<div class="card">
-				<div class="card--inside">
-					<div class="card--inside-header"><h5>Alternate</h5></div>
-						<!-- <div id="display"></div>
+  <nav>
+    <?php	$this->load->view("includes/menu.html");?>
+  </nav>
+  <header>
+    <h1 id="head"><?=ucwords($header);?></h1>
+  </header>
+  <main class="container">
+    <div class="container--left">
+      <div class="card">
+        <div class="card--inside">
+          <div class="card--inside-header">
+            <h5>Alternate</h5>
+          </div>
+          <!-- <div id="display"></div>
 						<div id="response"></div> -->
-						<h5 class="headline fs-3 bold-6">Pple In Space</h5>
+          <h5 class="headline fs-3 bold-6">Pple In Space</h5>
 
-						<ul id="space">
+          <ul id="space">
 
-						</ul>
-				</div>
-			</div>
-		</div>
-		<div class="container--main">
-			<div class="card">
-				<div class="card--inside">
-					<div class="card--inside-header"><h5>Calendar Form</h5></div>
-					<fieldset>
-						<legend>For Calendar</legend>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container--main">
+      <div class="card">
+        <div class="card--inside">
+          <div class="card--inside-header">
+            <h5>Calendar Form</h5>
+          </div>
+          <fieldset>
+            <legend>For Calendar</legend>
 
-						<?php
+            <?php
 						$form = [
 						"class" => "weight",
 						"id" => "weight"
@@ -53,15 +57,17 @@
 						echo "<button type='reset' value='Reset'>Reset</button>";
 						echo form_close();
 						?>
-					</fieldset>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card--inside">
-					<div class="card--inside-header"><h5>Comment Form</h5></div>
-					<fieldset>
-						<legend>Things</legend>
-						<?php
+          </fieldset>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card--inside">
+          <div class="card--inside-header">
+            <h5>Comment Form</h5>
+          </div>
+          <fieldset>
+            <legend>Things</legend>
+            <?php
 						$thingy = [
 							"id" => "weight"
 						];
@@ -77,7 +83,7 @@
 						echo "<button type='reset' value='Reset'>Reset</button>";
 						echo form_close();
 						?>
-						<?php
+            <?php
 						$things = [
 							"id" => "weight"
 						];
@@ -93,16 +99,18 @@
 						echo "<button type='reset' value='Reset'>Reset</button>";
 						echo form_close();
 						?>
-					</fieldset>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card--inside">
-					<div class="card--inside-header"><h5>Exercise Form</h5></div>
-					<fieldset>
-						<legend>Walking Record</legend>
-						<!-- date time place -->
-						<?php
+          </fieldset>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card--inside">
+          <div class="card--inside-header">
+            <h5>Exercise Form</h5>
+          </div>
+          <fieldset>
+            <legend>Walking Record</legend>
+            <!-- date time place -->
+            <?php
 							$form1 = [
 								"id" => "weight"
 							];
@@ -134,18 +142,21 @@
 						echo "<button type='reset' value='Reset'>Reset</button>";
 							echo form_close();
 						?>
-					</fieldset>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card--inside">
-					<div class="card--inside-header"><h5>Blog Form</h5></div>
+          </fieldset>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card--inside">
+          <div class="card--inside-header">
+            <h5>Blog Form</h5>
+          </div>
 
-					<fieldset>
-						<legend>Blog</legend>
-						<div id="display"></div>
-						<!-- date time place -->
-						<?php
+          <fieldset>
+            <legend>Blog</legend>
+            <div id="display"></div>
+
+            <!-- date time place -->
+            <?php
 							$form2 = [
 								"id" => "weight"
 							];
@@ -160,12 +171,14 @@
 							echo "<br>";
 							$title = [
 								"id"          => "title",
-								"class"       => "input-med",
+								"class"       => "input-med-lg",
 								"name"        => "title",
 								"placeholder" => "Title"
 							];
 							echo form_input($title);
-							echo "<br>";
+							echo "<br>";?>
+            <span role="alert" id="nameError" aria-hidden="true"> Entry is required </span>
+            <?php echo "<br>";
 							$content = [
 								"id"          => "content",
 								"name"        => "content",
@@ -174,46 +187,59 @@
 								"rows"				=> 15
 							];
 							echo form_textarea($content);
-							echo "<br>";
+							echo "<br>";?>
+            <span role="alert" id="contentError" aria-hidden="true"> Entry is required </span>
+            <?php echo "<br>";
 							$tags = [
-								"id"          => "tags",
-								"name"        => "tags",
-								"class"       => "input-small"
+								"id"       => "tags",
+								"name"     => "tags",
+								"class"    => "input-med",
+								"required" => true
 							];
 							$drop = [
-								"" => "Pick One",
+								"" => "",
 								"Negative" => "Negative",
 								"Positive" => "Positive "
 							];
 							echo form_dropdown($tags, $drop);
-							echo "<br>";
+								echo "<br>";?>
+            <span role="alert" id="tagsError" aria-hidden="true"> Entry is required </span>
+            <?php echo "<br>";
 							$keys = [
 								"name" => "primeKeys",
 								"id" => "primeKeys",
-								"class" => "input-med"
+								"class" => "input-large"
 							];
 							echo form_input($keys);
-							echo "<br>";
+							echo "<br>";?>
+            <span role="alert" id="primeError" aria-hidden="true"> Entry is required </span>
+            <?php echo "<br>";
 
-							echo "<button type='submit' value='Submit'>Submit</button>";
+							echo "<button id='blogger' type='submit' value='Submit'>Submit</button>";
 						echo "<button type='reset' value='Reset'>Reset</button>";
 							echo form_close();
 						?>
-					</fieldset>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- <div class="container--right">
-	<div class="card">
-		<div class="card--inside">
-			<div class="card--inside-header"><h5>Epic Links</h5></div>
+          </fieldset>
+        </div>
+      </div>
 
-			<div id="display"></div>
-			<div id="response"></div>
-		</div>
-	</div>
-</div> -->
-</main>
+
+      <div class="card">
+        <div class="card--inside">
+          <div class="card--inside-header">
+            <h5>Epic Links</h5>
+          </div>
+
+          <form id="form">
+            <input type="text" id="text" placeholder="text input">
+            <input type="password" id="password" placeholder="password">
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </main>
+  <script src="<?php echo base_url('assets/js/form-page.js');?>" defer></script>
 </body>

@@ -19,8 +19,6 @@ legend
 select
   width: 50%
 
-
-
 input::placeholder
   color: red
   opacity: 0.75
@@ -29,7 +27,6 @@ input::placeholder
   text-indent: 2em
   font-variant: small-caps
   font-weight: 700
-
 
 input::-moz-placeholder
   color: red
@@ -41,11 +38,40 @@ input::-moz-placeholder
   font-weight: 700
 
 input:focus
-  background: yellow
+  //background: yellow
   font-style: italic
   &::placeholder
     line-height: 13
 
-
   // textarea
 //   width: 100%
+
+#nameError,
+#contentError,
+#tagsError,
+#primeError
+  display: none
+  font-size: 0.8em
+  color: white
+
+#nameError.visible
+  display: block
+#contentError.visible
+  display: block
+#tagsError.visible
+  display: block
+#primeError.visible
+  display: block
+
+input.invalid
+  border-color: rgb(255, 0, 0)
+  border-style: dotted
+  border-width: 3px
+textarea.invalid
+  border-color: rgb(255, 0, 0)
+  border-style: dotted
+  border-width: 3px
+select.invalid
+  border-color: rgb(255, 0, 0)
+  border-style: dotted
+  border-width: 3px

@@ -326,6 +326,10 @@ a:focus, a :active {
   transform: rotate(-1deg);
 }
 
+.green {
+  background-color: #00ff00;
+}
+
 .input-small {
   width: 10%;
 }
@@ -550,11 +554,53 @@ input::-moz-placeholder {
 }
 
 input:focus {
-  background: yellow;
   font-style: italic;
 }
 input:focus::placeholder {
   line-height: 13;
+}
+
+#nameError,
+#contentError,
+#tagsError,
+#primeError {
+  display: none;
+  font-size: 0.8em;
+  color: white;
+}
+
+#nameError.visible {
+  display: block;
+}
+
+#contentError.visible {
+  display: block;
+}
+
+#tagsError.visible {
+  display: block;
+}
+
+#primeError.visible {
+  display: block;
+}
+
+input.invalid {
+  border-color: red;
+  border-style: dotted;
+  border-width: 3px;
+}
+
+textarea.invalid {
+  border-color: red;
+  border-style: dotted;
+  border-width: 3px;
+}
+
+select.invalid {
+  border-color: red;
+  border-style: dotted;
+  border-width: 3px;
 }
 
 /* Gradients */
