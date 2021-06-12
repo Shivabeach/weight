@@ -13,6 +13,9 @@ head.style.boxShadow = '4px 4px 6px hsl(261, 88%, 57%)';
 head.style.padding = '0px 20px';
 head.style.borderRadius = '20px';
 
+let num = parseInt(Math.random() * 150 + 1);
+console.log(num);
+
 function prints(left) {
   let printContents = document.getElementById('left').innerHTML;
   let originalContents = document.body.innerHTML;

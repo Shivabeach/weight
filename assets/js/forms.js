@@ -14,26 +14,15 @@ const blogger = document.getElementById('blogger');
 let keys = document.querySelector('.blog--keys');
 if (keys !== null) {
 	const splitter = keys.textContent.split(',');
-	splitter.forEach(function (suc, i) {
+	splitter.forEach(function(suc, i) {
 		const html = `<p>${suc}</p>`;
 		keys.insertAdjacentHTML('afterbegin', html);
 	});
 }
 
-// let needs = document.querySelector('#needs');
-// if (needs !== null) {
-// 	const plans = needs.textContent.split(',');
-// 	//console.log(typeof needs);
-// 	plans.forEach(function(cess, i) {
-// 		const html = `<p>${cess}</p>`;
-// 		console.log(html);
-// 		needs.insertAdjacentHTML('afterbegin', html);
-// 	});
-// }
-
 //colors the positive/negative tags
 const tags = document.querySelectorAll('.blog--tags');
-tags.forEach(function (tag, i) {
+tags.forEach(function(tag, i) {
 	if (tag.textContent === 'Positive') {
 		tag.style.backgroundColor = '#ffff00';
 		tag.style.color = '#000';
@@ -43,8 +32,8 @@ tags.forEach(function (tag, i) {
 	}
 });
 
-const tagg = document.querySelectorAll('.blogs--tags');
-tagg.forEach(function (tag1, i) {
+const tagg = document.querySelectorAll('.tags');
+tagg.forEach(function(tag1, i) {
 	if (tag1.textContent === 'Positive') {
 		tag1.style.backgroundColor = '#ffff00';
 		tag1.style.color = '#000';

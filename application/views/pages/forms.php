@@ -60,48 +60,7 @@
           </fieldset>
         </div>
       </div>
-      <div class="card">
-        <div class="card--inside">
-          <div class="card--inside-header">
-            <h5>Comment Form</h5>
-          </div>
-          <fieldset>
-            <legend>Things</legend>
-            <?php
-						$thingy = [
-							"id" => "weight"
-						];
-						echo form_open('forms/thingers',$thingy);
-						$rcontent = [
-							"id" => "rcontent",
-							"name" => "rcontent",
-							"placeholder" => "Things Gone Right Content",
-						];
-						echo form_textarea($rcontent);
-						echo "<br>";
-						echo "<button type='submit' id='submit' value='Submit'>Submit</button>";
-						echo "<button type='reset' value='Reset'>Reset</button>";
-						echo form_close();
-						?>
-            <?php
-						$things = [
-							"id" => "weight"
-						];
-						echo form_open('forms/wronged',$things);
-						$wrongs = [
-							"id" => "wrong",
-							"name" => "wrong",
-							"placeholder" => "Things Gone Wrong Content",
-						];
-						echo form_textarea($wrongs);
-						echo "<br>";
-						echo "<button type='submit' id='submit1' value='Submit'>Submit</button>";
-						echo "<button type='reset' value='Reset'>Reset</button>";
-						echo form_close();
-						?>
-          </fieldset>
-        </div>
-      </div>
+
       <div class="card">
         <div class="card--inside">
           <div class="card--inside-header">
@@ -154,6 +113,7 @@
           <fieldset>
             <legend>Blog</legend>
             <div id="display"></div>
+            <p id="error"></p>
 
             <!-- date time place -->
             <?php
@@ -167,19 +127,21 @@
 								"name"        => "date",
 								"placeholder" => "Date"
 							];
+							echo "<p>";
 							echo form_input($date1);
-							echo "<br>";
+							echo "</p>";
 							$title = [
 								"id"          => "title",
 								"class"       => "input-med-lg",
 								"name"        => "title",
-								"placeholder" => "Title"
+								"placeholder" => "Title",
+								"pattern"     => "[A-Za-z]",
+								"title" => "Letters Only"
 							];
+							echo "<p>";
 							echo form_input($title);
-							echo "<br>";?>
-            <span role="alert" id="nameError" aria-hidden="true"> Entry is required </span>
-            <?php echo "<br>";
-							$content = [
+							echo "</p>";
+            	$content = [
 								"id"          => "content",
 								"name"        => "content",
 								"placeholder" => "Content",
@@ -187,33 +149,30 @@
 								"rows"				=> 15
 							];
 							echo form_textarea($content);
-							echo "<br>";?>
-            <span role="alert" id="contentError" aria-hidden="true"> Entry is required </span>
-            <?php echo "<br>";
+							echo "<br>";
+
+
 							$tags = [
 								"id"       => "tags",
 								"name"     => "tags",
-								"class"    => "input-med",
-								"required" => true
+								"class"    => "input-med"
 							];
 							$drop = [
 								"" => "",
 								"Negative" => "Negative",
 								"Positive" => "Positive "
 							];
+							echo "<p>";
 							echo form_dropdown($tags, $drop);
-								echo "<br>";?>
-            <span role="alert" id="tagsError" aria-hidden="true"> Entry is required </span>
-            <?php echo "<br>";
+							echo "</p>";
 							$keys = [
-								"name" => "primeKeys",
-								"id" => "primeKeys",
-								"class" => "input-large"
+								"name"        => "primeKeys",
+								"id"          => "primeKeys",
+								"class"       => "input-large",
+								"placeholder" => "Prime Keys"
 							];
 							echo form_input($keys);
-							echo "<br>";?>
-            <span role="alert" id="primeError" aria-hidden="true"> Entry is required </span>
-            <?php echo "<br>";
+							echo "<br>";
 
 							echo "<button id='blogger' type='submit' value='Submit'>Submit</button>";
 						echo "<button type='reset' value='Reset'>Reset</button>";
@@ -222,23 +181,6 @@
           </fieldset>
         </div>
       </div>
-
-
-      <div class="card">
-        <div class="card--inside">
-          <div class="card--inside-header">
-            <h5>Epic Links</h5>
-          </div>
-
-          <form id="form">
-            <input type="text" id="text" placeholder="text input">
-            <input type="password" id="password" placeholder="password">
-          </form>
-        </div>
-      </div>
-    </div>
-    </div>
-    </div>
     </div>
   </main>
   <script src="<?php echo base_url('assets/js/form-page.js');?>" defer></script>

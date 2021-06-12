@@ -66,6 +66,14 @@ public function things()
 		$this->load->view("template/template", $data);
 	}
 
+	public function grids()
+	{
+
+		$data['title'] = "Grid View";
+		$data["header"] = "Grid View";
+		$data["content"] = "pages/tables";
+		$this->load->view("template/template", $data);
+	}
 }
 
 /* End of file Pages.php */

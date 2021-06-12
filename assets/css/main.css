@@ -1,6 +1,8 @@
+@charset "UTF-8";
 /* Color Theme Swatches in Hex */
 /* Color Theme Swatches in RGBA */
 /* Color Theme Swatches in HSLA */
+/** @format */
 /* Config */
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
@@ -243,19 +245,20 @@ mark {
 }
 
 details > summary {
-  color: #BFA68F;
+  color: #bfa68f;
   font-size: 1.2vw;
 }
 
 details > p {
   margin-top: 0;
-  color: #BFA68F !important;
+  color: #bfa68f !important;
   font-size: 1vw !important;
 }
 
+/** @format */
 /* Links */
 a {
-  color: #028801;
+  color: #c4ffe2;
   text-decoration: none;
   transition: all ease-out 0.25s;
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", sans-serif;
@@ -264,12 +267,12 @@ a {
   text-shadow: 1px 1px 1px #FFFFFF;
 }
 a:visited {
-  color: #AEFF00;
+  color: #aeff00;
   text-decoration: overline;
   font-family: "Garamond", "Baskerville", "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 a:hover {
-  color: #D43317;
+  color: #c4ffe2;
   box-shadow: 1px 2px 2px #FFFFFF;
 }
 a:focus, a :active {
@@ -328,6 +331,11 @@ a:focus, a :active {
 
 .green {
   background-color: #00ff00;
+}
+
+::marker {
+  color: yellow;
+  content: "🙥 ";
 }
 
 .input-small {
@@ -715,7 +723,7 @@ th {
 }
 
 .weakness > * {
-  color: #BFA68F;
+  color: #bfa68f;
 }
 
 /*Cards */
@@ -863,6 +871,20 @@ footer {
 }
 
 /* Main */
+/** @format */
+.parent {
+  display: grid;
+  grid-template-columns: 2fr repeat(5, 1fr);
+  grid-template-rows: repeat(6, 2fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+.parent {
+  margin: 2rem auto;
+  width: 90%;
+}
+
 /* Calendar if needed */
 .calendar {
   background: #CFC79E;
@@ -920,8 +942,7 @@ th {
   font-family: "Fredoka One", cursive;
 }
 
-/* All things with an ID or class of blog
- * */
+/** All things with an ID or class of blog */
 .blog--container {
   display: flex;
   flex-wrap: wrap;
@@ -939,7 +960,7 @@ th {
   padding: 0.5rem;
 }
 .blog--title {
-  color: #E97451;
+  color: #c4ffe2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -948,7 +969,7 @@ th {
   color: #E97451;
 }
 .blog--content {
-  color: #A14F40;
+  color: #c4ffe2;
 }
 .blog--tags, .blogs--tags {
   width: 35%;
@@ -1034,25 +1055,25 @@ body {
 }
 
 .container--left {
-  background: #8C353D;
+  background: #8c353d;
 }
 
 .container--main {
-  background: #3B001D;
+  background: #3b001d;
 }
 
 .container--right {
-  background: #3B001D;
+  background: #3b001d;
 }
 
 .card--inside-header > h2, h3, h4, h5 {
-  color: #01D27F;
+  color: #01d27f;
   text-shadow: 1px 1px #000, -1px -1px #000;
   margin: 0;
 }
 
 .card p {
-  color: #BFA68F;
+  color: #bfa68f;
 }
 
 .headline {
@@ -1060,6 +1081,21 @@ body {
 }
 
 #space > li {
-  color: #BFA68F;
+  color: #bfa68f;
+}
+
+#gridly {
+  background: #bf877a;
+}
+
+[class^=div] {
+  background-color: #8c353d;
+  color: #bfa68f;
+  padding: 5px;
+}
+
+[class^=primer] {
+  border: 1px solid black;
+  padding: 5px;
 }
 /*# sourceMappingURL=main.css.map */

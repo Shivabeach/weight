@@ -1,0 +1,13 @@
+/** @format */
+
+.parent {
+	display: grid;
+	grid-template-columns: 2fr repeat(5, 1fr);
+	grid-template-rows: repeat(6, 2fr);
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+}
+.parent {
+	margin: 2rem auto;
+	width: 90%;
+}
