@@ -1,0 +1,13 @@
+{
+  "name": "weight",
+  "version": "1.0.0",
+  "description": "New Weight app",
+  "main": "index.js",
+  "repository": "https://github.com/Shivabeach/weight.git",
+  "author": "Brad",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "color": "^4.1.0"
+  }
+}
