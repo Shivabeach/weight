@@ -8,7 +8,7 @@ class Pages extends CI_Controller {
 		$data["title"] = "Weight App";
 		$data["header"] = "Weight App";
 		$data["content"] = "pages/prime";
-		$this->load->view("template/template", $data);
+		$this->load->view("templates/template", $data);
 	}
 
 }

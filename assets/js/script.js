@@ -1,5 +1,4 @@
 /** @format */
-import { properCase, log, listen, months, addToArray } from './utils.js';
 const color = require('color');
 const item1 = document.querySelector('.item-1');
 const item2 = document.querySelector('.item-2');
@@ -42,11 +41,5 @@ for (let i = 0; i < document.links.length; i++) {
 	}
 }
 
-// $(function () {
-//   $('A[rel="external"]').click(function () {
-//     window.open($(this).attr("href"));
-//     return false;
-//   });
-// });
 // const x = document.querySelector("a.external");
 // addEventListener()click
