@@ -83,7 +83,17 @@
 				</fieldset>
 		</form>
 		</div>
-		<div class="col-2 col" >Column 2
+		<div class="col-2" ><h3 class="center-align">Meats</h3>
+			<table>
+				<tr>
+					<th>Name</th>
+					<th>Calories</th>
+					<th>Fat</th>
+					<th>Protein</th>
+					<th>Potassium</th>
+				</tr>
+				<tbody class="display">
+			</table>
 
 		</div>
 		<div class="col-3 col" >

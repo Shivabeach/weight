@@ -73,6 +73,28 @@ blockquote {
   padding-left: 1rem;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: center;
+  border-bottom: 1px solid #000;
+  border-spacing: 5px;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #85A094;
+  color: #E3C1BE;
+  text-shadow: 2px 2px 2px var(--prime-text);
+}
+
+li:nth-child(even) {
+  background-color: #D3927D;
+}
+
 /* Links */
 a {
   color: #720933;
@@ -380,6 +402,10 @@ h6 {
   font-size: 18px;
 }
 
+.list > li {
+  padding: 5px 0;
+}
+
 /*Cards */
 /** @format */
 /** All prime container properties */
@@ -526,6 +552,10 @@ th {
 
 .col-1 {
   background: var(--burnished-lilac);
+}
+
+.col-2 {
+  background: #E3C1BE;
 }
 
 .col-3 {

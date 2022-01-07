@@ -6,7 +6,9 @@ const vegChoice = document.getElementById('veg-choice');
 const oil = document.getElementById('oil');
 const nuts = document.getElementById('nuts');
 const list = document.querySelector('.list');
-
+const display = document.querySelector('.display');
+let meat;
+let meats = '';
 let potas;
 const foods = [
 	{
@@ -57,7 +59,7 @@ const foods = [
 		type: 'meat',
 		name: 'Steak',
 		size: '1 steak',
-		calories: 614,
+		Calories: 614,
 		fat: 41,
 		Carbs: 0,
 		Cholesterol: 214,
@@ -516,8 +518,30 @@ const foods = [
 		Protein: 0.3,
 	},
 ];
+//display
+const names = foods.filter((foo) => foo.type == 'meat');
+for (meat of names) {
+	meats +=
+		'<tr>' +
+		'<td>' +
+		meat.name +
+		'</td>' +
+		'<td>' +
+		meat.Calories +
+		'</td>' +
+		'<td>' +
+		meat.fat +
+		'</td>' +
+		'<td>' +
+		meat.Protein +
+		'</td>' +
+		'<td>' +
+		meat.Potassium +
+		'</td>' +
+		'</tr>';
+}
 
-const names = foods.map((foo) => foo.name);
+display.innerHTML = meats;
 
 // Potassium above 600
 const pot = foods.filter((foody) => foody.Potassium > 500);
