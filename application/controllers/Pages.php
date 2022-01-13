@@ -11,6 +11,14 @@ class Pages extends CI_Controller {
 		$this->load->view("templates/template", $data);
 	}
 
+	public function prime2()
+	{
+		$data["title"] = "Food Calculator";
+		$data["header"] = "Food Calculator";
+		$data["content"] = "pages/prime2";
+		$this->load->view("templates/template", $data);
+	}
+
 }
 
 /* End of file Pages.php */
