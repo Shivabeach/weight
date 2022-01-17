@@ -426,7 +426,7 @@ li {
 /** @format */
 /** All prime container properties */
 #prime-container {
-  width: calc(90% - 100px);
+  width: calc(100% - 100px);
   margin-inline: auto;
   display: grid;
   height: 100vh;

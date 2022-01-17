@@ -22,6 +22,7 @@
 			<table>
 				<tr class="fs-2">
 					<th>Name</th>
+					<th>Size</th>
 					<th>Calories</th>
 					<th>Fat</th>
 					<th>Protein</th>
@@ -36,6 +37,7 @@
 			<table>
 				<tr class="fs-2">
 					<th>Name</th>
+					<th>Size</th>
 					<th>Calories</th>
 					<th>Potassium</th>
 					<th>Protein</th>
@@ -63,11 +65,21 @@
 
 		</div>
 
+		<div class="col-5" >
+			<h3 class="center-align ul">Oil</h3>
+			<table>
+				<tr class="fs-2">
+					<th>Name</th>
+					<th>Size</th>
+					<th>Calories</th>
+					<th>Fat</th>
+					<th>Potassium</th>
+				</tr>
+				<tbody class="oilDisplay">
 
+			</table>
 
-
-
-		<div class="col-5 col" >Column 5</div>
+		</div>
 		<div class="col-6 col">Column 6
 			<div class="copy"></div>
 			<div id="datey"></div>

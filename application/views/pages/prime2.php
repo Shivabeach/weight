@@ -13,8 +13,8 @@
 					<legend>List of food names</legend>
 			<select name="meats" id="meat-choice">
 				<option value="">Pick One</option>
-				<option value="turkey">Turkey</option>
 				<option value="Chicken Breast">Chicken Breast</option>
+				<option value="Turkey">Turkey</option>
 				<option value="Pork Tenderloin">Pork Tenderloin</option>
 				<option value="Pork Chops">Pork Chops</option>
 				<option value="Steak">Steak</option>
@@ -49,6 +49,7 @@
 				<option value="Cabbage">Cabbage</option>
 				<option value="Peppers">Peppers</option>
 				<option value="Cauliflower">Cauliflower</option>
+				<option value="Parsnip">Parsnip</option>
 				<option value="Eggplant">Eggplant</option>
 				<option value="Green Onions">Green Onions</option>
 				<option value="Butternut Squash">Butternut Squash</option>
@@ -85,7 +86,6 @@
 		</div>
 		<div class="col-2" >
 			<h3 class="center-align">Meats</h3>
-			<div id="test"></div>
 			<table>
 				<tr class="fs-2">
 					<th>Name</th>
@@ -111,7 +111,7 @@
 				<tbody class="vegDisplay">
 			</table>
 
-			<h3>Nuts</h3>
+			<h3 class="center-align">Nuts</h3>
 			<table>
 				<tr class="fs-2">
 					<th>Name</th>
@@ -124,11 +124,7 @@
 				<tbody class="nutDisplay">
 			</table>
 
-			<h3>Oils</h3>
-		</div>
-		<div class="col-3" >
-			<h4 class="center-align">This meal includes</h4>
-			<button type="submit" class="calc">Calc</button>
+			<h3 class="center-align">Oils</h3>
 			<table>
 				<tr class="fs-2">
 					<th>Name</th>
@@ -138,9 +134,28 @@
 					<th>Protein</th>
 					<th>Potassium</th>
 				</tr>
+				<tbody class="oilDisplay">
+			</table>
+		</div>
+		<div class="col-3" >
+			<h4 class="center-align">This meal includes</h4>
+			<button type="submit" class="calc">Calc</button>
+			<table>
+				<tr class="fs-2">
+					<th>Calories</th>
+					<th>Fat</th>
+					<th>Carbs</th>
+					<th>Protein</th>
+					<th>Potassium</th>
+				</tr>
 				<tbody class="cumulate">
 					<tr>
 						<td class="showCals"></td>
+						<td class="showFat"></td>
+						<td class="showCarbs"></td>
+						<td class="showProtein"></td>
+						<td class="showPotass"></td>
+
 			</table>
 		</div>
 		<div class="col-4 col" >
@@ -155,11 +170,12 @@
 		<div class="col-5 col" >
 			<h4 class="center-align">Values from Protein Drinks</h4>
 			<ul>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
+				<li>Protein - 15g - 30%</li>
+				<li>Carbs - 6g - 2%</li>
+				<li>Fat - 2g -3%</li>
+				<li>Postassium - 380mg 8%</li>
+				<li>Cholesterol - 10mg - 3%</li>
+				<li>Sodium - 10mg - 10%</li>
 			</ul>
 		</div>
 		<div class="col-6 col">Column 6

@@ -4,8 +4,9 @@ const form = document.getElementById('grocery');
 const sub = document.getElementById('submit');
 const meatChoice = document.getElementById('meat-choice');
 const vegChoice = document.getElementById('veg-choice');
-const oil = document.getElementById('oil');
+
 const nuttyDisplay = document.querySelector('.nutty-display');
+const oilDisplay = document.querySelector('.oilDisplay');
 const list = document.querySelector('.list');
 const display = document.querySelector('.display');
 const vegDisplay = document.querySelector('.veg-display');
@@ -19,6 +20,7 @@ for (meat of names) {
 	meats += `
 	<tr>
 	<td>${meat.name}</td>
+	<td>${meat.Size}</td>
 	<td>${meat.Calories}</td>
 	<td>${meat.fat}</td>
 	<td>${meat.Protein}</td>
@@ -36,6 +38,7 @@ for (potas of pot) {
 	foodly += `
 	<tr>
 	<td>${potas.name}</td>
+	<td>${potas.Size}</td>
 	<td>${potas.Calories}</td>
 	<td>${potas.Potassium}</td>
 	<td>${potas.Protein}</td>
@@ -75,3 +78,19 @@ for (veg of veggy) {
 	`;
 }
 vegDisplay.innerHTML = vegtable;
+
+const oily = foods.filter((foo) => foo.type == 'oil');
+let oil;
+let oils = '';
+for (oil of oily) {
+	oils += `
+	<tr>
+	<td>${oil.name}</td>
+	<td>${oil.Size}</td>
+	<td>${oil.Calories}</td>
+	<td>${oil.fat}</td>
+	<td>${oil.Potassium}</td>
+	</tr>
+	`;
+}
+oilDisplay.innerHTML = oils;
