@@ -3,6 +3,15 @@
  *
  * @format
  */
+@font-face {
+  font-family: super;
+  src: url("../fonts/SupermercadoOne-Regular.ttf");
+  src-format: "tff supports variations";
+  src: url("../fonts/SupermercadoOne-Regular.ttf");
+  src-format: "tff-variations";
+  font-weight: 300 800;
+  font-optical-sizing: auto;
+}
 *::before,
 *::after {
   box-sizing: inherit;
@@ -86,9 +95,7 @@ td, th {
 }
 
 tr:nth-child(even) {
-  background-color: #cc8e89;
-  color: white;
-  text-shadow: 2px 2px 2px var(--prime-text);
+  background-color: #CFFFD0;
 }
 
 th {
@@ -169,9 +176,12 @@ header a:link {
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #6868AC;
   text-shadow: 1px 2px 1px #140FA9;
+  border: 3px solid #3209d0;
+  padding: 0 1rem;
+  font-family: super;
 }
 
 /* typography */
@@ -226,6 +236,53 @@ h6 {
 
 .fz75 {
   font-size: 0.75rem;
+}
+
+button {
+  font-family: "Consolas", "monaco", monospace;
+  font-size: 18px;
+  color: #f1f1d5;
+  padding: 8px 15px;
+  background: #4A85D1;
+  border-radius: 5px;
+}
+button:hover {
+  background: #64eded;
+  color: #36013f;
+  box-shadow: 2px 2px 2px #7073e2;
+}
+
+form {
+  margin-left: 1rem;
+}
+
+input[type=checkbox] {
+  width: 15px;
+  height: 15px;
+  background: white;
+  position: relative;
+  border-radius: 5px;
+}
+
+input[type=checkbox]:checked {
+  background-color: green;
+}
+
+label {
+  display: block;
+}
+
+#grocery {
+  width: 90%;
+  margin: 0 auto;
+}
+
+fieldset {
+  width: 90%;
+}
+
+select {
+  width: 70%;
 }
 
 .input-small {
@@ -423,6 +480,43 @@ li {
 }
 
 /*Cards */
+/**
+ * *
+ * * classes for clay.css
+ * *
+ * */
+.card {
+  --clay-background: #C6AAAF;
+}
+
+.corn {
+  --clay-background: hsl(180.0,79.19%,66.08%);
+}
+
+/** @format */
+.show-values {
+  font-weight: 700;
+  border-bottom: 1px solid var(--prime-text);
+  color: var(--prime-text);
+  padding: 1rem 0 1rem 0;
+  background-color: #C6AAAF;
+}
+
+.pad-bottom {
+  margin-bottom: 2rem;
+}
+
+.ca,
+.p,
+.c,
+.f,
+.po,
+.ch,
+.s {
+  background-color: #CDB97D;
+  font-size: 1.2em;
+}
+
 /** @format */
 /** All prime container properties */
 #prime-container {
@@ -495,56 +589,6 @@ li {
   grid-column: 4/7;
 }
 
-/* Calendar if needed */
-.calendar {
-  background: #CFC79E;
-  padding: 1em;
-  border: 2px solid #000;
-  width: 100%;
-}
-
-.day {
-  padding: 2px;
-  height: 10em;
-  vertical-align: top;
-  width: calc(100% / 7);
-}
-
-.highlight {
-  font-family: "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", sans-serif;
-  font-size: 1.1em;
-  font-weight: bold;
-  color: #050533;
-  background: #FE5532;
-}
-
-.day_num {
-  color: #00007F;
-  vertical-align: top;
-  font-family: "Consolas", "monaco", monospace;
-}
-
-.content {
-  color: #211E9C;
-}
-
-th {
-  text-align: center;
-}
-
-.coloring {
-  background: #1313be;
-}
-
-.size {
-  color: #000;
-  text-align: center;
-}
-
-.thheader {
-  color: #050533;
-}
-
 /* main theme colors */
 :root {
   --prime-color: #140FA9;
@@ -556,7 +600,7 @@ th {
 }
 
 #header {
-  background-color: #CDB97D;
+  border-radius: 20px;
 }
 
 .col-1 {

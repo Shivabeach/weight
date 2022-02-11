@@ -26,6 +26,21 @@ $font-stack-courier-new: 'Courier New', 'Courier', 'Lucida Sans Typewriter',
 
 $font-stack-monaco: 'Monaco', 'Consolas', 'Lucida Console', monospace;
 
+@font-face {
+  font-family: super;
+  src: url('../fonts/SupermercadoOne-Regular.ttf') {
+    format: ('tff supports variations');
+  }
+  src: url('../fonts/SupermercadoOne-Regular.ttf') {
+    format: ('tff-variations');
+  }
+
+  font-weight: 300 800;
+  font-optical-sizing: auto;
+}
+
+
+
 *::before,
 *::after {
 	box-sizing: inherit;

@@ -1,0 +1,24 @@
+/** @format */
+
+@use '../abstracts' as *;
+.show-values {
+	font-weight: 700;
+	border-bottom: 1px solid var(--prime-text);
+	color: var(--prime-text);
+	padding: 1rem 0 1rem 0;
+	background-color: $burnished-lilac;
+}
+.pad-bottom {
+	margin-bottom: 2rem;
+}
+.ca,
+.p,
+.c,
+.f,
+.po,
+.ch,
+.s {
+	//border: 1px solid var(--prime-text);
+	background-color: $dried-moss;
+	font-size: 1.2em;
+}

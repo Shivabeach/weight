@@ -41,5 +41,12 @@ for (let i = 0; i < document.links.length; i++) {
 	}
 }
 
+addEventListener('DOMContentLoaded', () => {
+	const h = Math.floor(Math.random() * 360);
+	let col = `hsl(${h}deg, 100%, 90%)`;
+	document.getElementById('header').style.backgroundColor = col;
+	document.querySelector('.color').innerText = col;
+});
+
 // const x = document.querySelector("a.external");
 // addEventListener()click

@@ -4,20 +4,31 @@ import { foods } from './foods.js';
 const grocery = document.getElementById('grocery');
 const display = document.querySelector('.display');
 const cumulate = document.querySelector('.cumulate');
-const test = document.getElementById('test');
 const vegDisplay = document.querySelector('.vegDisplay');
 const showCals = document.querySelector('.showCals');
 const showFat = document.querySelector('.showFat');
 const showCarbs = document.querySelector('.showCarbs');
 const showProtein = document.querySelector('.showProtein');
 const showPotass = document.querySelector('.showPotass');
-const calc = document.querySelector('.calc');
 const nutDisplay = document.querySelector('.nutDisplay');
-const calo = document.querySelector('.calories');
-const testing = document.querySelector('.testing');
 const oilDisplay = document.querySelector('.oilDisplay');
+const p = document.querySelector('.p');
+const c = document.querySelector('.c');
+const f = document.querySelector('.f');
+const po = document.querySelector('.po');
+const ch = document.querySelector('.ch');
+const s = document.querySelector('.s');
+const pro = document.querySelector('.pro');
+const ca = document.querySelector('.ca');
 
-//console.log(test.firstChild.nodeValue);
+ca.innerText = `${100 * 4 + 160} Calories per day`;
+p.innerHTML = 15 * 4 + ' grams per day';
+c.innerHTML = 6 * 4 + ' grams per day';
+f.innerHTML = 2 * 4 + ' grams per day';
+po.innerHTML = 380 * 4 + ' miligrams per day';
+ch.innerHTML = 10 * 4 + ' miligrams per day';
+s.innerHTML = 10 * 4 + ' miligrams per day';
+pro.innerHTML = (240 * 0.36).toFixed(0) + ' grams per day based on 240 lbs';
 
 function showMeat(value) {
 	let meats = '';
@@ -27,6 +38,7 @@ function showMeat(value) {
 		meats = `
 	<tr>
 	<td>${meat.name}</td>
+	<td class="size">${meat.Size}</td>
 	<td class="calories">${meat.Calories}</td>
 	<td class="fat">${meat.fat}</td>
 	<td class="carb">${meat.Carbs}</td>
@@ -46,6 +58,7 @@ function showVegs(value) {
 		veg = `
 	<tr>
 	<td>${veggies.name}</td>
+	<td class="size">${veggies.Size}</td>
 	<td class="calories">${veggies.Calories}</td>
 	<td class="fat">${veggies.fat}</td>
 	<td class="carb">${veggies.Carbs}</td>
@@ -65,6 +78,7 @@ function showNuts(value) {
 		nut = `
 	<tr>
 	<td>${nuttes.name}</td>
+	<td class="size">${nuttes.Size}</td>
 	<td class="calories">${nuttes.Calories}</td>
 	<td class="fat">${nuttes.fat}</td>
 	<td class="carb">${nuttes.Carbs}</td>
@@ -96,7 +110,6 @@ function showOil(value) {
 }
 
 function caloryCount() {
-	//console.log('clicked');
 	const calories = document.querySelectorAll('.calories');
 	const cal = [];
 	calories.forEach((stuff) => {
@@ -105,7 +118,7 @@ function caloryCount() {
 	});
 	const toNum = cal.map(Number);
 	const calsIn = toNum.reduce((acc, cum) => acc + cum, 0);
-	showCals.innerHTML = calsIn;
+	showCals.innerHTML = calsIn.toFixed(1);
 }
 function fatCount() {
 	const fat = document.querySelectorAll('.fat');
@@ -116,7 +129,7 @@ function fatCount() {
 	});
 	const toNum = fat1.map(Number);
 	const fatIn = toNum.reduce((acc, cum) => acc + cum, 0);
-	showFat.innerHTML = fatIn;
+	showFat.innerHTML = fatIn.toFixed(1);
 }
 
 function carbCount() {
@@ -128,7 +141,7 @@ function carbCount() {
 	});
 	const toNum = carb1.map(Number);
 	const carbIn = toNum.reduce((acc, cum) => acc + cum, 0);
-	showCarbs.innerHTML = carbIn;
+	showCarbs.innerHTML = carbIn.toFixed(1);
 }
 
 function proteinCount() {
@@ -140,7 +153,7 @@ function proteinCount() {
 	});
 	const toNum = pro.map(Number);
 	const proIn = toNum.reduce((acc, cum) => acc + cum, 0);
-	showProtein.innerHTML = proIn;
+	showProtein.innerHTML = proIn.toFixed(1);
 }
 
 function potasCount() {
@@ -152,7 +165,39 @@ function potasCount() {
 	});
 	const toNum = pot1.map(Number);
 	const potIn = toNum.reduce((acc, cum) => acc + cum, 0);
-	showPotass.innerHTML = potIn;
+	showPotass.innerHTML = potIn.toFixed(1);
+}
+
+function addArray() {
+	const potArray = [60, 200];
+	const added = document.querySelector('.showPotass').textContent;
+	potArray.push(added);
+	const toNum = potArray.map(Number);
+	const potIn = toNum.reduce((acc, cum) => acc + cum, 0);
+	const post = (document.querySelector(
+		'.post'
+	).textContent = `The meal yields ${potIn} mg of Potassium with protein drinks & Supplements`);
+}
+function addCalories() {
+	const potArray = [560];
+	const added = document.querySelector('.showCals').textContent;
+	potArray.push(added);
+	const toNum = potArray.map(Number);
+	const potIn = toNum.reduce((acc, cum) => acc + cum, 0);
+	const cal = (document.querySelector(
+		'.cal'
+	).textContent = `The meal yields ${potIn} Calories with protein drinks & Supplements`);
+}
+
+function addProtein() {
+	const proArray = [45, 24];
+	const protein = document.querySelector('.showProtein').textContent;
+	proArray.push(protein);
+	const toNum = proArray.map(Number);
+	const potIn = toNum.reduce((acc, cum) => acc + cum, 0);
+	const prot = (document.querySelector(
+		'.prot'
+	).textContent = `This meal yields ${potIn} mg of Protein`);
 }
 
 grocery.addEventListener('submit', (e) => {
@@ -170,8 +215,11 @@ grocery.addEventListener('submit', (e) => {
 	carbCount();
 	proteinCount();
 	potasCount();
+	addArray();
+	addCalories();
+	addProtein();
 });
 
-calc.addEventListener('click', (e) => {
-	e.preventDefault();
-});
+// calc.addEventListener('click', (e) => {
+// 	e.preventDefault();
+// });
