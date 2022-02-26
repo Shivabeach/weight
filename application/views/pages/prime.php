@@ -13,7 +13,7 @@
           <th>Carbs</th>
           <th>Potassium</th>
         </tr>
-        <tbody class="veg-display">
+        <tbody class="veg-display"></tbody>
       </table>
 
     </div>
@@ -28,7 +28,7 @@
           <th>Protein</th>
           <th>Potassium</th>
         </tr>
-        <tbody class="display">
+        <tbody class="display"></tbody>
       </table>
 
     </div>
@@ -59,7 +59,7 @@
           <th>Protein</th>
           <th>Potassium</th>
         </tr>
-        <tbody class="nutty-display">
+        <tbody class="nutty-display"></tbody>
 
       </table>
 
@@ -75,7 +75,7 @@
           <th>Fat</th>
           <th>Potassium</th>
         </tr>
-        <tbody class="oilDisplay">
+        <tbody class="oilDisplay"></tbody>
 
       </table>
 

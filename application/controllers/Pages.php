@@ -18,6 +18,13 @@ class Pages extends CI_Controller {
 		$data["content"] = "pages/prime2";
 		$this->load->view("templates/template", $data);
 	}
+	public function plan()
+	{
+		$data['title'] = "Food Plans";
+		$data['header'] = "Diet Plans";
+		$data['content'] = "pages/foodplan";
+		$this->load->view("templates/template", $data);
+	}
 
 }
 

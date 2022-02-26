@@ -1,0 +1,23 @@
+/* Plan page grid */
+@use '../abstracts' as *;
+
+#plan-container {
+  display: grid;
+  width: calc(100% - 10%);
+  margin-inline: auto;
+  height: 100vh;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: .5fr repeat(6, 1fr);
+}
+
+aside#left {
+  grid-column: 1/3;
+}
+section#plan {
+  grid-column: 3/7;
+  border: 1px solid var(--granite-green);
+}
+footer#main-footer {
+  grid-column: 1/7;
+}

@@ -34,12 +34,17 @@ $font-stack-monaco: 'Monaco', 'Consolas', 'Lucida Console', monospace;
   src: url('../fonts/SupermercadoOne-Regular.ttf') {
     format: ('tff-variations');
   }
-
   font-weight: 300 800;
   font-optical-sizing: auto;
 }
 
-
+@font-face {
+  font-family: nunito;
+  src: url('../fonts/nunito/Nunito-Italic-VariableFont_wght.ttf');
+  // font-weight: 300 800;
+  font-optical-sizing: auto;
+}
+// font-variation-settings "wght" "opsz"
 
 *::before,
 *::after {

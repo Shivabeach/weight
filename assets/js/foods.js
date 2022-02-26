@@ -118,7 +118,7 @@ export const foods = [
 		fat: 23,
 		Carbs: 0,
 		Cholesterol: 328,
-		Potassium: 681,
+		Potassium: 270,
 		Protein: 62,
 	},
 	{

@@ -40,7 +40,7 @@ $desktop1: 1024px
 	&:nth-child(#{$cols}n)
 		margin-right: 0
 
-=simple-grad($color1, $color2)
+@mixin simple-grad($color1, $color2)
 	background: linear-gradient($color1, $color2)
 
 @mixin angle-grad($angle, $color, $color1)

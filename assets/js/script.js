@@ -14,8 +14,8 @@ item1.innerHTML = item11;
 const str2 = 'Calculator';
 const item22 = str2.link('http://weight/pages/prime2');
 item2.innerHTML = item22;
-const str3 = 'page 3';
-const item33 = str3.link('http://designs/prime/three');
+const str3 = 'Plan';
+const item33 = str3.link('http://weight/pages/plan');
 item3.innerHTML = item33;
 const str4 = 'Page 4';
 const item44 = str4.link('http://designs/prime/four');
@@ -26,7 +26,7 @@ function returnDate() {
 	const day = date.getDate();
 	const month = date.getMonth() + 1;
 	const year = date.getFullYear();
-	datey.style.color = '#4b0082';
+	//datey.style.color = '#4b0082';
 	datey.innerHTML = `Today is ${month} / ${day} / ${year}`;
 }
 returnDate();
