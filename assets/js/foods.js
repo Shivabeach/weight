@@ -2,6 +2,17 @@
 export const foods = [
 	{
 		type: 'meat',
+		name: "Garden Of Life",
+		Size: "44 gr",
+		Calories: 170,
+		fat: 2,
+		Carbs: 10,
+		Cholesterol: 0,
+		Potassium: 90,
+		Protein: 28,
+	},
+	{
+		type: 'meat',
 		name: 'Pink Salmon',
 		Size: '4 oz',
 		Calories: 144,

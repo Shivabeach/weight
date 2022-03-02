@@ -197,7 +197,7 @@ function addProtein() {
 	const potIn = toNum.reduce((acc, cum) => acc + cum, 0);
 	const prot = (document.querySelector(
 		'.prot'
-	).textContent = `This meal yields ${potIn} mg of Protein`);
+	).textContent = `This meal yields ${potIn} grams of Protein`);
 }
 
 grocery.addEventListener('submit', (e) => {

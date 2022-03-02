@@ -14,6 +14,7 @@
 				<h4 class="center-align">Meats</h4>
 			<select name="meats" id="meat-choice" class="padding-1">
 				<option value="">Pick One</option>
+				<option value="Garden Of Life">Garden Of Life</option>
 				<option value="Pink Salmon">Pink Salmon</option>
 				<option value="Chicken Breast">Chicken Breast</option>
 				<option value="Turkey">Turkey</option>
