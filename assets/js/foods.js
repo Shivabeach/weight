@@ -2,14 +2,25 @@
 export const foods = [
 	{
 		type: 'meat',
-		name: "Garden Of Life",
-		Size: "44 gr",
+		name: 'Garden Of Life Fit',
+		Size: '44 gr',
 		Calories: 170,
 		fat: 2,
 		Carbs: 10,
 		Cholesterol: 0,
 		Potassium: 90,
 		Protein: 28,
+	},
+	{
+		type: 'meat',
+		name: 'Garden Of Life Greens',
+		Size: '30 gr',
+		Calories: 130,
+		fat: 3,
+		Carbs: 4,
+		Cholesterol: 0,
+		Potassium: 120,
+		Protein: 20,
 	},
 	{
 		type: 'meat',

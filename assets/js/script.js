@@ -17,8 +17,8 @@ item2.innerHTML = item22;
 const str3 = 'Plan';
 const item33 = str3.link('http://weight/pages/plan');
 item3.innerHTML = item33;
-const str4 = 'Page 4';
-const item44 = str4.link('http://designs/prime/four');
+const str4 = 'Cost';
+const item44 = str4.link('http://weight/pages/costs');
 item4.innerHTML = item44;
 
 function returnDate() {

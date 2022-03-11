@@ -25,6 +25,13 @@ class Pages extends CI_Controller {
 		$data['content'] = "pages/foodplan";
 		$this->load->view("templates/template", $data);
 	}
+	public function costs()
+	{
+		$data["title"] = "Food Costs";
+		$data["header"] = "Food Costs";
+		$data["content"] = "pages/costs";
+		$this->load->view("templates/template", $data);
+	}
 
 }
 

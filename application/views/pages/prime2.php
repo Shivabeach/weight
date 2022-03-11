@@ -6,15 +6,14 @@
 		</header>
 		<div class="col-1 clay card" >
 			<h3 class="center-align">Food Choices</h3>
-
-
-			<form action="" id="grocery">
+			<form id="grocery">
 				<fieldset>
 					<legend>List of food names</legend>
 				<h4 class="center-align">Meats</h4>
 			<select name="meats" id="meat-choice" class="padding-1">
 				<option value="">Pick One</option>
-				<option value="Garden Of Life">Garden Of Life</option>
+				<option value="Garden Of Life Fit">Garden Of Life Fit</option>
+				<option value="Garden Of Life Greens">Garden Of Life Greens</option>
 				<option value="Pink Salmon">Pink Salmon</option>
 				<option value="Chicken Breast">Chicken Breast</option>
 				<option value="Turkey">Turkey</option>
