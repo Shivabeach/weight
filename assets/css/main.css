@@ -554,6 +554,7 @@ li {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  border: 1px solid #111A57;
 }
 
 .col-1 {
@@ -684,6 +685,7 @@ footer#main-footer {
   grid-column: 2/6;
   grid-row: 2/6;
   border: 1px solid var(--prime-text);
+  border-radius: 10px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
@@ -707,12 +709,8 @@ footer#main-footer {
   --head-color: #F7D31E;
 }
 
-#prime {
-  background-color: #894B5D;
-}
-
-#header {
-  border-radius: 20px;
+body {
+  background-color: #f5fffa;
 }
 
 .col-1 {

@@ -20,6 +20,7 @@
 	grid-column: 2/6;
 	grid-row: 2/6;
 	border: 1px solid var(--prime-text);
+	border-radius: 10px;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 1rem;

@@ -11,8 +11,8 @@
 					<p><input type="date" name="date" id="date"></p>
 					<p><input type="text" name="purchase" id="purchase" placeholder="Purchase"></p>
 					<p><input type="number" name="cost" id="cost" placeholder="Cost"></p>
-					<button type="submit" id="sender">Submit</button> --
-					<button type="reset">Reset</button>
+					<button type="submit" id="submit">Submit</button> --
+					<button type="reset" id="reset">Reset</button>
 				</form>
 			</fieldset>
 		</aside>
@@ -53,14 +53,16 @@
 							<td class="cost-origin">11.99</td>
 							<td class="totals">11.99</td>
 						</tr>
-						<tr>
-							<td></td>
-							<td></td>
-							<td>Total</td>
-							<td class="over-all bold-8"></td>
-						</tr>
 					</tbody>
 				</table>
+				<article class="chat padding-1">
+					<h4 class="center-align">Chat</h4>
+					<P>Above is one normal week at Profile. I left there because the cost was going much to high. Feb 25</P>
+
+					<p>Feb 23 - March 2. - $41.21 First purchase. Over lap to March 15</p>
+					<p>Mar 2 $31.91 2nd purchase </p>
+					<p>Mar 12 $33.24 unopened at this time</p>
+				</article>
 				<!-- <div>Total <span class="over-all"></span></div> -->
 			</section>
 			<section class="now">
@@ -71,21 +73,17 @@
 							<th>Date</th>
 							<th>Purchase</th>
 							<th>Cost</th>
-							<th>Total</th>
 						</tr>
 					</thead>
 					<tbody class="current-items">
-						<tr>
-							<td>1</td>
-							<td>2</td>
-							<td class="item-total">3</td>
-							<td class="total-now">4</td>
-						</tr>
+
 					</table>
 				</section>
 			</main>
 			<aside class="cost-notes">
-				Aside notes
+				<h4 class="center-align">Totals</h4>
+				<p><span>Profile Weekly -- </span><span class="over-all bold-8"></span></p>
+				<p><span> Purchases Total -- </span><span class="buying bold-8"></span></p>
 			</aside>
 			<footer id="main-footer">
 				<p>footer</p>
@@ -96,6 +94,6 @@
 			</footer>
 		</div>
 		<script src="<?php echo base_url('assets/js/script-dist.js');?>"></script>
-		<script src="<?php echo base_url('assets/js/costs-dist.js');?>"></script>
+		<script src="<?php echo base_url('assets/js/costs.js');?>"></script>
 	</body>
 </html>

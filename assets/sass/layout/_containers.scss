@@ -17,6 +17,7 @@
 	grid-column: 1/7;
 	display: flex;
 	@include center(flex-end, center);
+	border: 1px solid $gridGen;
 }
 
 .col-1 {
