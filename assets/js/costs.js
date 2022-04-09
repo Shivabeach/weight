@@ -1,5 +1,5 @@
 /** @format */
-
+'use strict';
 // profile side
 const quantity = document.querySelector('.quantity');
 const costOrigin = document.querySelector('.cost-origin');
@@ -18,7 +18,10 @@ if (storedData !== null) {
 	costrun = JSON.parse(storedData);
 }
 
-//works, totals the profile food costs
+/**
+ *  totals the profile food costs
+ *  @return {[number]} [adds up totals in dollars]
+ */
 function totals() {
 	const week = [];
 	const weekly = total.forEach((wee) => {
@@ -31,7 +34,10 @@ function totals() {
 }
 totals();
 
-// adds up purchases
+/**
+ *  Adds up purchases as they ar eentered in the form
+ *  @return {[number]} reduces the array of purchase totals
+ */
 function purchaseCount() {
 	const added = document.querySelectorAll('.added');
 	const fooder = [];
@@ -39,7 +45,7 @@ function purchaseCount() {
 		const totalUp = foodie.firstChild.nodeValue;
 		fooder.push(totalUp);
 		const toNum = fooder.map(Number);
-		const final = toNum.reduce((acc, cum) => acc + cum, 0);
+		const final = toNum.reduce((acc, cum) => acc + cum, 0).toFixed(2);
 		document.querySelector('.buying').innerText = `$${final}`;
 	});
 }
@@ -56,7 +62,13 @@ function display() {
 		currentItems.append(tr);
 	});
 }
-
+/**
+ *  adds items from for into an array and localstorage
+ *  @param  {date} 		date     [description]
+ *  @param  {string} 	purchase [description]
+ *  @param  {number} 	cost     [description]
+ *  @return {array}   	       [description]
+ */
 function pusher(date, purchase, cost) {
 	let bought = { date: date, purchase: purchase, cost: cost };
 	costrun.push(bought);
@@ -77,3 +89,8 @@ addEventListener('DOMContentLoaded', () => {
 	display();
 	purchaseCount();
 });
+
+// 1 submit form
+// 2 Send to localstorage
+// 3 display the result
+// 4 add up cost

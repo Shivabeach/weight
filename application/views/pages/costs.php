@@ -3,7 +3,7 @@
 		<header id="header">
 			<?php $this->load->view("menus/main-menu.html");?>
 		</header>
-		<aside class="cost-form">
+		<aside class="cost-form clay">
 			<h3 class="center-align">Costs Form</h3>
 			<fieldset>
 				<legend>Costs</legend>
@@ -16,7 +16,7 @@
 				</form>
 			</fieldset>
 		</aside>
-		<main role="main" id="cost-main">
+		<main role="main" id="cost-main" class="clay">
 			<section class="former">
 				<h4 class="center-align">One Week Costs at Profile</h4>
 				<table>
@@ -61,7 +61,7 @@
 
 					<p>Feb 23 - March 2. - $41.21 First purchase. Over lap to March 15</p>
 					<p>Mar 2 $31.91 2nd purchase </p>
-					<p>Mar 12 $33.24 unopened at this time</p>
+					<p>Mar 12 $33.24 Tastes pretty good</p>
 				</article>
 				<!-- <div>Total <span class="over-all"></span></div> -->
 			</section>
@@ -80,7 +80,7 @@
 					</table>
 				</section>
 			</main>
-			<aside class="cost-notes">
+			<aside class="cost-notes clay">
 				<h4 class="center-align">Totals</h4>
 				<p><span>Profile Weekly -- </span><span class="over-all bold-8"></span></p>
 				<p><span> Purchases Total -- </span><span class="buying bold-8"></span></p>

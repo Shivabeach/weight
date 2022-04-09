@@ -1,15 +1,20 @@
 @use '../abstracts' as *
 /* Links */
+//correct order a, visited, hover,active
 
 a
 	color: $vintage-red
 	text-decoration: none
+	outline: none
 	font-family: $font-stack-lucida-grande
+	curser: pointer
+	transition: all $base-duration $base-timing
 	&:visited
-		color: $deep-brown
-	&:hover
-		color: map-get($brownish, "hi-light")
-
+		color: $vintage-red
+	&:hover, a:focus
+		color: $vintage-red-hover
+	&:active
+		color: map-get($brownish, "dark")
 .inline-list
 	display: inline
 

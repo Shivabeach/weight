@@ -1,4 +1,5 @@
 /** @format */
+'use strict';
 import { foods } from './foods.js';
 const form = document.getElementById('grocery');
 const sub = document.getElementById('submit');

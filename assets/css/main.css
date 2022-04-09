@@ -1,5 +1,6 @@
+/** @format */
 /**
- * /* Config
+ * Config
  *
  * @format
  */
@@ -37,6 +38,26 @@
 }
 
 /** @format */
+.weights-2 {
+  font-weight: 200;
+}
+
+.weights-6 {
+  font-weight: 600;
+}
+
+.weights-7 {
+  font-weight: 700;
+}
+
+.weights-8 {
+  font-weight: 800;
+}
+
+.weights-9 {
+  font-weight: 900;
+}
+
 /** @format */
 /* body */
 html,
@@ -78,237 +99,8 @@ body {
     scrollbar-width: auto;
   }
 }
-/* Elements */
-p {
-  margin-top: 0.75rem;
-}
-
-blockquote {
-  margin-left: 2rem;
-  border-left: 1px solid #d2691e;
-  padding-left: 1rem;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  text-align: center;
-  border-spacing: 5px;
-  padding: 5px;
-}
-
-tr:nth-child(even) {
-  background-color: #CFFFD0;
-}
-
-th {
-  border-top: 1px solid #894B5D;
-  border-bottom: 1px solid #894B5D;
-}
-
-/* Links */
-a {
-  color: #720933;
-  text-decoration: none;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", sans-serif;
-}
-a:visited {
-  color: #2a040d;
-}
-a:hover {
-  color: #c94e4e;
-}
-
-.inline-list {
-  display: inline;
-}
-
-header a:link {
-  padding: 5px 8px;
-}
-
-/*Common*/
-.underline {
-  border-bottom: 1px solid #dbe4ff;
-}
-
-.error {
-  color: #841B2D;
-}
-
-.center-align {
-  text-align: center;
-}
-
-.left-align {
-  text-align: left;
-}
-
-.right-align {
-  text-align: right;
-}
-
-.text-small {
-  font-size: 0.85rem;
-}
-
-.height1 {
-  height: 6rem;
-}
-
-.hidden {
-  display: none;
-}
-
-.ital {
-  font-style: italic;
-  font-variant: small-caps;
-}
-
-.current {
-  color: #140FA9 !important;
-  border: 2px solid #140FA9;
-}
-
-.white {
-  color: #fdf5ff;
-}
-
-.ul {
-  border-bottom: 2px solid #894B5D;
-}
-
-.title {
-  font-size: 2.5rem;
-  color: #6868ac;
-  text-shadow: 1px 2px 1px #140FA9;
-  border: 3px solid #3209d0;
-  padding: 0 1rem;
-  font-family: super;
-}
-
-.copy {
-  font-weight: 720;
-}
-
-.origin {
-  font-weight: 700;
-}
-
-#datey {
-  font-weight: 720;
-}
-
-/* typography */
-h1,
-h2 {
-  letter-spacing: 2px;
-}
-
-strong {
-  letter-spacing: 2px;
-  font-weight: 600;
-}
-
-code {
-  font-family: "Courier New", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-  font-weight: 300;
-  font-size: 1rem;
-}
-
-h1 {
-  font-size: 40px;
-  margin-bottom: 0.75rem;
-}
-
-h2 {
-  font-size: 32px;
-  font-family: "Hoefler Text", "Baskerville Old Face", "Garamond", "Times New RoPliman", serif;
-}
-
-h3 {
-  font-size: 28px;
-  font-family: super;
-}
-
-h4 {
-  font-size: 24px;
-  font-family: nunito;
-  margin-bottom: 0.75rem;
-  margin-top: 0.25rem;
-}
-
-h5 {
-  font-size: 20px;
-  font-family: "Hoefler Text", "Baskerville Old Face", "Garamond", "Times New RoPliman", serif;
-  margin-bottom: 0.75rem;
-}
-
-h6 {
-  font-size: 16px;
-  margin-bottom: 0.75rem;
-}
-
-.fz75 {
-  font-size: 0.75rem;
-}
-
-button {
-  font-family: "Consolas", "monaco", monospace;
-  font-size: 18px;
-  color: #f1f1d5;
-  padding: 8px 15px;
-  background: #4A85D1;
-  border-radius: 5px;
-}
-button:hover {
-  background: #64eded;
-  color: #36013f;
-  box-shadow: 2px 2px 2px #7073e2;
-}
-
-form {
-  margin-left: 1rem;
-}
-
-input[type=checkbox] {
-  width: 15px;
-  height: 15px;
-  background: white;
-  position: relative;
-  border-radius: 5px;
-}
-
-input[type=checkbox]:checked {
-  background-color: green;
-}
-
-label {
-  display: block;
-}
-
-#grocery {
-  width: 90%;
-  margin: 0 auto;
-}
-
-fieldset {
-  width: 90%;
-}
-
-select {
-  width: 70%;
-}
-
 .input-small {
   width: 10%;
-}
-
-.input-date {
-  width: calc(100% / 6.4);
 }
 
 .input-med {
@@ -483,6 +275,259 @@ select {
   padding: 10rem;
 }
 
+/* Elements */
+p {
+  margin-top: 0.75rem;
+}
+
+blockquote {
+  margin-left: 2rem;
+  border-left: 1px solid #d2691e;
+  padding-left: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: center;
+  border-spacing: 5px;
+  padding: 3px 0;
+}
+
+tr:nth-child(even) {
+  background-color: cornsilk;
+}
+
+th {
+  border-top: 1px solid #894B5D;
+  border-bottom: 1px solid #894B5D;
+  height: 4rem;
+}
+
+/* Links */
+a {
+  color: #720933;
+  text-decoration: none;
+  outline: none;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", sans-serif;
+  curser: pointer;
+  transition: all 350ms ease;
+}
+a:visited {
+  color: #720933;
+}
+a:hover, a a:focus {
+  color: #ef2576;
+}
+a:active {
+  color: rgba(67, 13, 39, 0.9);
+}
+
+.inline-list {
+  display: inline;
+}
+
+header a:link {
+  padding: 5px 8px;
+}
+
+/*Common*/
+.underline {
+  border-bottom: 1px solid #dbe4ff;
+}
+
+.error {
+  color: #841B2D;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.text-small {
+  font-size: 0.85rem;
+}
+
+.height1 {
+  height: 6rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.ital {
+  font-style: italic;
+  font-variant: small-caps;
+}
+
+.current {
+  color: #140FA9 !important;
+  border: 2px solid;
+  transform: scaleY(2);
+  border-top-color: #f76707;
+  border-right-color: #4dabf7;
+  border-bottom-color: #e8590c;
+  border-left-color: #1971c2;
+}
+
+.white {
+  color: #fdf5ff;
+}
+
+.ul {
+  border-bottom: 2px solid #894B5D;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #6868ac;
+  text-shadow: 1px 2px 1px #140FA9;
+  border: 3px solid #3209d0;
+  padding: 0 1rem;
+  font-family: super;
+}
+
+.copy {
+  font-weight: 720;
+}
+
+.origin {
+  font-weight: 700;
+}
+
+#datey {
+  font-weight: 720;
+}
+
+.date {
+  width: calc(100% / 1.75);
+}
+
+.purch-form {
+  padding: 1rem;
+}
+
+.purchase {
+  width: 90%;
+}
+
+.cost {
+  width: calc(100% / 3);
+}
+
+/* typography */
+h1,
+h2 {
+  letter-spacing: 2px;
+}
+
+strong {
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+code {
+  font-family: "Courier New", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 0.75rem;
+}
+
+h2 {
+  font-size: 32px;
+  font-family: "Hoefler Text", "Baskerville Old Face", "Garamond", "Times New Roman", serif;
+}
+
+h3 {
+  font-size: 28px;
+  font-family: super;
+}
+
+h4 {
+  font-size: 24px;
+  font-family: nunito;
+  margin-bottom: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+h5 {
+  font-size: 20px;
+  font-family: "Hoefler Text", "Baskerville Old Face", "Garamond", "Times New Roman", serif;
+  margin-bottom: 0.75rem;
+}
+
+h6 {
+  font-size: 16px;
+  margin-bottom: 0.75rem;
+}
+
+.fz75 {
+  font-size: 0.75rem;
+}
+
+button {
+  font-family: "Consolas", "monaco", monospace;
+  font-size: 18px;
+  color: #f1f1d5;
+  padding: 8px 15px;
+  background: #4A85D1;
+  border-radius: 5px;
+}
+button:hover {
+  background: #64eded;
+  color: #36013f;
+  box-shadow: 2px 2px 2px #7073e2;
+}
+
+form {
+  margin-left: 0.5rem;
+}
+
+input[type=checkbox] {
+  width: 15px;
+  height: 15px;
+  background: white;
+  position: relative;
+  border-radius: 5px;
+}
+
+input[type=checkbox]:checked {
+  background-color: green;
+}
+
+label {
+  display: block;
+}
+
+#grocery {
+  width: 90%;
+  margin: 0 auto;
+}
+
+fieldset {
+  width: 90%;
+}
+
+select {
+  width: 70%;
+}
+
 /*list properties */
 li {
   list-style-type: georgian;
@@ -509,6 +554,13 @@ li {
 
 .corn {
   --clay-background: hsl(180.0,79.19%,66.08%);
+}
+
+.show-protein,
+.show-acc,
+.show-veg,
+.show-profile {
+  text-decoration: underline;
 }
 
 /** @format */
@@ -551,10 +603,10 @@ li {
 #header {
   grid-column: 1/7;
   display: flex;
-  display: flex;
   justify-content: flex-end;
   align-items: center;
   border: 1px solid #111A57;
+  border-radius: 0 0 15px 15px;
 }
 
 .col-1 {
@@ -684,8 +736,6 @@ footer#main-footer {
 #cost-main {
   grid-column: 2/6;
   grid-row: 2/6;
-  border: 1px solid var(--prime-text);
-  border-radius: 10px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
@@ -701,6 +751,163 @@ footer#main-footer {
 
 .now {
   grid-column: 3/5;
+}
+
+/**
+ *  @format
+ *  Purchase page
+ */
+#purchase-container {
+  max-width: 98%;
+  margin-inline: auto;
+  height: 100vh;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 0.5fr repeat(6, 1fr);
+}
+
+#purch-main {
+  grid-column: 2/7;
+  grid-row: 2/6;
+}
+
+.purch-form {
+  grid-column: 1/2;
+  grid-row: 2/6;
+}
+
+#items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#items-container {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat 5, 1fr;
+}
+
+#protein {
+  grid-column: 1/2;
+  padding: 5px;
+}
+
+#veg {
+  grid-column: 2/3;
+  padding: 5px;
+}
+
+#accessory {
+  grid-column: 3/4;
+  padding: 5px;
+}
+
+#profile {
+  grid-column: 4/5;
+  padding: 5px;
+}
+
+.title1 {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/** @format */
+/** Calendar page */
+#calendar-container {
+  display: flex;
+  width: 98%;
+  margin-inline: auto;
+  flex-wrap: wrap;
+}
+
+#cal-container {
+  width: 100%;
+}
+
+#cal-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#cal-footer {
+  width: 100%;
+  display: flex;
+  height: 400px;
+}
+#cal-footer .box {
+  flex: 1;
+  background-color: #095aae;
+  color: #fad590;
+}
+
+/* Calendar if needed */
+.calendar {
+  background: cornsilk;
+  padding: 1em;
+  border: 2px solid #000;
+  width: 100%;
+}
+
+.day {
+  padding: 2px;
+  height: 10em;
+  vertical-align: top;
+  width: calc(100% / 7);
+  border-bottom: 1px solid #000;
+}
+
+.highlight {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #050533;
+  background: #FE5532;
+}
+
+.day_num {
+  color: #00007F;
+  font-family: "Consolas", "monaco", monospace;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-align: left;
+}
+
+.content {
+  color: #140FA9;
+  font-size: 1.25rem;
+}
+
+th {
+  text-align: center;
+}
+
+.coloring {
+  background: #cfcfcf;
+}
+
+.size {
+  color: #000;
+  text-align: center;
+  padding: 2px 0;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.thheader {
+  color: #050533;
 }
 
 /* main theme colors */

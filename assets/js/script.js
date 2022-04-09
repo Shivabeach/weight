@@ -1,11 +1,21 @@
 /** @format */
-const color = require('color');
+// const Color = require('color');
+'use strict';
+// const color = Color('rgb(180, 255,180)');
+// console.log(color.hsl().string());
 const item1 = document.querySelector('.item-1');
 const item2 = document.querySelector('.item-2');
 const item3 = document.querySelector('.item-3');
 const item4 = document.querySelector('.item-4');
+const item5 = document.querySelector('.item-5');
+const item6 = document.querySelector('.item-6');
+
 let datey = document.getElementById('datey');
 const copyr = document.querySelector('.copy');
+const header = document.getElementById('header');
+const calHeader = document.getElementById('cal-header');
+const cals = [header, calHeader];
+const theColor = document.querySelector('.color');
 
 // site links
 const str = 'Home';
@@ -20,6 +30,12 @@ item3.innerHTML = item33;
 const str4 = 'Cost';
 const item44 = str4.link('http://weight/pages/costs');
 item4.innerHTML = item44;
+const str5 = 'Purchases';
+const item55 = str5.link('http://weight/pages/purch');
+item5.innerHTML = item55;
+const str6 = 'Calendar';
+const item66 = str6.link('http://weight/mycal');
+item6.innerHTML = item66;
 
 function returnDate() {
 	const date = new Date();
@@ -44,9 +60,15 @@ for (let i = 0; i < document.links.length; i++) {
 addEventListener('DOMContentLoaded', () => {
 	const h = Math.floor(Math.random() * 360);
 	let col = `hsl(${h}deg, 100%, 90%)`;
-	document.getElementById('header').style.backgroundColor = col;
-	document.querySelector('.color').innerText = col;
+	if (header || calHeader) {
+		if (header) {
+			header.style.backgroundColor = col;
+		}
+		if (calHeader) {
+			calHeader.style.backgroundColor = col;
+		}
+	}
+	if (theColor) {
+		theColor.innerText = col;
+	}
 });
-
-// const x = document.querySelector("a.external");
-// addEventListener()click

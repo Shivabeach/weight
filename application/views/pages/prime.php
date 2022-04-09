@@ -3,7 +3,7 @@
     <header id="header">
       <?php $this->load->view("menus/main-menu.html");?>
     </header>
-    <div class="col-1 clay corn">
+    <div class="col-1 clay">
       <h3 class="center-align ul">Veggies</h3>
       <table>
         <tr class="fs-2">
@@ -17,7 +17,7 @@
       </table>
 
     </div>
-    <div class="col-2 clay corn">
+    <div class="col-2 clay">
       <h3 class="center-align ul">Meats</h3>
       <table>
         <tr class="fs-2">
@@ -49,7 +49,7 @@
 
       <!-- <ul class="list"></ul> -->
     </div>
-    <div class="col-4 clay corn">
+    <div class="col-4 clay">
       <h3 class="center-align ul">Nuts</h3>
       <table>
         <tr class="fs-2">

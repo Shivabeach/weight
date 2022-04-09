@@ -31,7 +31,9 @@
 
 .current
   color: $gen26!important
-  border: 2px solid $gen26
+  border: 2px solid
+  transform: scaleY(2)
+  @include border-color(#f76707,#4dabf7,#e8590c,#1971c2)
 
 .white
   color: $texty-bg
@@ -53,4 +55,14 @@
   font-weight: 700
 #datey
   font-weight: 720
+.date
+  width: calc(100% / 1.75)
 
+.purch-form
+  padding: 1rem
+
+.purchase
+  width: 90%
+
+.cost
+  width: map-get($map1, "med")

@@ -1,0 +1,29 @@
+/** @format */
+/** Calendar page */
+@use '../abstracts' as *;
+#calendar-container {
+	display: flex;
+	width: 98%;
+	margin-inline: auto;
+	//height: 100vh;
+	flex-wrap: wrap;
+}
+#cal-container {
+	width: 100%;
+}
+#cal-header {
+	@include center(flex-end, center);
+	width: 100%;
+	height: 80px;
+	@include bord-radius(3px, 3px, 10px, 10px);
+	margin-bottom: 10px;
+}
+#cal-footer {
+	width: 100%;
+	display: flex;
+	height: 400px;
+	.box {
+		flex: 1;
+		@include set-background($gen23);
+	}
+}

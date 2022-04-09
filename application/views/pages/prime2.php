@@ -14,6 +14,7 @@
 				<option value="">Pick One</option>
 				<option value="Garden Of Life Fit">Garden Of Life Fit</option>
 				<option value="Garden Of Life Greens">Garden Of Life Greens</option>
+				<option value="NitroTeck">NitroTeck</option>
 				<option value="Pink Salmon">Pink Salmon</option>
 				<option value="Chicken Breast">Chicken Breast</option>
 				<option value="Turkey">Turkey</option>
@@ -39,6 +40,8 @@
 			<h4 class="center-align">Vegtables</h4>
 			<select name="veggies" id="veg-choice" class="padding-1">
 				<option value="">Pick one</option>
+				<option value="Romaine Lettuce">Romaine Lettuce</option>
+				<option value="Spaghetti Squash">Spaghetti Squash</option>
 				<option value="Swiss Chard">Swiss Chard</option>
 				<option value="Kohlrabi">Kohlrabi</option>
 				<option value="Bean Sprouts">Bean Sprouts</option>
@@ -92,7 +95,7 @@
 				</fieldset>
 		</form>
 		</div>
-		<div class="col-2 clay corn" >
+		<div class="col-2 clay" >
 			<h3 class="center-align">Meats</h3>
 			<table>
 				<tr class="fs-2">

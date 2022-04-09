@@ -1,8 +1,11 @@
 // for flex containers only
+@use 'variables' as *
+
 $mobile1: 568px
 $tablet1: 768px - 1px
 $timeline1: 1000px
 $desktop1: 1024px
+
 
 =center($value, $value2)
 	display: flex
@@ -55,15 +58,9 @@ $desktop1: 1024px
 =height1($size)
 	height: $size
 
-@function set-text-color($color)
-	@if(lightness($color) > 50)
-		@return $gen26
-	@else
-		@return $gen22
-
-=set-background($color)
+@mixin set-background($color)
 	background-color: $color
-	color: set-text-color($color)
+	@include set-text-color($color)
 
 @mixin round($radius)
 	border-radius: $radius
@@ -71,3 +68,23 @@ $desktop1: 1024px
 @mixin font-size($sizeValue: 1.6)
 	font-size: ($sizeValue * 10) + px
 	font-size: $sizeValue + rem
+
+@mixin border-color($top,$right,$bottom,$left)
+	border-top-color: $top
+	border-right-color: $right
+	border-bottom-color: $bottom
+	border-left-color: $left
+
+@mixin set-text-color($color)
+	@if(lightness($color) > 50)
+		color: $gen26
+	@else
+		color: $gen22
+
+@mixin bord-radius($top-left, $top-right,$bottom-right, $bottom-left)
+	border-top-left-radius: $top-left
+	border-top-right-radius: $top-right
+	border-bottom-right-radius: $bottom-right
+	border-bottom-left-radius: $bottom-left
+
+
