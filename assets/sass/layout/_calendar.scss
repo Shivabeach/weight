@@ -12,7 +12,7 @@
 	width: 100%;
 }
 #cal-header {
-	@include center(flex-end, center);
+	@include center(space-around, center);
 	width: 100%;
 	height: 80px;
 	@include bord-radius(3px, 3px, 10px, 10px);

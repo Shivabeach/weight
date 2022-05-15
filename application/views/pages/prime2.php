@@ -40,6 +40,7 @@
 			<h4 class="center-align">Vegtables</h4>
 			<select name="veggies" id="veg-choice" class="padding-1">
 				<option value="">Pick one</option>
+				<option value="Celery">Celery</option>
 				<option value="Romaine Lettuce">Romaine Lettuce</option>
 				<option value="Spaghetti Squash">Spaghetti Squash</option>
 				<option value="Swiss Chard">Swiss Chard</option>
@@ -53,7 +54,6 @@
 				<option value="Brussels sprouts">Brussels sprouts</option>
 				<option value="Carrots">Carrots</option>
 				<option value="Spinach">Spinach</option>
-				<option value="Celery">Celery</option>
 				<option value="Broccoli">Broccoli</option>
 				<option value="Zucchini">Zucchini</option>
 				<option value="Cabbage">Cabbage</option>
@@ -202,13 +202,13 @@
 			<div class="copy"></div>
 			<div id="datey"></div>
 			<div class="origin">Project start 1 / 2 / 2022
-				<div class="diff"></div>
-				<div class="color"></div>
-
-			</div>
+			<div class="diff"></div>
+			<div class="locate"></div>
+			<div class="color"></div>
+		</div>
 		</div>
 	</div>
-	<script src="<?php echo base_url('assets/js/script-dist.js');?>" defer></script>
+	<script type="module" src="<?php echo base_url('assets/js/script-dist.js');?>" defer></script>
 	<script type="module" src="<?php echo base_url('assets/js/calculator-dist.js');?>" defer></script>
 </body>
 </html>

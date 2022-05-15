@@ -8,10 +8,14 @@ body
 	font-size: calc(60% + 0.8vmin)
 	scroll-behavior: smooth
 	font-family: nunito
-
-body
-	@include bodys
 	line-height: $base-line-height
+	min-height: 100vh
+	scroll-behavior: smooth
+
+*,
+*::before,
+*::after
+	box-sizing: inherit
 
 ::-webkit-scrollbar
 	width: 1.5em

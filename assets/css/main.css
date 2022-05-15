@@ -1,4 +1,3 @@
-/** @format */
 /**
  * Config
  *
@@ -68,14 +67,15 @@ body {
   font-size: calc(60% + 0.8vmin);
   scroll-behavior: smooth;
   font-family: nunito;
-}
-
-body {
+  line-height: 1.5;
   min-height: 100vh;
   scroll-behavior: smooth;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 ::-webkit-scrollbar {
@@ -381,6 +381,9 @@ header a:link {
   border-bottom-color: #e8590c;
   border-left-color: #1971c2;
 }
+.current:hover {
+  box-shadow: 0 0 10px black;
+}
 
 .white {
   color: #fdf5ff;
@@ -391,12 +394,13 @@ header a:link {
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   color: #6868ac;
   text-shadow: 1px 2px 1px #140FA9;
   border: 3px solid #3209d0;
   padding: 0 1rem;
   font-family: super;
+  font-variation-settings: "wght" 600, "wdth" 1000;
 }
 
 .copy {
@@ -425,6 +429,10 @@ header a:link {
 
 .cost {
   width: calc(100% / 3);
+}
+
+.locate {
+  font-weight: 700;
 }
 
 /* typography */
@@ -457,6 +465,7 @@ h2 {
 h3 {
   font-size: 28px;
   font-family: super;
+  font-variation-settings: "wght" 400, "wdth" 1000;
 }
 
 h4 {
@@ -603,7 +612,7 @@ li {
 #header {
   grid-column: 1/7;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
   border: 1px solid #111A57;
   border-radius: 0 0 15px 15px;
@@ -831,7 +840,7 @@ footer#main-footer {
 
 #cal-header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
   height: 80px;
@@ -866,7 +875,7 @@ footer#main-footer {
   height: 10em;
   vertical-align: top;
   width: calc(100% / 7);
-  border-bottom: 1px solid #000;
+  border: 1px solid #000;
 }
 
 .highlight {
@@ -908,6 +917,18 @@ th {
 
 .thheader {
   color: #050533;
+}
+
+.backg {
+  background: #85a094;
+}
+
+div.highlight:has(.day) {
+  background: var(--green-text);
+}
+
+.day:has(+ div.hightlight) {
+  background: var(--green-text);
 }
 
 /* main theme colors */

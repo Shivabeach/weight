@@ -1,8 +1,11 @@
+<?php $this->benchmark->mark('code_start');?>
 <body id="purch">
 	<div id="purchase-container">
 		<header id="header">
 			<?php $this->load->view("menus/main-menu.html");?>
+
 		</header>
+
 		<aside class="purch-form clay">
 			<h3 class="center-align">Costs Form</h3>
 			<legend>Costs</legend>
@@ -104,14 +107,18 @@
 		</section>
 	</main>
 	<footer id="main-footer">
-		<p>footer</p>
+		<h5>Starting 2/23/2022</h5>
 		<div class="copy"></div>
 		<div id="datey"></div>
 		<div class="origin">Project start 2 / 23 / 2022</div>
+		<div class="locate"></div>
 		<div class="color"></div>
+		<?php $this->benchmark->mark('code_end');
+			echo $this->benchmark->elapsed_time('code_start', 'code_end');
+		?>
 	</footer>
 </div>
-<script src="<?php echo base_url('assets/js/script-dist.js');?>"></script>
+<script type="module" src="<?php echo base_url('assets/js/script-dist.js');?>"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="<?php echo base_url('assets/js/purchase-dist.js');?>"></script>
 </body>

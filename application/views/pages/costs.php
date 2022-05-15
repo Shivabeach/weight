@@ -90,10 +90,12 @@
 				<div class="copy"></div>
 				<div id="datey"></div>
 				<div class="origin">Project start 2 / 23 / 2022</div>
+				<div class="locate"></div>
 				<div class="color"></div>
+				<p>Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
 			</footer>
 		</div>
-		<script src="<?php echo base_url('assets/js/script-dist.js');?>"></script>
+		<script type="module" src="<?php echo base_url('assets/js/script-dist.js');?>"></script>
 		<script src="<?php echo base_url('assets/js/costs.js');?>"></script>
 	</body>
 </html>

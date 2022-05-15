@@ -2,52 +2,52 @@
 # yarn lockfile v1
 
 
-claymorphism-css@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.npmjs.org/claymorphism-css/-/claymorphism-css-1.0.5.tgz"
-  integrity sha512-jbEmVsboW70OHgXRaWLWpVZT22AdrsV8kDWdalxPyqsAx5GJnBFMhHkrMAPof9PqB0sMx/axSXNJshd+OQgT3g==
+"claymorphism-css@^1.0.5":
+  "integrity" "sha512-jbEmVsboW70OHgXRaWLWpVZT22AdrsV8kDWdalxPyqsAx5GJnBFMhHkrMAPof9PqB0sMx/axSXNJshd+OQgT3g=="
+  "resolved" "https://registry.npmjs.org/claymorphism-css/-/claymorphism-css-1.0.5.tgz"
+  "version" "1.0.5"
 
-color-convert@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz"
-  integrity sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==
+"color-convert@^2.0.1":
+  "integrity" "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ=="
+  "resolved" "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz"
+  "version" "2.0.1"
   dependencies:
-    color-name "~1.1.4"
+    "color-name" "~1.1.4"
 
-color-name@^1.0.0, color-name@~1.1.4:
-  version "1.1.4"
-  resolved "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz"
-  integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
+"color-name@^1.0.0", "color-name@~1.1.4":
+  "integrity" "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA=="
+  "resolved" "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz"
+  "version" "1.1.4"
 
-color-string@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.npmjs.org/color-string/-/color-string-1.9.0.tgz"
-  integrity sha512-9Mrz2AQLefkH1UvASKj6v6hj/7eWgjnT/cVsR8CumieLoT+g900exWeNogqtweI8dxloXN9BDQTYro1oWu/5CQ==
+"color-string@^1.9.0":
+  "integrity" "sha512-9Mrz2AQLefkH1UvASKj6v6hj/7eWgjnT/cVsR8CumieLoT+g900exWeNogqtweI8dxloXN9BDQTYro1oWu/5CQ=="
+  "resolved" "https://registry.npmjs.org/color-string/-/color-string-1.9.0.tgz"
+  "version" "1.9.0"
   dependencies:
-    color-name "^1.0.0"
-    simple-swizzle "^0.2.2"
+    "color-name" "^1.0.0"
+    "simple-swizzle" "^0.2.2"
 
-color@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.npmjs.org/color/-/color-4.1.0.tgz"
-  integrity sha512-o2rkkxyLGgYoeUy1OodXpbPAQNmlNBrirQ8ODO8QutzDiDMNdezSOZLNnusQ6pUpCQJUsaJIo9DZJKqa2HgH7A==
+"color@^4.1.0":
+  "integrity" "sha512-o2rkkxyLGgYoeUy1OodXpbPAQNmlNBrirQ8ODO8QutzDiDMNdezSOZLNnusQ6pUpCQJUsaJIo9DZJKqa2HgH7A=="
+  "resolved" "https://registry.npmjs.org/color/-/color-4.1.0.tgz"
+  "version" "4.1.0"
   dependencies:
-    color-convert "^2.0.1"
-    color-string "^1.9.0"
+    "color-convert" "^2.0.1"
+    "color-string" "^1.9.0"
 
-is-arrayish@^0.3.1:
-  version "0.3.2"
-  resolved "https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.3.2.tgz"
-  integrity sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==
+"is-arrayish@^0.3.1":
+  "integrity" "sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ=="
+  "resolved" "https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.3.2.tgz"
+  "version" "0.3.2"
 
-purecss@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.npmjs.org/purecss/-/purecss-2.0.6.tgz"
-  integrity sha512-R5V/Yk/j8/v5ivlg0MvQKQmo7F1BnWupK0wiMrKDyz2BofLB5BFKfZtSqu90YwHYBH4uzLtebmnDltY3ElcyLw==
+"purecss@^2.0.6":
+  "integrity" "sha512-R5V/Yk/j8/v5ivlg0MvQKQmo7F1BnWupK0wiMrKDyz2BofLB5BFKfZtSqu90YwHYBH4uzLtebmnDltY3ElcyLw=="
+  "resolved" "https://registry.npmjs.org/purecss/-/purecss-2.0.6.tgz"
+  "version" "2.0.6"
 
-simple-swizzle@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.npmjs.org/simple-swizzle/-/simple-swizzle-0.2.2.tgz"
-  integrity sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=
+"simple-swizzle@^0.2.2":
+  "integrity" "sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo="
+  "resolved" "https://registry.npmjs.org/simple-swizzle/-/simple-swizzle-0.2.2.tgz"
+  "version" "0.2.2"
   dependencies:
-    is-arrayish "^0.3.1"
+    "is-arrayish" "^0.3.1"

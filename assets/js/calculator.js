@@ -1,6 +1,7 @@
 /** @format */
 'use strict';
 import { foods } from './foods.js';
+import { log, tables } from './utils.js';
 const grocery = document.getElementById('grocery');
 const display = document.querySelector('.display');
 const cumulate = document.querySelector('.cumulate');
@@ -38,7 +39,7 @@ function showMeat(value) {
 		meats = `
 	<tr>
 	<td>${meat.name}</td>
-	<td class="size">${meat.Size}</td>
+	<td class="size1">${meat.Size}</td>
 	<td class="calories">${meat.Calories}</td>
 	<td class="fat">${meat.fat}</td>
 	<td class="carb">${meat.Carbs}</td>
@@ -58,7 +59,7 @@ function showVegs(value) {
 		veg = `
 	<tr>
 	<td>${veggies.name}</td>
-	<td class="size">${veggies.Size}</td>
+	<td class="size1">${veggies.Size}</td>
 	<td class="calories">${veggies.Calories}</td>
 	<td class="fat">${veggies.fat}</td>
 	<td class="carb">${veggies.Carbs}</td>
@@ -78,7 +79,7 @@ function showNuts(value) {
 		nut = `
 	<tr>
 	<td>${nuttes.name}</td>
-	<td class="size">${nuttes.Size}</td>
+	<td class="size1">${nuttes.Size}</td>
 	<td class="calories">${nuttes.Calories}</td>
 	<td class="fat">${nuttes.fat}</td>
 	<td class="carb">${nuttes.Carbs}</td>
@@ -108,7 +109,6 @@ function showOil(value) {
 	}
 	oilDisplay.innerHTML = oil;
 }
-
 function caloryCount() {
 	const calories = document.querySelectorAll('.calories');
 	const cal = [];

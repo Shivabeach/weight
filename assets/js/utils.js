@@ -22,6 +22,9 @@ export const log = (content) => {
 	console.log(content);
 };
 //log(properCase('rESEarCh'));
+export const tables = (content) => {
+	console.table(content);
+};
 
 export const select = (selector, scope) => {
 	return (scope || document).querySelector(selector);

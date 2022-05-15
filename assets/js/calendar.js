@@ -1,4 +1,5 @@
 /** @format */
+
 $(function() {
 	'use strict';
 	$('form#ajax').on('submit', function() {
@@ -31,5 +32,5 @@ $(function() {
 $(function() {
 	$('.highlight')
 		.parent()
-		.css({ 'background-color': '#CA915B', border: '1px solid #803e27' });
+		.css({ 'background-color': '#d8cdd3', border: '1px solid #803e27' });
 });

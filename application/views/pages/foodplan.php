@@ -50,10 +50,11 @@
       <div class="copy"></div>
       <div id="datey"></div>
       <div class="origin">Project start 2 / 23 / 2022</div>
+      <div class="locate"></div>
       <div class="color"></div>
     </footer>
   </div>
   <!--end container-->
-  <script src="<?php echo base_url('assets/js/script-dist.js');?>" defer></script>
+  <script type="module" src="<?php echo base_url('assets/js/script-dist.js');?>" defer></script>
 </body>
 </html>

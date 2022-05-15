@@ -34,6 +34,8 @@
   border: 2px solid
   transform: scaleY(2)
   @include border-color(#f76707,#4dabf7,#e8590c,#1971c2)
+  &:hover
+    box-shadow: 0 0 10px black
 
 .white
   color: $texty-bg
@@ -42,12 +44,13 @@
   border-bottom: 2px solid $hawthorn-rose
 
 .title
-  font-size: 2.5rem
+  font-size: 2.25rem
   color: $very-peri
   text-shadow: 1px 2px 1px $gen26
   border: 3px solid $gen21
   padding: 0 1rem
   font-family: super
+  font-variation-settings: "wght" 600, "wdth" 1000
 
 .copy
   font-weight: 720
@@ -66,3 +69,6 @@
 
 .cost
   width: map-get($map1, "med")
+
+.locate
+  font-weight: 700

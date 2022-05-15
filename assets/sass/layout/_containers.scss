@@ -15,7 +15,7 @@
 }
 #header {
 	grid-column: 1/7;
-	@include center(flex-end, center);
+	@include center(space-around, center);
 	border: 1px solid $gridGen;
 	border-radius: 0 0 15px 15px;
 }

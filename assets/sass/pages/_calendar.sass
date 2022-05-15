@@ -11,7 +11,8 @@
   height: 10em
   vertical-align: top
   width: calc(100% / 7)
-  border-bottom: 1px solid #000
+  // border-bottom: 1px solid #000
+  border: 1px solid #000
 
 .highlight
   font-family: $font-stack-lucida-grande
@@ -48,3 +49,12 @@ th
 
 .thheader
   color: $darkish-blue
+
+.backg
+  background: $granite-green
+
+div.highlight:has(.day)
+  background: var(--green-text)
+
+.day:has(+ div.hightlight)
+  background: var(--green-text)
