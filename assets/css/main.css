@@ -17,6 +17,7 @@
   src: url("../fonts/nunito/Nunito-Italic-VariableFont_wght.ttf");
   font-optical-sizing: auto;
 }
+*,
 *::before,
 *::after {
   box-sizing: inherit;
@@ -58,6 +59,7 @@
 }
 
 /** @format */
+/** @format */
 /* body */
 html,
 body {
@@ -70,12 +72,6 @@ body {
   line-height: 1.5;
   min-height: 100vh;
   scroll-behavior: smooth;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
 }
 
 ::-webkit-scrollbar {
@@ -298,13 +294,14 @@ td, th {
 }
 
 tr:nth-child(even) {
-  background-color: cornsilk;
+  background-color: #ffdfc6;
 }
 
 th {
   border-top: 1px solid #894B5D;
   border-bottom: 1px solid #894B5D;
   height: 4rem;
+  background: #fff8f3;
 }
 
 /* Links */
@@ -499,9 +496,12 @@ button {
   border-radius: 5px;
 }
 button:hover {
-  background: #64eded;
   color: #36013f;
-  box-shadow: 2px 2px 2px #7073e2;
+  box-shadow: 0 0 2px #7073e2;
+  border-radius: 4px 8px;
+  transform: skewX(-10deg);
+  z-index: -1;
+  background-image: linear-gradient(to bottom, #ffddd8, #e0002b);
 }
 
 form {
@@ -773,17 +773,15 @@ footer#main-footer {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 0.5fr repeat(6, 1fr);
+  grid-template-rows: 0.5fr repeat(4, 1fr);
 }
 
 #purch-main {
   grid-column: 2/7;
-  grid-row: 2/6;
 }
 
 .purch-form {
   grid-column: 1/2;
-  grid-row: 2/6;
 }
 
 #items {
@@ -964,6 +962,14 @@ body {
 /* plan container colors */
 section {
   border-bottom: 1px solid #dbe4ff;
+}
+
+/* background for plan page */
+#plan {
+  background: #080b4a;
+  color: #f9c59b;
+  font-family: "arial";
+  font-weight: 700;
 }
 
 .dark {

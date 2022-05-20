@@ -25,7 +25,7 @@
 					<option value="accessory">Accessorys</option>
 					<option value="profile">Profile</option></optgroup>
 				</select></p>
-				<button type="submit" id="submit">Submit</button> --
+				<button type="submit" class="skew" id="submit">Submit</button> --
 				<button type="reset" id="reset">Reset</button>
 			</form>
 			<?php echo validation_errors(); ?>

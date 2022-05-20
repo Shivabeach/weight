@@ -15,9 +15,14 @@ button
 	background: $skyblue
 	border-radius: 5px
 	&:hover
-		background: $cornsilk-blue
+		//background: $cornsilk-blue
 		color: $deep-purple
-		box-shadow: 2px 2px 2px $gen3
+		box-shadow: 0 0 2px $gen3
+		border-radius: 4px 8px
+		transform: skewX(-10deg)
+		z-index: -1
+		background-image: linear-gradient(to bottom, $color-red-2, $color-red-4)
+
 
 form
 	margin-left: .5rem
@@ -45,3 +50,5 @@ fieldset
 
 select
 	width: 70%
+
+

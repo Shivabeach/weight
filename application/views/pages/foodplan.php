@@ -1,4 +1,4 @@
-<body>
+<body id="plan">
   <div id="plan-container">
     <header id="header">
       <?php $this->load->view("menus/main-menu.html");?>

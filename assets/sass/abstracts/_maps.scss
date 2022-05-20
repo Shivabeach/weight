@@ -1,6 +1,12 @@
 /** @format */
 @use "sass:string";
 //maps
+
+$fonts: (
+	'font1': 'arial',
+	'font2': 'monaco',
+);
+
 $scheme: (
 	darkprimary: #303f9f,
 	accent: #cddc39,
@@ -28,6 +34,11 @@ $colors: (
 	text5: #a5d8ff,
 	text6: #efebe9,
 	text7: #e1bee7,
+);
+
+$mix: (
+	accent: hsl(122deg, 100%, 90%),
+	background: #080b4a,
 );
 
 $browncolors: (
