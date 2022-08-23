@@ -23,6 +23,7 @@
         <li>Chives</li>
         <li>Anise Hyssop</li>
         <li>Melon Sage</li>
+        <li><code>$this->load->file(APPPATH . "/views/pages/includes/side.php");</code></li>
 
       </ul>
 

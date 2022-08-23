@@ -22,13 +22,13 @@ const s = document.querySelector('.s');
 const pro = document.querySelector('.pro');
 const ca = document.querySelector('.ca');
 
-ca.innerText = `${100 * 4 + 160} Calories per day`;
-p.innerHTML = 15 * 4 + ' grams per day';
-c.innerHTML = 6 * 4 + ' grams per day';
-f.innerHTML = 2 * 4 + ' grams per day';
-po.innerHTML = 380 * 4 + ' miligrams per day';
-ch.innerHTML = 10 * 4 + ' miligrams per day';
-s.innerHTML = 10 * 4 + ' miligrams per day';
+ca.innerText = `${160 * 3} Calories per day`;
+p.innerHTML = 25 * 3 + ' grams per day';
+c.innerHTML = 4 * 3 + ' grams per day';
+f.innerHTML = 3 * 3 + ' grams per day';
+po.innerHTML = 290 * 3 + ' miligrams per day';
+ch.innerHTML = 90 * 3 + ' miligrams per day';
+s.innerHTML = 125 * 3 + ' miligrams per day';
 pro.innerHTML = (240 * 0.36).toFixed(0) + ' grams per day based on 240 lbs';
 
 function showMeat(value) {
@@ -169,7 +169,7 @@ function potasCount() {
 }
 
 function addArray() {
-	const potArray = [60, 200];
+	const potArray = [870]; //from protein drinks
 	const added = document.querySelector('.showPotass').textContent;
 	potArray.push(added);
 	const toNum = potArray.map(Number);
@@ -179,7 +179,7 @@ function addArray() {
 	).textContent = `The meal yields ${potIn} mg of Potassium with protein drinks & Supplements`);
 }
 function addCalories() {
-	const potArray = [560];
+	const potArray = [480];
 	const added = document.querySelector('.showCals').textContent;
 	potArray.push(added);
 	const toNum = potArray.map(Number);
@@ -190,14 +190,15 @@ function addCalories() {
 }
 
 function addProtein() {
-	const proArray = [45, 24];
+	const proArray = [75];
 	const protein = document.querySelector('.showProtein').textContent;
-	proArray.push(protein);
-	const toNum = proArray.map(Number);
-	const potIn = toNum.reduce((acc, cum) => acc + cum, 0);
+	const protein1 = parseInt(protein);
+	proArray.push(protein1);
+	//const toNum = proArray.map(Number);
+	const potIn = proArray.reduce((acc, cum) => acc + cum, 0);
 	const prot = (document.querySelector(
 		'.prot'
-	).textContent = `This meal yields ${potIn} grams of Protein`);
+	).textContent = `This meal yields ${potIn} grams of Protein with drinks`);
 }
 
 grocery.addEventListener('submit', (e) => {

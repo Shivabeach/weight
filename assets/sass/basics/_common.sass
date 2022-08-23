@@ -32,10 +32,11 @@
 .current
   color: $gen26!important
   border: 2px solid
-  transform: scaleY(2)
+
   @include border-color(#f76707,#4dabf7,#e8590c,#1971c2)
   &:hover
     box-shadow: 0 0 10px black
+
 
 .white
   color: $texty-bg
@@ -51,6 +52,7 @@
   padding: 0 1rem
   font-family: super
   font-variation-settings: "wght" 600, "wdth" 1000
+  border-radius: 8px
 
 .copy
   font-weight: 720
@@ -72,3 +74,8 @@
 
 .locate
   font-weight: 700
+
+.first::first-letter
+  color: $color-chartreuse-4
+
+

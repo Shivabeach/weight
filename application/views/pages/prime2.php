@@ -5,16 +5,18 @@
 			<?php $this->load->view("menus/main-menu.html");?>
 		</header>
 		<div class="col-1 clay card" >
-			<h3 class="center-align">Food Choices</h3>
+			<h3 class="center-align scale-15">Food Choices</h3>
 			<form id="grocery">
 				<fieldset>
 					<legend>List of food names</legend>
-				<h4 class="center-align">Meats</h4>
+				<h4 class="center-align scale-125">Meats</h4>
 			<select name="meats" id="meat-choice" class="padding-1">
 				<option value="">Pick One</option>
 				<option value="Garden Of Life Fit">Garden Of Life Fit</option>
 				<option value="Garden Of Life Greens">Garden Of Life Greens</option>
 				<option value="NitroTeck">NitroTeck</option>
+				<option value="Yogurt">Yogurt</option>
+				<option value="Chicken Tenderloin">Chicken Tenderloin</option>
 				<option value="Pink Salmon">Pink Salmon</option>
 				<option value="Chicken Breast">Chicken Breast</option>
 				<option value="Turkey">Turkey</option>
@@ -37,7 +39,7 @@
 				<option value="Chorizo Sausage">Chorizo Sausage</option>
 				<option value="Eggs">Eggs</option>
 			</select>
-			<h4 class="center-align">Vegtables</h4>
+			<h4 class="center-align scale-125">Vegtables</h4>
 			<select name="veggies" id="veg-choice" class="padding-1">
 				<option value="">Pick one</option>
 				<option value="Celery">Celery</option>
@@ -67,7 +69,7 @@
 				<option value="Sweet Potato">Sweet Potato</option>
 				<option value="Onion">Onion</option>
 			</select>
-			<h4 class="center-align">Oils</h4>
+			<h4 class="center-align scale-125">Oils</h4>
 			<select name="oil" id="oil" class="padding-1">
 				<option value="">Pick an Oil</option>
 				<option value="Coconut oil">Coconut oil</option>
@@ -76,7 +78,7 @@
 				<option value="Avocado Oil">Avocado Oil</option>
 				<option value="Grass fed Butter">Grass fed Butter</option>
 			</select>
-			<h4 class="center-align">Nuts & Seeds</h4>
+			<h4 class="center-align scale-125">Nuts & Seeds</h4>
 			<select name="nuts" id="nuts" class="padding-1">
 				<option value="">Pick a Nut</option>
 				<option value="Almonds">Almonds</option>
@@ -91,12 +93,12 @@
 				<option value="Walnuts">Walnuts</option>
 			</select>
 			<h4>Submit</h4>
-			<div><button type="submit" id="submit">Submit</button> -- <button type="reset">Reset</div>
+			<div><button type="submit" id="submit">Submit</button> <--> <button type="reset">Reset</div>
 				</fieldset>
 		</form>
 		</div>
 		<div class="col-2 clay" >
-			<h3 class="center-align">Meats</h3>
+			<h3 class="center-align first">Meats</h3>
 			<table>
 				<tr class="fs-2">
 					<th>Name</th>
@@ -110,7 +112,7 @@
 				<tbody class="display">
 			</table>
 
-			<h3 class="center-align">Vegetables</h3>
+			<h3 class="center-align first">Vegetables</h3>
 			<table>
 				<tr class="fs-2">
 					<th>Name</th>
@@ -124,7 +126,7 @@
 				<tbody class="vegDisplay">
 			</table>
 
-			<h3 class="center-align">Nuts</h3>
+			<h3 class="center-align first">Nuts</h3>
 			<table>
 				<tr class="fs-2">
 					<th>Name</th>
@@ -138,7 +140,7 @@
 				<tbody class="nutDisplay">
 			</table>
 
-			<h3 class="center-align">Oils</h3>
+			<h3 class="center-align first">Oils</h3>
 			<table>
 				<tr class="fs-2">
 					<th>Name</th>
@@ -175,27 +177,27 @@
 		<div class="col-4 clay" >
 			<h4 class="center-align">Recommended Daily Requirements</h4>
 			<ul class="pure-list">
-			<li class="post"></li>
-			<li class="cal"></li>
-			<li class="prot"></li>
-			<li>Potassium: 3,400 mg</li>
-			<li>Protein: <span class="pro"></span> </li>
-			<li>Carbs: 130 gr</li>
-			<li>Calories: 1664 - 2164</li>
-			<li>BMR: 1803 Calories</li>
+				<li class="post"></li>
+				<li class="cal"></li>
+				<li class="prot"></li>
+				<li>Potassium: 3,400 mg</li>
+				<li>Protein: <span class="pro"></span> </li>
+				<li>Carbs: 130 gr</li>
+				<li>Calories: 1664 - 2164</li>
+				<li>BMR: 1490 Calories</li>
 		</ul>
 		</div>
 
 		<div class="col-5 clay corn" >
 			<h4 class="center-align">Values from Protein Drinks</h4>
 			<ul>
-				<li>Calories - 100 drinks 120 cereal = <span class="ca"></span></li>
-				<li>Protein - 15g - 30% = <span class="p"></span></li>
-				<li>Carbs - 6g - 2% = <span class="c"></span> </li>
-				<li>Fat - 2g -3% = <span class="f"></span></li>
-				<li>Postassium - 380mg 8% = <span class="po"></span></li>
-				<li>Cholesterol - 10mg - 3% = <span class="ch"></span></li>
-				<li>Sodium - 10mg - 10% = <span class="s"></span></li>
+				<li>Calories - 160 drinks = <span class="ca"></span></li>
+				<li>Protein - 25g - 30% = <span class="p"></span></li>
+				<li>Carbs - 6g - 1% = <span class="c"></span> </li>
+				<li>Fat - 3g - 1% = <span class="f"></span></li>
+				<li>Postassium - 290mg 6% = <span class="po"></span></li>
+				<li>Cholesterol - 90mg - 30% = <span class="ch"></span></li>
+				<li>Sodium - 125mg - 5% = <span class="s"></span></li>
 			</ul>
 		</div>
 		<div class="col-6 clay card padding-1">

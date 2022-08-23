@@ -78,12 +78,3 @@ const locate = document.querySelector('.locate');
 if (locate != null) {
 	locate.innerHTML = 'Page location is ' + window.location.href;
 }
-
-// const randomHex = () =>
-// 	`#${Math.floor(Math.random() * 0xffffff)
-// 		.toString(16)
-// 		.padEnd(6, '0')}`;
-// console.log(randomHex());
-// Result: #92b008
-
-// document.addEventListener('contextmenu', (event) => event.preventDefault());

@@ -85,3 +85,19 @@ $desktop1: 1024px
 	display: grid
 	justify-content: $value
 	align-items: $value2
+
+//  justify-content: start | end | center | stretch | space-around | space-between | space-evenly;
+
+
+/** Grid  */
+
+@mixin place-center
+	place-self: center
+
+@mixin justifys($across, $down)
+	display: grid
+	justify-items: $across
+	align-items: $down
+
+//align items start | end | center | stretch
+//justify-items: start | end | center | stretch
