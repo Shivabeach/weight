@@ -5,7 +5,6 @@ const form = document.getElementById('grocery');
 const sub = document.getElementById('submit');
 const meatChoice = document.getElementById('meat-choice');
 const vegChoice = document.getElementById('veg-choice');
-
 const nuttyDisplay = document.querySelector('.nutty-display');
 const oilDisplay = document.querySelector('.oilDisplay');
 const list = document.querySelector('.list');

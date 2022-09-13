@@ -25,7 +25,7 @@ const randomNum = (count, max) => {
 	}
 	return rands;
 };
-// console.log(randomNum(4, 16));
+//console.log(randomNum(4, 16));
 // console.log(randomNum(5, 19).join(''));
 //join("") joins the array into one number
 
@@ -36,9 +36,9 @@ const colors = '#' + Math.floor(Math.random() * 16777215).toString(16);
 const rnnd = Math.floor(Math.random() * 2);
 //console.log(rnnd);
 
-// const name = 5;
-// let names = name > 2 ? 'Yes it is' : 'No its not';
-// console.log(names);
+const name = 5;
+let names = name > 2 ? 'Yes it is' : 'No its not';
+//console.log(names);
 
 // const randomHex = () =>
 // 	`#${Math.floor(Math.random() * 0xffffff)

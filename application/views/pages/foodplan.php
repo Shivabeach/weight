@@ -23,6 +23,15 @@
           <h4>Calories</h4>
           <div id="totalCalories"></div>
 
+          <button id="butt">Modal</button>
+
+          <dialog id="dialog">
+            <div class="right-align closer" id="close">X</div>
+            <h3>This is a modal</h3>
+            <p>Learning to use a modal from Jeffery Way</p>
+            <!-- <button id="close">Close</button> -->
+          </dialog>
+
         </div>
       </div>
     </section>
@@ -37,11 +46,8 @@
     </footer>
   </div>
   <!--end container-->
-  <script type="module" src="<?php echo base_url('assets/js/script-dist.js');?>" defer></script>
-  <script type="module" src="<?php echo base_url('assets/js/plan.js');?>" defer></script>
-
-  <script src="../node_modules\node-fetch\src\index.js"></script>
-
-  <script src="<?php echo base_url('assets/js/blank-dist.js');?>" defer></script>
+  <script type="module" src="<?php echo base_url('assets/js/script-dist.js');?>"></script>
+  <script type="module" src="<?php echo base_url('assets/js/plan.js');?>"></script>
+  <script src="<?php echo base_url('assets/js/blank.js');?>"></script>
 </body>
 </html>

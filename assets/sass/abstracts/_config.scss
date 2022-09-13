@@ -117,3 +117,20 @@ $lead-font-size: $font-size-base * 1.25;
 $lead-font-weight: 300;
 
 $small-font-size: 80%;
+
+@function tint($color, $percent) {
+  @if not _is-color($color) {
+    @error "`#{$color}` is not a valid color for the `$color` argument in " +
+           "the `tint` mixin.";
+  } @else {
+    @return mix(#fff, $color, $percent);
+  }
+}
+@function shade($color, $percent) {
+  @if not _is-color($color) {
+    @error "`#{$color}` is not a valid color for the `$color` argument in " +
+           "the `shade` mixin.";
+  } @else {
+    @return mix(#000, $color, $percent);
+  }
+}

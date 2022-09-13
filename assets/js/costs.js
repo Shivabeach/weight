@@ -11,6 +11,7 @@ const submit = document.getElementById('submit');
 const date = document.getElementById('date');
 const purchase = document.getElementById('purchase');
 const cost = document.getElementById('cost');
+
 let costrun = [];
 
 let storedData = localStorage.getItem('foods');
