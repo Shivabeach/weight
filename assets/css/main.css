@@ -350,7 +350,7 @@ header a:link {
 }
 
 .right-align {
-  text-align: right;
+  float: right;
 }
 
 .text-small {

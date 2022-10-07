@@ -2,6 +2,15 @@
 @use "sass:string";
 //maps
 
+$color1: (
+	brand-blue: (
+		lightest: #87b9d9,
+		lighter: #3395d4,
+		light: #0370b7,
+		base: #232d4b,
+	),
+);
+
 $fonts: (
 	'font1': 'arial',
 	'font2': 'monaco',

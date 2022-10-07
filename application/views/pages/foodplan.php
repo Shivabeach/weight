@@ -23,13 +23,16 @@
           <h4>Calories</h4>
           <div id="totalCalories"></div>
 
-          <button id="butt">Modal</button>
+          <button id="butt">Modal</button> <!-- modal -->
 
           <dialog id="dialog">
-            <div class="right-align closer" id="close">X</div>
+            <span class="right-align closer" id="close">Close</span>
             <h3>This is a modal</h3>
             <p>Learning to use a modal from Jeffery Way</p>
-            <!-- <button id="close">Close</button> -->
+            <p>This site is about choosing foods</p>
+            <blockquote>
+              One line to the left
+            </blockquote>
           </dialog>
 
         </div>
