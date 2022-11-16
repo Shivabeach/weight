@@ -5,6 +5,7 @@
     </header>
     <div class="col-1 clay">
       <h3 class="center-align ul">Veggies</h3>
+      <!-- All data comes from food.js -->
       <table>
         <tr class="fs-2">
           <th>Name</th>
@@ -86,6 +87,7 @@
       <div class="origin">Project start 1 / 2 / 2022</div>
       <div class="locate"></div>
       <div class="color"></div>
+      <div class="last-updated">Last updated: 11/15/2022</div>
     </div>
   </div>
   <script type="module" src="<?php echo base_url('assets/js/script-dist.js');?>" defer></script>

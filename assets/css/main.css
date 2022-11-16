@@ -303,6 +303,7 @@ th {
   border-bottom: 1px solid #894B5D;
   height: 4rem;
   background: #fff8f3;
+  border-radius: 6px;
 }
 
 /* Links */
@@ -547,7 +548,7 @@ fieldset {
 }
 
 select {
-  width: 70%;
+  width: 90%;
 }
 
 /** @format */

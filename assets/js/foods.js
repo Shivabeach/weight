@@ -288,6 +288,9 @@ export const foods = [
 		Potassium: 69,
 		Protein: 6.3,
 	},
+	// ==========================================================================
+	// Veggies
+	// ==========================================================================
 	{
 		type: 'veggie',
 		name: 'Romaine Lettuce',
@@ -312,13 +315,24 @@ export const foods = [
 	},
 	{
 		type: 'veggie',
+		name: 'Potato',
+		Size: '1 medium',
+		Calories: 161,
+		fat: 0.2,
+		Carbs: 37,
+		Cholesterol: 0,
+		Potassium: 926,
+		Protein: 4.3,
+	},
+	{
+		type: 'veggie',
 		name: 'Spaghetti Squash',
 		Size: '1 cup',
-		Calories: 75,
-		fat: 4.1,
+		Calories: 42,
+		fat: 0.4,
 		Carbs: 10,
 		Cholesterol: 0,
-		Potassium: 182,
+		Potassium: 120,
 		Protein: 1,
 	},
 	{
