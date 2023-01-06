@@ -1,7 +1,9 @@
 /** @format */
 'use strict';
+
 import { foods } from './foods.js';
-import { log, tables } from './utils.js';
+
+//import { log, tables } from './utils.js';
 const grocery = document.getElementById('grocery');
 const display = document.querySelector('.display');
 const cumulate = document.querySelector('.cumulate');

@@ -1,13 +1,13 @@
 /** @format */
 
-$(function() {
+$(function () {
 	'use strict';
-	$('form#ajax').on('submit', function() {
+	$('form#ajax').on('submit', function () {
 		var that = $(this),
 			url = that.attr('action'),
 			type = that.attr('method'),
 			data = {};
-		that.find('[name]').each(function(index, value) {
+		that.find('[name]').each(function (index, value) {
 			var that = $(this),
 				name = that.attr('name'),
 				value = that.val();
@@ -17,7 +17,7 @@ $(function() {
 			url: url,
 			type: type,
 			data: data,
-			success: function(response) {
+			success: function (response) {
 				location.reload();
 				$('#display')
 					.html(response)
@@ -29,7 +29,7 @@ $(function() {
 	});
 });
 
-$(function() {
+$(function () {
 	$('.highlight')
 		.parent()
 		.css({ 'background-color': '#d8cdd3', border: '1px solid #803e27' });
