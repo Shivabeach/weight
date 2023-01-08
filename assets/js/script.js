@@ -10,6 +10,8 @@ const item3 = document.querySelector('.item-3');
 const item4 = document.querySelector('.item-4');
 const item5 = document.querySelector('.item-5');
 const item6 = document.querySelector('.item-6');
+const item7 = document.querySelector('.item-7');
+
 
 let datey = document.getElementById('datey');
 const copyr = document.querySelector('.copy');
@@ -34,9 +36,12 @@ item4.innerHTML = item44;
 const str5 = 'Purchases';
 const item55 = str5.link('http://weight/pages/purch');
 item5.innerHTML = item55;
-const str6 = 'Calendar';
-const item66 = str6.link('http://weight/mycal');
+const str6 = 'Fiber';
+const item66 = str6.link('http://weight/pages/fiber');
 item6.innerHTML = item66;
+const str7 = 'Calendar';
+const item77 = str7.link('http://weight/mycal');
+item7.innerHTML = item77;
 
 function returnDate() {
 	const date = new Date();

@@ -32,20 +32,27 @@ class Pages extends CI_Controller {
 		$data["content"] = "pages/costs";
 		$this->load->view("templates/template", $data);
 	}
+	public function fiber()
+	{
+		$data["title"] = "Fiber Content";
+		$data["header"] = "Fiber Content";
+		$data["content"] = "pages/fiber";
+		$this->load->view("templates/template", $data);
+	}
 	public function purch()
 	{
 		if ($query = $this->forms->proteins()) {
-      $data['protein'] = $query;
-    }
-    if ($query = $this->forms->veggies()) {
-      $data['veggy'] = $query;
-    }
-    if ($query = $this->forms->acc()) {
-      $data['acc'] = $query;
-    }
-    if ($query = $this->forms->profile()) {
-      $data['profile'] = $query;
-    }
+			$data['protein'] = $query;
+		}
+		if ($query = $this->forms->veggies()) {
+			$data['veggy'] = $query;
+		}
+		if ($query = $this->forms->acc()) {
+			$data['acc'] = $query;
+		}
+		if ($query = $this->forms->profile()) {
+			$data['profile'] = $query;
+		}
 		$data["title"] = "Purchases";
 		$data["header"] = "Purchases to Live";
 		$data["content"] = "pages/purch";
