@@ -1,0 +1,8 @@
+/** @format */
+@use '../abstracts' as *;
+.fiber-container {
+	grid-column: 1 / 5;
+}
+.fiber-table {
+	width: 100%;
+}

@@ -1,1 +1,1 @@
-!function(){"use strict";document.querySelector("former")}();
+!function(){"use strict"}();

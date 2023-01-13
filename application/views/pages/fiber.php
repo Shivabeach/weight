@@ -4,11 +4,24 @@
       <?php $this->load->view("menus/main-menu.html");?>
     </header>
     <aside class="cost-form clay">
-      <h3 class="center-align">Costs Form</h3>
+      <h3 class="center-align">Open</h3>
       <p>Open</p>
     </aside>
     <main role="main" id="cost-main" class="clay">
-      <section class="former">
+      <section class="fiber-container">
+        <table class="fiber-table">
+          <tr>
+            <th>Name</th>
+            <th>Size</th>
+            <th>Calories</th>
+            <th>Carbs</th>
+            <th>Fiber</th>
+            <th>Sugars</th>
+          </tr>
+          <tbody class="showFiber">
+
+          </tbody>
+        </table>
 
         <p>Open</p>
       </section>
@@ -32,7 +45,7 @@
     </footer>
   </div>
   <script type="module" src="<?php echo base_url('assets/js/script-dist.js');?>"></script>
-  <script src="<?php echo base_url('assets/js/fiberous-dist.js');?>"></script>
+  <script type="module" src="<?php echo base_url('assets/js/fiber-page-dist.js');?>"></script>
 </body>
 
 </html>

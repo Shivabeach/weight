@@ -90,8 +90,8 @@
       <div class="last-updated">Last updated: 11/15/2022</div>
     </div>
   </div>
-  <script type="module" src="<?php echo base_url('assets/js/script-dist.js');?>" defer></script>
-  <script type="module" src="<?php echo base_url('assets/js/food-dist.js');?>" defer></script>
+  <script type="module" src="<?php echo base_url('assets/js/script-dist.js');?>"></script>
+  <script type="module" src="<?php echo base_url('assets/js/food-dist.js');?>" ></script>
 </body>
 
 </html>
