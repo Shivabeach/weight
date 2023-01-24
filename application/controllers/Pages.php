@@ -58,6 +58,13 @@ class Pages extends CI_Controller {
 		$data["content"] = "pages/purch";
 		$this->load->view("templates/template", $data);
 	}
+	public function fruit()
+	{
+		$data["title"] = "Sugar Content";
+		$data["header"] = "Sugar Content";
+		$data["content"] = "pages/fruit";
+		$this->load->view("templates/template", $data);
+	}
 
 }
 

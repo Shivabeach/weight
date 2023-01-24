@@ -638,7 +638,8 @@ li {
 }
 
 /** @format */
-.fiber-container {
+.fiber-container,
+.fruit-container {
   grid-column: 1/5;
 }
 
@@ -781,7 +782,7 @@ footer#main-footer {
 #cost-container {
   max-width: 85%;
   margin-inline: auto;
-  height: 100vh;
+  height: auto;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(6, 1fr);

@@ -53,3 +53,9 @@ let names = name > 2 ? 'Yes it is' : 'No its not';
 // 	return expression.test(String(email).toLowerCase());
 // };
 // console.log(validate('mrwilson1@comcast.net'));
+
+// mobiles.forEach(mobile => {
+//   for (let key in mobile) {
+//     console.log(`${key}: ${mobile[key]}`)
+//   }
+// })

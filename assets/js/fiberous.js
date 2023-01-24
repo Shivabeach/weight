@@ -1,5 +1,4 @@
 /** @format */
-'use strict';
 const fibers = [
   {
     type: 'veggie',
@@ -213,12 +212,12 @@ const fibers = [
   {
     type: 'veggie',
     name: 'Cauliflower',
-    Size: '257 gr',
-    Calories: 66,
+    Size: '1 cup',
+    Calories: 27,
     fat: 0.3,
-    Carbs: 12,
-    SoluableFiber: 6.5,
-    Sugars: 6,
+    Carbs: 5.3,
+    SoluableFiber: 2.1,
+    Sugars: 2,
     Protein: 2.1,
   },
   {
@@ -338,8 +337,8 @@ const fibers = [
     Calories: 191,
     fat: 19,
     Carbs: 3.7,
-    SoluableFiber: 0,
-    Sugars: 169,
+    SoluableFiber: 1.1,
+    Sugars: 1,
     Protein: 3.9,
   },
   {
@@ -356,13 +355,13 @@ const fibers = [
   {
     type: 'nuts',
     name: 'Pumpkin Seeds',
-    Size: '1 cup',
-    Calories: 285,
-    fat: 12,
-    Carbs: 34,
-    SoluableFiber: 0,
-    Sugars: 588,
-    Protein: 12,
+    Size: '1 oz',
+    Calories: 163,
+    fat: 14,
+    Carbs: 4.17,
+    SoluableFiber: 1.84,
+    Sugars: 0,
+    Protein: 8.45,
   },
   {
     type: 'nuts',

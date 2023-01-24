@@ -1,6 +1,7 @@
 /** @format */
 @use '../abstracts' as *;
-.fiber-container {
+.fiber-container,
+.fruit-container {
 	grid-column: 1 / 5;
 }
 .fiber-table {

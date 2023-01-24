@@ -8,19 +8,19 @@
       <p>Open</p>
     </aside>
     <main role="main" id="cost-main" class="clay">
-      <section class="fiber-container">
-        <h3 class="center-align ul">Fiber & Sugar</h3>
-        <table class="fiber-table">
+      <section class="fruit-container">
+        <h3 class="center-align ul">Fruits</h3>
+        <table class="fruit-table">
           <tr>
             <th>Name</th>
             <th>Size</th>
             <th>Calories</th>
             <th>Carbs</th>
-            <th>Fiber</th>
             <th>Sugars</th>
+            <th>Potassium</th>
+            <th>Vitamin C</th>
           </tr>
-          <tbody class="showFiber">
-          </tbody>
+          <tbody class="showFruit"></tbody>
         </table>
       </section>
     </main>
@@ -43,7 +43,7 @@
       </p>
     </footer>
   </div>
-  <script type="module" src="<?php echo base_url('assets/js/fiber-page-dist.js');?>"></script>
+  <script type="module" src="<?php echo base_url('assets/js/fruity-dist.js');?>"></script>
   <script type="module" src="<?php echo base_url('assets/js/script-dist.js');?>"></script>
 
 </body>

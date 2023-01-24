@@ -34,7 +34,6 @@ display.innerHTML = meats;
 const pot = foods.filter((foody) => foody.Potassium > 500);
 let foodly = '';
 for (potas of pot) {
-	//console.log(potas.name);
 	foodly += `
 	<tr>
 	<td>${potas.name}</td>

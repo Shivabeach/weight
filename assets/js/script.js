@@ -11,7 +11,7 @@ const item4 = document.querySelector('.item-4');
 const item5 = document.querySelector('.item-5');
 const item6 = document.querySelector('.item-6');
 const item7 = document.querySelector('.item-7');
-
+const item8 = document.querySelector('.item-8');
 
 let datey = document.getElementById('datey');
 const copyr = document.querySelector('.copy');
@@ -42,16 +42,27 @@ item6.innerHTML = item66;
 const str7 = 'Calendar';
 const item77 = str7.link('http://weight/mycal');
 item7.innerHTML = item77;
+const str8 = 'Fruit';
+const item88 = str8.link('http://weight/pages/fruit');
+item8.innerHTML = item88;
 
-function returnDate() {
-	const date = new Date();
-	const day = date.getDate();
-	const month = date.getMonth() + 1;
-	const year = date.getFullYear();
-	//datey.style.color = '#4b0082';
-	datey.innerHTML = `Today is ${month} / ${day} / ${year}`;
-}
-returnDate();
+// function returnDate() {
+// 	const date = new Date();
+// 	const day = date.getDate();
+// 	const month = date.getMonth() + 1;
+// 	const year = date.getFullYear();
+// 	//datey.style.color = '#4b0082';
+// 	datey.innerHTML = `Today is ${month} / ${day} / ${year}`;
+// }
+// returnDate();
+
+const today = new Date();
+const f = new Intl.DateTimeFormat('en-us', {
+	dateStyle: 'full',
+	//timeStyle: 'full',
+});
+// datey.style.color = '#4b0082';
+datey.innerHTML = f.format(today);
 
 let yer = new Date();
 copyr.innerHTML = `\u00A92019 - ${yer.getFullYear()}`; //copywright
