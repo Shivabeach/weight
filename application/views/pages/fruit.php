@@ -26,10 +26,10 @@
     </main>
 
     <aside class="cost-notes clay">
-      <h4 class="center-align">Stats</h4>
-      <p><span> Fiber Average -- </span><span class="fiber-average bold-8"></span></p>
-      <p><span> Carb Average -- </span><span class="carb-average bold-8"></span></p>
-      <p><span> Sugar Average -- </span><span class="sugar-average bold-8"></span></p>
+      <h4 class="center-align">Fruit Averages</h4>
+      <p><span> Potassium -- </span><span class="pot-average bold-8"></span></p>
+      <p><span> Calories -- </span><span class="cal-average bold-8"></span></p>
+      <p><span> Sugar -- </span><span class="sugar-average bold-8"></span></p>
     </aside>
     <footer id="main-footer">
       <p>footer</p>

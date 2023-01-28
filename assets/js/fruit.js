@@ -1,6 +1,6 @@
 /** @format */
 'use strict';
-const fruit = [
+export const fruit = [
 	{
 		type: 'fruit',
 		name: 'Apple',
@@ -150,5 +150,45 @@ const fruit = [
 		sugars: 3.6,
 		potassium: 121,
 		vitC: '52%',
+	},
+	{
+		type: 'fruit',
+		name: 'Grapes',
+		size: '10 grapes',
+		calories: 34,
+		carbs: 8.5,
+		sugars: 7.6,
+		potassium: 94,
+		vitC: '2.6%',
+	},
+	{
+		type: 'fruit',
+		name: 'Tangerine',
+		size: '1 fruit',
+		calories: 47,
+		carbs: 12,
+		sugars: 9.3,
+		potassium: 146,
+		vitC: '39%',
+	},
+	{
+		type: 'fruit',
+		name: 'Fig',
+		size: '2 fruit',
+		calories: 74,
+		carbs: 19.2,
+		sugars: 16.2,
+		potassium: 232,
+		vitC: '3.4%',
+	},
+	{
+		type: 'fruit',
+		name: 'Apricot',
+		size: '5 fruit',
+		calories: 85,
+		carbs: 19.5,
+		sugars: 16,
+		potassium: 455,
+		vitC: '29%',
 	},
 ];
