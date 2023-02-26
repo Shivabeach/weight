@@ -17,34 +17,44 @@
 }
 
 aside#left {
-  grid-column: 1/3;
+  grid-column: 1/2;
   padding: 1rem;
 }
 section#plan {
-  grid-column: 3/7;
-  padding: 1rem;
+  grid-column: 2/7;
 }
 #goals-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-column-gap: 1rem;
   grid-template-rows: 1fr;
-  #goals {
-    grid-column: 1/3;
-    grid-row: 1/1;
-    h4 {
-      @include center(center, center);
-    }
-  }
-  #results {
-    grid-column: 3/5;
-    grid-row: 1/1;
-    h4 {
-      @include center(center, center);
-    }
-  }
 }
 
 footer#main-footer {
   grid-column: 1/7;
+}
+.box-header {
+  grid-column: 1/6;
+  padding-left: 1rem;
+  @include center(center, center);
+}
+.box-name {
+  grid-column: 1/2;
+  padding-left: 1rem;
+}
+.box-calories {
+  grid-column: 2/3;
+  padding-left: 1rem;
+}
+.box-carbs {
+  grid-column: 3/4;
+  padding-left: 1rem;
+}
+.box-protein {
+  grid-column: 4/5;
+  padding-left: 1rem;
+}
+.box-fiber {
+  grid-column: 5/6;
+  padding-left: 1rem;
 }

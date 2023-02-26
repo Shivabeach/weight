@@ -1,5 +1,12 @@
 /** @format */
 //const fetch = require('node-fetch');
+// Modal
+butt.addEventListener('click', () => {
+	dialog.showModal();
+});
+close.addEventListener('click', () => {
+	dialog.close();
+});
 
 //random javascript functions
 const generateNumber = (size, max) => {

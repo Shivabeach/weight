@@ -86,7 +86,7 @@ class Mycal_model extends CI_Model {
 
 		$cal_data = $this->get_calendar_data($year, $month);
 
-		return $this->calendar->generate($year, $month, $cal_data);
+		return html_entity_decode($this->calendar->generate($year, $month, $cal_data));
 
 	}
 

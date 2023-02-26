@@ -61,6 +61,25 @@ function calories() {
 	calAverage.innerHTML = `${teeth} Calories`;
 }
 
+// const arr = fruit.filter((vits) => vits.vitC > 100);
+// arr.forEach((c) => {
+// 	document.querySelector('.vitc').style.backgroundColor = 'hsl(117, 89%, 42%)';
+// });
+
+// function vitDisplay() {
+// 	const vitc = document.querySelectorAll('.vitc');
+// 	const vita = [];
+// 	vitc.forEach((vit) => {
+// 		const c = vit.firstChild.nodeValue;
+// 		vita.push(c);
+// 		vita.filter((oranges) => oranges > 100) {
+
+// 		}
+// 	});
+
+// 	//console.log(vita);
+// }
+
 //Display the table using function display
 showFruit.innerHTML = `
 	${fruit.map(display).join('')}`;

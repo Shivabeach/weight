@@ -2,6 +2,12 @@
 @use "sass:string";
 //maps
 
+$highlights: (
+	magenta: rgb(255, 0, 255),
+	aqua: rgb(0, 255, 255),
+	yellowish: rgb(255, 255, 0),
+);
+
 $color1: (
 	brand-blue: (
 		lightest: #87b9d9,

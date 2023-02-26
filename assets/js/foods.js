@@ -293,6 +293,17 @@ export const foods = [
 	// ==========================================================================
 	{
 		type: 'veggie',
+		name: 'Jeruselum Artichoke',
+		Size: '1 cup',
+		Calories: 110,
+		fat: 0,
+		Carbs: 26.1,
+		Cholesterol: 0,
+		Potassium: 644,
+		Protein: 3,
+	},
+	{
+		type: 'veggie',
 		name: 'Romaine Lettuce',
 		Size: '1 cup',
 		Calories: 8,

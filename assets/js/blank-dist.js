@@ -1,1 +1,1 @@
-Math.floor(16777215*Math.random()).toString(16),Math.floor(2*Math.random());
+!function(){butt.addEventListener("click",(()=>{dialog.showModal()})),close.addEventListener("click",(()=>{dialog.close()}));Math.floor(16777215*Math.random()).toString(16),Math.floor(2*Math.random())}();

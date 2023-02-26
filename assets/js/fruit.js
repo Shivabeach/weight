@@ -9,7 +9,17 @@ export const fruit = [
 		carbs: 25,
 		sugars: 19,
 		potassium: 195,
-		vitC: '14%',
+		vitC: 14,
+	},
+	{
+		type: 'fruit',
+		name: 'Cherry',
+		size: '10 pcs',
+		calories: 52,
+		carbs: 13,
+		sugars: 11,
+		potassium: 182,
+		vitC: 11,
 	},
 	{
 		type: 'fruit',
@@ -19,7 +29,7 @@ export const fruit = [
 		carbs: 27,
 		sugars: 14,
 		potassium: 422,
-		vitC: '17%',
+		vitC: 7,
 	},
 	{
 		type: 'fruit',
@@ -29,7 +39,7 @@ export const fruit = [
 		carbs: 17,
 		sugars: 15,
 		potassium: 333,
-		vitC: '17%',
+		vitC: 17,
 	},
 	{
 		type: 'fruit',
@@ -39,7 +49,7 @@ export const fruit = [
 		carbs: 18,
 		sugars: 12,
 		potassium: 232,
-		vitC: '138%',
+		vitC: 138,
 	},
 	{
 		type: 'fruit',
@@ -49,7 +59,7 @@ export const fruit = [
 		carbs: 50,
 		sugars: 46,
 		potassium: 564,
-		vitC: '204%',
+		vitC: 204,
 	},
 	{
 		type: 'fruit',
@@ -59,7 +69,7 @@ export const fruit = [
 		carbs: 27,
 		sugars: 17,
 		potassium: 206,
-		vitC: '13%',
+		vitC: 13,
 	},
 	{
 		type: 'fruit',
@@ -69,7 +79,7 @@ export const fruit = [
 		carbs: 7.5,
 		sugars: 6.5,
 		potassium: 104,
-		vitC: '10%',
+		vitC: 10,
 	},
 	{
 		type: 'fruit',
@@ -79,7 +89,7 @@ export const fruit = [
 		carbs: 22.5,
 		sugars: 21.5,
 		potassium: 737,
-		vitC: '169%',
+		vitC: 169,
 	},
 	{
 		type: 'fruit',
@@ -89,7 +99,7 @@ export const fruit = [
 		carbs: 20,
 		sugars: 14,
 		potassium: 100,
-		vitC: '22%',
+		vitC: 22,
 	},
 	{
 		type: 'fruit',
@@ -99,7 +109,7 @@ export const fruit = [
 		carbs: 9.7,
 		sugars: 6.2,
 		potassium: 193,
-		vitC: '123%',
+		vitC: 123,
 	},
 	{
 		type: 'fruit',
@@ -109,7 +119,7 @@ export const fruit = [
 		carbs: 13.2,
 		sugars: 5,
 		potassium: 165,
-		vitC: '47%',
+		vitC: 47,
 	},
 	{
 		type: 'fruit',
@@ -119,7 +129,7 @@ export const fruit = [
 		carbs: 22,
 		sugars: 16.2,
 		potassium: 180,
-		vitC: '132%',
+		vitC: 132,
 	},
 	{
 		type: 'fruit',
@@ -129,7 +139,7 @@ export const fruit = [
 		carbs: 10,
 		sugars: 6.2,
 		potassium: 215,
-		vitC: '107%',
+		vitC: 107,
 	},
 	{
 		type: 'fruit',
@@ -139,7 +149,7 @@ export const fruit = [
 		carbs: 15,
 		sugars: 9,
 		potassium: 312,
-		vitC: '155%',
+		vitC: 155,
 	},
 	{
 		type: 'fruit',
@@ -149,7 +159,7 @@ export const fruit = [
 		carbs: 6.1,
 		sugars: 3.6,
 		potassium: 121,
-		vitC: '52%',
+		vitC: 52,
 	},
 	{
 		type: 'fruit',
@@ -159,7 +169,7 @@ export const fruit = [
 		carbs: 8.5,
 		sugars: 7.6,
 		potassium: 94,
-		vitC: '2.6%',
+		vitC: 2.6,
 	},
 	{
 		type: 'fruit',
@@ -169,7 +179,7 @@ export const fruit = [
 		carbs: 12,
 		sugars: 9.3,
 		potassium: 146,
-		vitC: '39%',
+		vitC: 39,
 	},
 	{
 		type: 'fruit',
@@ -179,7 +189,7 @@ export const fruit = [
 		carbs: 19.2,
 		sugars: 16.2,
 		potassium: 232,
-		vitC: '3.4%',
+		vitC: 3.4,
 	},
 	{
 		type: 'fruit',
@@ -189,6 +199,6 @@ export const fruit = [
 		carbs: 19.5,
 		sugars: 16,
 		potassium: 455,
-		vitC: '29%',
+		vitC: 29,
 	},
 ];

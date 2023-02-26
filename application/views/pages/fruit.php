@@ -18,7 +18,7 @@
             <th>Carbs</th>
             <th>Sugars</th>
             <th>Potassium</th>
-            <th>Vitamin C</th>
+            <th>Vitamin C <br>% USDA</th>
           </tr>
           <tbody class="showFruit"></tbody>
         </table>

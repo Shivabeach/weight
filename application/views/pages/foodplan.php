@@ -8,49 +8,102 @@
       <h4 class="center-align">Calorie Calculator</h4>
       <form action="" id="calorie" class="pure-form">
         <fieldset>
-          <p>Proteins <span><input id="proteinCount"></span></p>
-          <p>Calories <span><input id="calorieCount"></span></p>
-
-
+          <p class="head1">Proteins: <span id="proteinCount"></span></p>
+          <p class="head1">Calories: <span id="calorieCount"></span></p>
+          <p class="head1">Carbs: <span id="carbCount"></span></p>
+          <p class="head1">Fiber: <span id="fiberCount"></span></p>
         </fieldset>
       </form>
+      <p>
+        <button type="submit" class="submit">Submit</button>
+      </p>
+      <p>
+        <button type="reset" class="reset">Reset</button>
+      </p>
     </aside>
     <!-- main section -->
     <section id="plan">
-
+      <div class="box-header"><h3>Calculate Daily Intake</h3></div>
       <div id="goals-container">
-        <div id="goals">
-          <h4>Calories</h4>
-          <div id="totalCalories"></div>
+        <div class="box-name">
+          <span>Name: </span><input type="text" class="name">
+        </div>
+        <div class="box-calories">
+          <span>Calories: </span><input type="number" class="calories">
+        </div>
+        <div class="box-carbs">
+          <span>Carbs: </span><input type="number" class="carbs">
+        </div>
+        <div class="box-protein">
+          <span>Protein: </span><input type="number" class="protein">
+        </div>
+        <div class="box-fiber">
+          <span>Fiberourus: </span><span><input type="number" class="fiber"></span>
+        </div>
 
-          <button id="butt">Modal</button> <!-- modal -->
+        <div class="box-name">
+          <span>Name: </span><input type="text" class="name">
+        </div>
+        <div class="box-calories">
+          <span>Calories: </span><input value=0 type="number" class="calories">
+        </div>
+        <div class="box-carbs">
+          <span>Carbs: </span><input value=0 type="number" class="carbs">
+        </div>
+        <div class="box-protein">
+          <span>Protein: </span><input value=0 type="number" class="protein">
+        </div>
+        <div class="box-fiber">
+          <span>Fiberourus: </span><input value=0 type="number" class="fiber">
+        </div>
 
-          <dialog id="dialog">
-            <span class="right-align closer" id="close">Close</span>
-            <h3>This is a modal</h3>
-            <p>Learning to use a modal from Jeffery Way</p>
-            <p>This site is about choosing foods</p>
-            <blockquote>
-              One line to the left
-            </blockquote>
-          </dialog>
+        <div class="box-name">
+          <span>Name: </span><input type="text" class="name">
+        </div>
+        <div class="box-calories">
+          <span>Calories: </span><input value=0 type="number" class="calories">
+        </div>
+        <div class="box-carbs">
+          <span>Carbs: </span><input value=0 type="number" class="carbs">
+        </div>
+        <div class="box-protein">
+          <span>Protein: </span><input value=0 type="number" class="protein">
+        </div>
+        <div class="box-fiber">
+          <span>Fiberourus: </span><input value=0 type="number" class="fiber">
+        </div>
+        <div class="box-name">
 
+          <span>Name: </span><input type="text" class="name">
+        </div>
+        <div class="box-calories">
+          <span>Calories: </span><input value=0 type="number" class="calories">
+        </div>
+        <div class="box-carbs">
+          <span>Carbs: </span><input value=0 type="number" class="carbs">
+        </div>
+        <div class="box-protein">
+          <span>Protein: </span><input value=0 type="number" class="protein">
+        </div>
+        <div class="box-fiber">
+          <span>Fiberourus: </span><input value=0 type="number" class="fiber">
         </div>
       </div>
-    </section>
-    <!-- footer -->
-    <footer id="main-footer">
-      <p>footer</p>
-      <div class="copy"></div>
-      <div id="datey"></div>
-      <div class="origin">Project start 2 / 23 / 2022</div>
-      <div class="locate"></div>
-      <div class="color"></div>
-    </footer>
-  </div>
-  <!--end container-->
-  <script type="module" src="<?php echo base_url('assets/js/script-dist.js');?>"></script>
-  <script type="module" src="<?php echo base_url('assets/js/plan.js');?>"></script>
-  <script src="<?php echo base_url('assets/js/blank.js');?>"></script>
+      <p class="addition">+</p>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer id="main-footer">
+    <p>footer</p>
+    <div class="copy"></div>
+    <div id="datey"></div>
+    <div class="origin">Project start 2 / 23 / 2022</div>
+    <div class="locate"></div>
+    <div class="color"></div>
+  </footer>
+</div>
+<!--end container-->
+<script type="module" src="<?php echo base_url('assets/js/script-dist.js');?>"></script>
+<script type="module" src="<?php echo base_url('assets/js/plan.js');?>"></script>
 </body>
 </html>
