@@ -4,8 +4,11 @@
       <?php $this->load->view("menus/main-menu.html");?>
     </header>
     <aside class="cost-form clay">
-      <h3 class="center-align">Open</h3>
-      <p>Open</p>
+      <h1 class="center-align">Vitamin C</h1>
+      <h4>Highest Rated</h4>
+      <ul class="vitamins"></ul>
+      <h2 class="center-align">Potassium</h2>
+      <ul class="potass"></ul>
     </aside>
     <main role="main" id="cost-main" class="clay">
       <section class="fruit-container">

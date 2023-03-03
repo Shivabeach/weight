@@ -291,6 +291,7 @@ td, th {
   text-align: center;
   border-spacing: 5px;
   padding: 3px 0;
+  background: transparent;
 }
 
 tr:nth-child(even) {
@@ -301,8 +302,14 @@ th {
   border-top: 1px solid #894B5D;
   border-bottom: 1px solid #894B5D;
   height: 4rem;
-  background: #fff8f3;
   border-radius: 6px;
+}
+
+table.support .equal {
+  width: 20%;
+}
+table.support tr:nth-child(even) {
+  background: transparent;
 }
 
 /* Links */
@@ -587,7 +594,7 @@ select {
 
 /*list properties */
 li {
-  list-style-type: georgian;
+  list-style-type: disk;
 }
 
 .item {
@@ -671,6 +678,11 @@ li {
 #carbCount,
 #fiberCount {
   padding-left: 0.5rem;
+}
+
+.vitamins,
+.potass {
+  margin-left: 1rem;
 }
 
 /** @format */
@@ -826,7 +838,6 @@ footer#main-footer {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 0.5fr repeat(6, 1fr);
 }
 
 .cost-form {

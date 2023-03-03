@@ -7,6 +7,9 @@ const sugarAverage = document.querySelector('.sugar-average');
 
 const vitc = document.querySelectorAll('.vitc');
 const calc = document.querySelector('.calc');
+const vitamins = document.querySelector('.vitamins');
+const potass = document.querySelector('.potass');
+const vita = [];
 
 function display(sweet) {
 	return `
@@ -21,6 +24,7 @@ function display(sweet) {
 			</tr>
 		`;
 }
+
 //average sugars
 function averageSugar() {
 	const sugars = document.querySelectorAll('.sugar');
@@ -61,28 +65,30 @@ function calories() {
 	calAverage.innerHTML = `${teeth} Calories`;
 }
 
-// const arr = fruit.filter((vits) => vits.vitC > 100);
-// arr.forEach((c) => {
-// 	document.querySelector('.vitc').style.backgroundColor = 'hsl(117, 89%, 42%)';
-// });
-
-// function vitDisplay() {
-// 	const vitc = document.querySelectorAll('.vitc');
-// 	const vita = [];
-// 	vitc.forEach((vit) => {
-// 		const c = vit.firstChild.nodeValue;
-// 		vita.push(c);
-// 		vita.filter((oranges) => oranges > 100) {
-
-// 		}
-// 	});
-
-// 	//console.log(vita);
-// }
+function showVits(cs) {
+	if (cs.vitC > 100) {
+		return `
+		<li class="margin-10">${cs.name} - ${cs.vitC}</li>
+	`;
+	}
+}
+function showPot(cs) {
+	if (cs.potassium > 100) {
+		return `
+		<li class="margin-10">${cs.name} - ${cs.potassium}</li>
+	`;
+	}
+}
 
 //Display the table using function display
 showFruit.innerHTML = `
 	${fruit.map(display).join('')}`;
+
+vitamins.innerHTML = `
+	${fruit.map(showVits).join('')}`;
+
+potass.innerHTML = `
+	${fruit.map(showPot).join('')}`;
 
 addEventListener('DOMContentLoaded', () => {
 	averageSugar();

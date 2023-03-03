@@ -42,6 +42,8 @@
 			<h4 class="center-align scale-125">Vegtables</h4>
 			<select name="veggies" id="veg-choice" class="padding-1">
 				<option value="">Pick one</option>
+				<option value="Pinto Beans">Pinto Beans</option>
+				<option value="Jeruselum Artichoke">Jeruselum Artichoke</option>
 				<option value="Celery">Celery</option>
 				<option value="Potato">Potato</option>
 				<option value="Romaine Lettuce">Romaine Lettuce</option>

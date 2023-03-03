@@ -2,6 +2,17 @@
 const fibers = [
   {
     type: 'veggie',
+    name: 'Pinto Beans',
+    Size: '1 cup',
+    Calories: 245,
+    fat: 1.1,
+    Carbs: 45,
+    SoluableFiber: 15,
+    Sugars: 0.6,
+    Protein: 15,
+  },
+  {
+    type: 'veggie',
     name: 'Jeruselum Artichoke',
     Size: '1 cup',
     Calories: 110,

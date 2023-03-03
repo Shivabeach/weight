@@ -5,7 +5,7 @@
     </header>
     <!-- begin grid body -->
     <aside id="left">
-      <h4 class="center-align">Calorie Calculator</h4>
+      <h2 class="center-align">Calorie Calculator</h2>
       <form action="" id="calorie" class="pure-form">
         <fieldset>
           <p class="head1">Proteins: <span id="proteinCount"></span></p>
@@ -23,7 +23,7 @@
     </aside>
     <!-- main section -->
     <section id="plan">
-      <div class="box-header"><h3>Calculate Daily Intake</h3></div>
+      <div class="box-header"><h1>Calculate Daily Intake</h1></div>
       <div id="goals-container">
         <div class="box-name">
           <span>Name: </span><input type="text" class="name">
@@ -40,56 +40,146 @@
         <div class="box-fiber">
           <span>Fiberourus: </span><span><input type="number" class="fiber"></span>
         </div>
-
         <div class="box-name">
           <span>Name: </span><input type="text" class="name">
         </div>
         <div class="box-calories">
-          <span>Calories: </span><input value=0 type="number" class="calories">
+          <span>Calories: </span><input  type="number" class="calories">
         </div>
         <div class="box-carbs">
-          <span>Carbs: </span><input value=0 type="number" class="carbs">
+          <span>Carbs: </span><input  type="number" class="carbs">
         </div>
         <div class="box-protein">
-          <span>Protein: </span><input value=0 type="number" class="protein">
+          <span>Protein: </span><input  type="number" class="protein">
         </div>
         <div class="box-fiber">
-          <span>Fiberourus: </span><input value=0 type="number" class="fiber">
+          <span>Fiberourus: </span><input  type="number" class="fiber">
         </div>
-
         <div class="box-name">
           <span>Name: </span><input type="text" class="name">
         </div>
         <div class="box-calories">
-          <span>Calories: </span><input value=0 type="number" class="calories">
+          <span>Calories: </span><input  type="number" class="calories">
         </div>
         <div class="box-carbs">
-          <span>Carbs: </span><input value=0 type="number" class="carbs">
+          <span>Carbs: </span><input  type="number" class="carbs">
         </div>
         <div class="box-protein">
-          <span>Protein: </span><input value=0 type="number" class="protein">
+          <span>Protein: </span><input  type="number" class="protein">
         </div>
         <div class="box-fiber">
-          <span>Fiberourus: </span><input value=0 type="number" class="fiber">
+          <span>Fiberourus: </span><input  type="number" class="fiber">
         </div>
         <div class="box-name">
-
           <span>Name: </span><input type="text" class="name">
         </div>
         <div class="box-calories">
-          <span>Calories: </span><input value=0 type="number" class="calories">
+          <span>Calories: </span><input  type="number" class="calories">
         </div>
         <div class="box-carbs">
-          <span>Carbs: </span><input value=0 type="number" class="carbs">
+          <span>Carbs: </span><input  type="number" class="carbs">
         </div>
         <div class="box-protein">
-          <span>Protein: </span><input value=0 type="number" class="protein">
+          <span>Protein: </span><input  type="number" class="protein">
         </div>
         <div class="box-fiber">
-          <span>Fiberourus: </span><input value=0 type="number" class="fiber">
+          <span>Fiberourus: </span><input  type="number" class="fiber">
         </div>
+        <div class="box-name">
+          <span>Name: </span><input type="text" class="name">
+        </div>
+        <div class="box-calories">
+          <span>Calories: </span><input  type="number" class="calories">
+        </div>
+        <div class="box-carbs">
+          <span>Carbs: </span><input  type="number" class="carbs">
+        </div>
+        <div class="box-protein">
+          <span>Protein: </span><input  type="number" class="protein">
+        </div>
+        <div class="box-fiber">
+          <span>Fiberourus: </span><input  type="number" class="fiber">
+        </div>
+        <div class="box-name">
+          <span>Name: </span><input type="text" class="name">
+        </div>
+        <div class="box-calories">
+          <span>Calories: </span><input  type="number" class="calories">
+        </div>
+        <div class="box-carbs">
+          <span>Carbs: </span><input  type="number" class="carbs">
+        </div>
+        <div class="box-protein">
+          <span>Protein: </span><input  type="number" class="protein">
+        </div>
+        <div class="box-fiber">
+          <span>Fiberourus: </span><input  type="number" class="fiber">
+        </div>
+        <div class="box-name">
+          <span>Name: </span><input type="text" class="name">
+        </div>
+        <div class="box-calories">
+          <span>Calories: </span><input  type="number" class="calories">
+        </div>
+        <div class="box-carbs">
+          <span>Carbs: </span><input  type="number" class="carbs">
+        </div>
+        <div class="box-protein">
+          <span>Protein: </span><input  type="number" class="protein">
+        </div>
+        <div class="box-fiber">
+          <span>Fiberourus: </span><input  type="number" class="fiber">
+        </div>
+        <div class="box-name">
+          <span>Name: </span><input type="text" class="name">
+        </div>
+        <div class="box-calories">
+          <span>Calories: </span><input  type="number" class="calories">
+        </div>
+        <div class="box-carbs">
+          <span>Carbs: </span><input  type="number" class="carbs">
+        </div>
+        <div class="box-protein">
+          <span>Protein: </span><input  type="number" class="protein">
+        </div>
+        <div class="box-fiber">
+          <span>Fiberourus: </span><input  type="number" class="fiber">
+        </div>
+        <p class="addition">+</p>
       </div>
-      <p class="addition">+</p>
+      <hr>
+      <table class="support">
+        <caption>Support Table</caption>
+        <tr>
+          <th>Name</th>
+          <th>Calories</th>
+          <th>Carbs</th>
+          <th>Protein</th>
+          <th>Fiber</th>
+        </tr>
+        <tr>
+          <td class="equal">Orgain Protein + Peanut butter</td>
+          <td class="equal">230</td>
+          <td class="equal">26</td>
+          <td class="equal">29</td>
+          <td class="equal">5</td>
+        </tr>
+        <tr>
+          <td class="equal">Nutricost protein</td>
+          <td class="equal">130</td>
+          <td class="equal">0</td>
+          <td class="equal">30</td>
+          <td class="equal">0</td>
+        </tr>
+        <tr>
+          <td class="equal">Pork Tenderloin</td>
+          <td class="equal">125</td>
+          <td class="equal">0</td>
+          <td class="equal">22</td>
+          <td class="equal">0</td>
+        </tr>
+
+      </table>
     </div>
   </section>
   <!-- footer -->

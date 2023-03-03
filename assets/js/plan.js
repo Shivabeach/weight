@@ -27,7 +27,7 @@ function addBoxCalories() {
 	let boxCal = document.createElement('div');
 	boxCal.classList.add('box-calories');
 	boxCal.innerHTML =
-		'<span>Calories: </span><input type="number" class="calories" value=0>';
+		'<span>Calories: </span><input type="number" class="calories" >';
 	goalsContainer.appendChild(boxCal);
 }
 
@@ -35,7 +35,7 @@ function addBoxCarbs() {
 	let boxCarb = document.createElement('div');
 	boxCarb.classList.add('box-carbs');
 	boxCarb.innerHTML =
-		'<span>Carbs: </span><input type="number" class="carbs" value=0>';
+		'<span>Carbs: </span><input type="number" class="carbs" >';
 	goalsContainer.appendChild(boxCarb);
 }
 
@@ -43,14 +43,14 @@ function addBoxProtein() {
 	let boxProtein = document.createElement('div');
 	boxProtein.classList.add('box-protein');
 	boxProtein.innerHTML =
-		'<span>Protein: </span><input type="number" class="protein" value=0>';
+		'<span>Protein: </span><input type="number" class="protein" >';
 	goalsContainer.appendChild(boxProtein);
 }
 function addBoxFiber() {
 	let boxFiber = document.createElement('div');
 	boxFiber.classList.add('box-fiber');
 	boxFiber.innerHTML =
-		'<span>Fiberourus: </span><input type="number" class="fiber" value=0>';
+		'<span>Fiberourus: </span><input type="number" class="fiber" >';
 	goalsContainer.appendChild(boxFiber);
 }
 
@@ -65,7 +65,7 @@ function allCalories() {
 		cals.push(calc);
 	});
 	const toNum = cals.map(Number);
-	const ca = toNum.reduce((acc, cum) => acc + cum, 0);
+	const ca = toNum.reduce((acc, cum) => acc + cum, null);
 	calorieCount.innerText = `${ca}`;
 }
 function allCarbs() {

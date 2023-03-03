@@ -293,6 +293,17 @@ export const foods = [
 	// ==========================================================================
 	{
 		type: 'veggie',
+		name: 'Pinto Beans',
+		Size: '1 cup',
+		Calories: 245,
+		fat: 1,
+		Carbs: 45,
+		Cholesterol: 0,
+		Potassium: 745,
+		Protein: 15,
+	},
+	{
+		type: 'veggie',
 		name: 'Jeruselum Artichoke',
 		Size: '1 cup',
 		Calories: 110,
