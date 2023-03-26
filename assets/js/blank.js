@@ -66,3 +66,23 @@ let names = name > 2 ? 'Yes it is' : 'No its not';
 //     console.log(`${key}: ${mobile[key]}`)
 //   }
 // })
+// ==========================================================================
+//  Set values where jimmy and slave is, change keys to form data
+// ==========================================================================
+fetch('application/controllers/Form/entry', {
+	method: 'POST',
+	headers: {
+		'Content-Type': 'application/json',
+	},
+	body: JSON.stringify({
+		name: 'jummy',
+		job: 'slave',
+	}),
+})
+	.then((res) => {
+		if (res.ok ? 'post good' : 'post bad');
+		return res;
+	})
+	.then((res) => res.json())
+	.then((data) => console.log(data))
+	.catch((error) => console.log(error));

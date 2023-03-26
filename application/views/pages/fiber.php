@@ -4,12 +4,18 @@
       <?php $this->load->view("menus/main-menu.html");?>
     </header>
     <aside class="cost-form clay">
-      <h3 class="center-align">Open</h3>
-      <p>Open</p>
+      <h2 class="center-align">Stats</h2>
+      <h3 class="cal">Calories > 100</h3>
+      <ul class="topCals"></ul>
+      <h3>Fiber > 6</h3>
+      <ul class="topFiber"></ul>
+      <h3>Carbs > 16</h3>
+      <ul class="carb16"></ul>
+
     </aside>
     <main role="main" id="cost-main" class="clay">
       <section class="fiber-container">
-        <h3 class="center-align ul">Fiber & Sugar</h3>
+        <h1 class="center-align ul">Fiber & Sugar</h1>
         <table class="fiber-table">
           <tr>
             <th>Name</th>
@@ -30,6 +36,7 @@
       <p><span> Fiber Average -- </span><span class="fiber-average bold-8"></span></p>
       <p><span> Carb Average -- </span><span class="carb-average bold-8"></span></p>
       <p><span> Sugar Average -- </span><span class="sugar-average bold-8"></span></p>
+      <p>Number of Veggies: <span class="lengthOfFile bold-8" ></span></p>
     </aside>
     <footer id="main-footer">
       <p>footer</p>

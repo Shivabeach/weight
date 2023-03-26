@@ -1,5 +1,5 @@
 /** @format */
-
+const data = document.querySelector('#data');
 $(function() {
 	'use strict';
 	$('form#ajax').on('submit', function() {
@@ -34,3 +34,7 @@ $(function() {
 		.parent()
 		.css({ 'background-color': '#d8cdd3', border: '1px solid #803e27' });
 });
+
+if (data === document.hasFocus()) {
+	data.style.backgroundColor = red;
+}

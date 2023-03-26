@@ -4,15 +4,14 @@
       <?php $this->load->view("menus/main-menu.html");?>
     </header>
     <aside class="cost-form clay">
-      <h1 class="center-align">Vitamin C</h1>
-      <h4>Highest Rated</h4>
+      <h3>Vitamin C > 100</h3>
       <ul class="vitamins"></ul>
-      <h2 class="center-align">Potassium</h2>
+      <h3>Potassium > 200</h3>
       <ul class="potass"></ul>
     </aside>
     <main role="main" id="cost-main" class="clay">
       <section class="fruit-container">
-        <h3 class="center-align ul">Fruits</h3>
+        <h1 class="center-align ul">Fruits</h1>
         <table class="fruit-table">
           <tr>
             <th>Name</th>
@@ -33,6 +32,10 @@
       <p><span> Potassium -- </span><span class="pot-average bold-8"></span></p>
       <p><span> Calories -- </span><span class="cal-average bold-8"></span></p>
       <p><span> Sugar -- </span><span class="sugar-average bold-8"></span></p>
+      <p> Number of Fruits: <span class="lengthOfFile bold-8"></span></p>
+      <hr>
+      <h4 class="center-align">Sugar > 10</h4>
+      <ul class="sugars10"></ul>
     </aside>
     <footer id="main-footer">
       <p>footer</p>

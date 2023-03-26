@@ -471,8 +471,9 @@ code {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 48px;
   margin-bottom: 0.75rem;
+  font-family: "Hoefler Text", "Baskerville Old Face", "Garamond", "Times New Roman", serif;
 }
 
 h2 {

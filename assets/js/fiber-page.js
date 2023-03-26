@@ -16,10 +16,13 @@ document.querySelector('.showFiber').innerHTML = `
 	${fibers.map(display).join('')}`;
 
 const carby = document.querySelectorAll('.carby');
-
 const fiberAverage = document.querySelector('.fiber-average');
 const carbAverage = document.querySelector('.carb-average');
 const sugarAverage = document.querySelector('.sugar-average');
+const topFiber = document.querySelector('.topFiber');
+const topCals = document.querySelector('.topCals');
+const file = document.querySelector('.lengthOfFile');
+const carbs16 = document.querySelector('.carb16');
 
 function averageSugar() {
 	const sugary = document.querySelectorAll('.sugary');
@@ -32,6 +35,7 @@ function averageSugar() {
 	const totals = toNum.reduce((acc, cum) => acc + cum, 0);
 	const teeth = (totals / toNum.length).toFixed(2);
 	sugarAverage.innerHTML = `${teeth} grams`;
+	file.innerHTML = addSugarArray.length;
 }
 
 function averageFiber() {
@@ -59,6 +63,39 @@ function averageCarbs() {
 	const teeth = (totals / toNum.length).toFixed(2);
 	carbAverage.innerHTML = `${teeth} grams`;
 }
+
+function cals(fib) {
+	if (fib.Calories > 100) {
+		return `
+		<li>${fib.name} - ${fib.Calories}</li>
+	`;
+	}
+}
+
+document.querySelector('.topCals').innerHTML = `
+	${fibers.map(cals).join('')}`;
+
+function fibery(fib) {
+	if (fib.SoluableFiber > 6) {
+		return `
+		<li>${fib.name} - ${fib.SoluableFiber}</li>
+	`;
+	}
+}
+
+function carbery(fib) {
+	if (fib.Carbs > 16) {
+		return `
+		<li>${fib.name} - ${fib.Carbs}</li>
+	`;
+	}
+}
+
+document.querySelector('.carb16').innerHTML = `
+	${fibers.map(carbery).join('')}`;
+
+document.querySelector('.topFiber').innerHTML = `
+	${fibers.map(fibery).join('')}`;
 
 addEventListener('DOMContentLoaded', () => {
 	averageSugar();
