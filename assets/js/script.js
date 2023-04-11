@@ -12,6 +12,8 @@ const item5 = document.querySelector('.item-5');
 const item6 = document.querySelector('.item-6');
 const item7 = document.querySelector('.item-7');
 const item8 = document.querySelector('.item-8');
+const item9 = document.querySelector('.item-9');
+const item10 = document.querySelector('.item-10');
 
 let datey = document.getElementById('datey');
 const copyr = document.querySelector('.copy');
@@ -45,6 +47,12 @@ item7.innerHTML = item77;
 const str8 = 'Fruit';
 const item88 = str8.link('http://weight/pages/fruit');
 item8.innerHTML = item88;
+const str9 = 'Vinegar';
+const item99 = str9.link('http://weight/pages/vin');
+item9.innerHTML = item99;
+const str10 = 'TimeLine';
+const item100 = str10.link('http://weight/pages/time');
+item10.innerHTML = item100;
 
 // function returnDate() {
 // 	const date = new Date();

@@ -10,7 +10,7 @@ $green-blue: hsl(197, 55%, 55%)
 	--very-peri: #6868AC
 	--granite-green: #85A094
 	--burnished-lilac: #C6AAAF
-	--green-text: #8CE504
+	--green-text: hsl(83.733, 96.567%, 45.686%)
 
 
 $text: rgba(0,128,128, .5)
@@ -40,13 +40,13 @@ $madeup: hsl(var(--cyan-hue), 50%, 50%)
 $pleasant-green: hsl(117, 89%, 42%)
 $forest-green: hsl(131, 64%, 54%)
 $drk-green: hsl(172, 26%, 22%)
-$gen: #597d40
-$gen1: #2a8770
+$gen  : #597d40
+$gen1 : #2a8770
 $gen26: #709f1e
-$gen7: #0af820
-$gen5: #1f677f
-$gen4: #d8cdd3
-$gen6: #ae5498
+$gen7 : #0af820
+$gen5 : #1f677f
+$gen4 : #d8cdd3
+$gen6 : #ae5498
 $gen25: #b247b2
 $gen10: #521B29
 $gen18: #740334
@@ -107,7 +107,7 @@ $blue-pantone: #0018A8
 // 240 to 0 is blue to red
 // hsl($hue, $saturation %, $lightness %)
 
-$some-color: adjust-color(#050533, $lightness: 30deg) //beautiful blue
+$some-color: adjust-color(#050533, $lightness: 30%) //beautiful blue
 
 //purple
 // hue, saturation, lightness
@@ -149,34 +149,34 @@ $armadillo: hsl(16.0,10.2%,28.82%)
 $mortar: hsl(124.0,10.2%,38.82%)
 $don-juan: hsl(7.06,10.3%,32.35%)
 
-$gold-yellow: #F7B830
-$back: #202B36
-$headerBG: #211E9C
-$pageBG: #87B6E6
-$altbg: #1E2227
-$neon-carrot: #ff9933
+$gold-yellow : #F7B830
+$back        : #202B36
+$headerBG    : #211E9C
+$pageBG      : #87B6E6
+$altbg       : #1E2227
+$neon-carrot : #ff9933
 $green-yellow: #99ff33
-$sunglow: #ffcc33
-$gigas: #493693
-$pantone2019: #DB675B
-$zero: #0048BA
-$nutmeg: #803e27
+$sunglow     : #ffcc33
+$gigas       : #493693
+$pantone2019  : #DB675B
+$zero         : #0048BA
+$nutmeg       : #803e27
 $antique-brass: #C17C56
-$ignore: #FE5532
-$white: #FFFFFF
-$antique-ruby: #841B2D
-$gold: #ffd700
-$gold1: shade($gold, 20%)
-$v-red: #d95a77
-$v-red-dark: darken($v-red, 20%)
-$v-olive: #AEAB8A
-$aths-special: #cfcfcf
-$almond: #ECD0C2
-$clam-shell: #CEABB2
-$twilight: #DDC6CE
-$soft-peach: rgba(242, 230, 230, 0.5)
-$yellow: #ffff00
-$zest: #e67e22
+$ignore       : #FE5532
+$white        : #FFFFFF
+$antique-ruby : #841B2D
+$gold         : #ffd700
+$gold1        : shade($gold, 20%)
+$v-red        : #d95a77
+$v-red-dark   : darken($v-red, 20%)
+$v-olive      : #AEAB8A
+$aths-special : #cfcfcf
+$almond       : #ECD0C2
+$clam-shell   : #CEABB2
+$twilight     : #DDC6CE
+$soft-peach   : rgba(242, 230, 230, 0.5)
+$yellow       : #ffff00
+$zest         : #e67e22
 $darktwilight: darken($twilight, 2%)
 $special-dark: darken($aths-special, 2%)
 $soft-peach-dark: darken($soft-peach, 55%)
@@ -184,8 +184,7 @@ $soft-peach-menu: darken($soft-peach, 54%)
 $peachie: invert($soft-peach)
 $soft-peach1: rgba(242, 230, 230, 0.5)
 
-$color--peach-orange: #ffcc99
---clay-shadow-inset-secondary
+$color-peach-orange: #ffcc99
 $hover: #130393
 $visited: mix($antique-ruby, $hover, 70)
 $mixer: mix($clam-shell, $hover, 50)

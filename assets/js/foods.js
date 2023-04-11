@@ -600,6 +600,17 @@ export const foods = [
 		Protein: 2.3,
 	},
 	{
+		type: 'veggie',
+		name: 'Onion',
+		Size: '1 medium',
+		Calories: 41,
+		fat: 0.2,
+		Carbs: 9.5,
+		Cholesterol: 0,
+		Potassium: 156,
+		Protein: 1.3,
+	},
+	{
 		type: 'nuts',
 		name: 'Almonds',
 		Size: '1 oz',

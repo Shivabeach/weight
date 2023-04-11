@@ -13,10 +13,15 @@
   font-optical-sizing: auto;
 }
 @font-face {
+  font-family: light;
+  src: url("../fonts/Light/Light-Regular.ttf");
+}
+font-face {
   font-family: nunito;
   src: url("../fonts/nunito/Nunito-Italic-VariableFont_wght.ttf");
   font-optical-sizing: auto;
 }
+
 *,
 *::before,
 *::after {
@@ -684,6 +689,10 @@ li {
 .vitamins,
 .potass {
   margin-left: 1rem;
+}
+
+.light {
+  font-family: light;
 }
 
 /** @format */

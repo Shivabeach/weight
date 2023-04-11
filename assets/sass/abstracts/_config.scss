@@ -1,6 +1,6 @@
 /**
  * Config
- *
+ *`
  * @format
  */
 //modal::backdrop
@@ -43,6 +43,11 @@ $nunito: nunito;
 }
 
 @font-face {
+  font-family: light;
+  src: url('../fonts/Light/Light-Regular.ttf');
+}
+
+font-face {
   font-family: nunito;
   src: url('../fonts/nunito/Nunito-Italic-VariableFont_wght.ttf');
   // font-weight: 300 800;

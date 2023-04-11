@@ -65,6 +65,20 @@ class Pages extends CI_Controller {
 		$data["content"] = "pages/fruit";
 		$this->load->view("templates/template", $data);
 	}
+	public function vin()
+	{
+		$data["title"] = "Vinegar Record";
+		$data["header"] = "Vinegar Record";
+		$data["content"] = "pages/vinegar";
+		$this->load->view("templates/template", $data);
+	}
+	public function time()
+	{
+		$data["title"] = "Time Line";
+		$data["header"] = "Time Line";
+		$data["content"] = "pages/timeline";
+		$this->load->view("templates/template", $data);
+	}
 
 }
 

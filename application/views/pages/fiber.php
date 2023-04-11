@@ -15,7 +15,7 @@
     </aside>
     <main role="main" id="cost-main" class="clay">
       <section class="fiber-container">
-        <h1 class="center-align ul">Fiber & Sugar</h1>
+        <h1 class="center-align ul light">Fiber & Sugar</h1>
         <table class="fiber-table">
           <tr>
             <th>Name</th>
