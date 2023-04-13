@@ -3,15 +3,10 @@
     <header id="header">
       <?php $this->load->view("menus/main-menu.html");?>
     </header>
-    <aside class="cost-form clay">
-      <p>Aside</p>
-
-    </aside>
+    <h1 class="center-align ul light full">Timeline</h1>
     <main role="main" id="time-main" class="clay">
-      <section class="time-container">
-        <h1 class="center-align ul light">Timeline</h1>
 
-      </section>
+
     </main>
     <footer id="main-footer">
       <p>footer</p>
@@ -26,6 +21,7 @@
     </footer>
   </div>
   <script type="module" src="<?php echo base_url('assets/js/script-dist.js');?>"></script>
+  <script type="module" src="<?php echo base_url('assets/js/timeLine.js');?>"></script>
 </body>
 
 </html>

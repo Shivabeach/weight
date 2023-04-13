@@ -1,6 +1,6 @@
 /**
  * Config
- *
+ *`
  * @format
  */
 @font-face {
@@ -39,7 +39,7 @@ font-face {
   --very-peri: #6868AC;
   --granite-green: #85A094;
   --burnished-lilac: #C6AAAF;
-  --green-text: #8CE504;
+  --green-text: hsl(83.733, 96.567%, 45.686%);
 }
 
 /** @format */
@@ -970,6 +970,19 @@ footer#main-footer {
   flex: 1;
   background-color: #095aae;
   color: #fad590;
+}
+
+/** @format */
+#time-main {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.red {
+  min-height: 100px;
+  background-color: #dcffed;
+  padding: 1rem;
 }
 
 /* Calendar if needed */

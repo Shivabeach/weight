@@ -1,0 +1,13 @@
+/** @format */
+@use '../abstracts' as *;
+
+#time-main {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+.red {
+	min-height: 100px;
+	background-color: $mintcream1;
+	padding: 1rem;
+}
