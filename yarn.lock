@@ -19,42 +19,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"color-convert@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "color-convert@npm:2.0.1"
-  dependencies:
-    color-name: ~1.1.4
-  checksum: 79e6bdb9fd479a205c71d89574fccfb22bd9053bd98c6c4d870d65c132e5e904e6034978e55b43d69fcaa7433af2016ee203ce76eeba9cfa554b373e7f7db336
-  languageName: node
-  linkType: hard
-
-"color-name@npm:^1.0.0, color-name@npm:~1.1.4":
-  version: 1.1.4
-  resolution: "color-name@npm:1.1.4"
-  checksum: b0445859521eb4021cd0fb0cc1a75cecf67fceecae89b63f62b201cca8d345baf8b952c966862a9d9a2632987d4f6581f0ec8d957dfacece86f0a7919316f610
-  languageName: node
-  linkType: hard
-
-"color-string@npm:^1.9.0":
-  version: 1.9.0
-  resolution: "color-string@npm:1.9.0"
-  dependencies:
-    color-name: ^1.0.0
-    simple-swizzle: ^0.2.2
-  checksum: 93c6678b847f8cfa47d19677fd19e1d4b19d7a33f100644400357c298266080b5bca64e5f874fa8ac8cc0aa0606ad44f7a838b4e6fd05e6affea190a68555bb4
-  languageName: node
-  linkType: hard
-
-"color@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "color@npm:4.1.0"
-  dependencies:
-    color-convert: ^2.0.1
-    color-string: ^1.9.0
-  checksum: 9f2ca574f8453983ab549282962ccdb094d8b5d29de2d162f2bca81c0c82429d1dfac49d8dabf2c0c0369bb7ceae16ceabc9f523f9eaedcba38a464e72091458
-  languageName: node
-  linkType: hard
-
 "data-uri-to-buffer@npm:^4.0.0":
   version: 4.0.0
   resolution: "data-uri-to-buffer@npm:4.0.0"
@@ -81,13 +45,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-arrayish@npm:^0.3.1":
-  version: 0.3.2
-  resolution: "is-arrayish@npm:0.3.2"
-  checksum: 977e64f54d91c8f169b59afcd80ff19227e9f5c791fa28fa2e5bce355cbaf6c2c356711b734656e80c9dd4a854dd7efcf7894402f1031dfc5de5d620775b4d5f
-  languageName: node
-  linkType: hard
-
 "node-domexception@npm:^1.0.0":
   version: 1.0.0
   resolution: "node-domexception@npm:1.0.0"
@@ -95,14 +52,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-fetch@npm:^3.2.10":
-  version: 3.2.10
-  resolution: "node-fetch@npm:3.2.10"
+"node-fetch@npm:^3.3.1":
+  version: 3.3.1
+  resolution: "node-fetch@npm:3.3.1"
   dependencies:
     data-uri-to-buffer: ^4.0.0
     fetch-blob: ^3.1.4
     formdata-polyfill: ^4.0.10
-  checksum: e65322431f4897ded04197aa5923eaec63a8d53e00432de4e70a4f7006625c8dc32629c5c35f4fe8ee719a4825544d07bf53f6e146a7265914262f493e8deac1
+  checksum: 62145fd3ba4770a76110bc31fdc0054ab2f5442b5ce96e9c4b39fc9e94a3d305560eec76e1165d9259eab866e02a8eecf9301062bb5dfc9f08a4d08b69d223dd
   languageName: node
   linkType: hard
 
@@ -113,10 +70,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"purecss@npm:^2.0.6":
-  version: 2.0.6
-  resolution: "purecss@npm:2.0.6"
-  checksum: 9df07727915e6535fabc39b0f5ce6bd608945a148b6dd53ce0f5c7beb02e898b970612565268528d475b62fff7bf4d6bddcb2d7465c96cc98ec6a2d6ae9fb970
+"purecss@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "purecss@npm:3.0.0"
+  checksum: 9a8d8a6c28bf94a592fd57c1f306af02bffd47758ad844ddf04f274d366b474a19f236bf6ef88d372bff011579ce955530b344ba82a7b052a315b7ca9ca8f08f
   languageName: node
   linkType: hard
 
@@ -124,15 +81,6 @@ __metadata:
   version: 0.4.0
   resolution: "reasonable-colors@npm:0.4.0"
   checksum: b86c5b15923892d10bbd5f98ac411084f8849229a0210b2f15f69706b7f8754bd48d542e4b3b6c279c4a024697466aa1165649c5ea7821b41c16993cedab070a
-  languageName: node
-  linkType: hard
-
-"simple-swizzle@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "simple-swizzle@npm:0.2.2"
-  dependencies:
-    is-arrayish: ^0.3.1
-  checksum: a7f3f2ab5c76c4472d5c578df892e857323e452d9f392e1b5cf74b74db66e6294a1e1b8b390b519fa1b96b5b613f2a37db6cffef52c3f1f8f3c5ea64eb2d54c0
   languageName: node
   linkType: hard
 
@@ -149,10 +97,9 @@ __metadata:
   dependencies:
     clay: ^2.24.1
     claymorphism-css: ^1.0.5
-    color: ^4.1.0
-    node-fetch: ^3.2.10
+    node-fetch: ^3.3.1
     pure: ^2.85.0
-    purecss: ^2.0.6
+    purecss: ^3.0.0
     reasonable-colors: ^0.4.0
   languageName: unknown
   linkType: soft

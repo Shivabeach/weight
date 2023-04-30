@@ -14,6 +14,7 @@ const item7 = document.querySelector('.item-7');
 const item8 = document.querySelector('.item-8');
 const item9 = document.querySelector('.item-9');
 const item10 = document.querySelector('.item-10');
+const item12 = document.querySelector('.item-12');
 
 let datey = document.getElementById('datey');
 const copyr = document.querySelector('.copy');
@@ -53,8 +54,11 @@ item9.innerHTML = item99;
 const str10 = 'TimeLine';
 const item100 = str10.link('http://weight/pages/time');
 item10.innerHTML = item100;
+const str12 = 'Sources';
+const item111 = str12.link('http://weight/pages/source');
+item12.innerHTML = item111;
 
-// function returnDate() {
+// func2ion returnDate() {
 // 	const date = new Date();
 // 	const day = date.getDate();
 // 	const month = date.getMonth() + 1;

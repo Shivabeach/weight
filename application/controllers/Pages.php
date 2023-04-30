@@ -80,6 +80,14 @@ class Pages extends CI_Controller {
 		$this->load->view("templates/template", $data);
 	}
 
+	public function source()
+	{
+		$data["title"] = "Source links";
+		$data["header"] = "Source Links";
+		$data["content"] = "pages/sources";
+		$this->load->view("templates/template", $data);
+	}
+
 }
 
 /* End of file Pages.php */
