@@ -184,7 +184,6 @@
   </section>
   <!-- footer -->
   <footer id="main-footer">
-    <p>footer</p>
     <div class="copy"></div>
     <div id="datey"></div>
     <div class="origin">Project start 2 / 23 / 2022</div>

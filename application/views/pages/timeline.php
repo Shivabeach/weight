@@ -9,15 +9,13 @@
 
     </main>
     <footer id="main-footer">
-      <p>footer</p>
+      <hr>
       <div class="copy"></div>
       <div id="datey"></div>
       <div class="origin">This page start 4/10/2023</div>
       <div class="locate"></div>
       <div class="color"></div>
-      <p>Page rendered in <strong>{elapsed_time}</strong> seconds.
-        <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?>
-      </p>
+      <p><?php echo 'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' ;?></p>
     </footer>
   </div>
   <script type="module" src="<?php echo base_url('assets/js/script-dist.js');?>"></script>

@@ -6,7 +6,6 @@
   "repository": "https://github.com/Shivabeach/weight.git",
   "author": "Brad",
   "license": "MIT",
-  "private": false,
   "dependencies": {
     "clay": "^2.24.1",
     "claymorphism-css": "^1.0.5",
@@ -15,5 +14,6 @@
     "pure": "^2.85.0",
     "purecss": "^2.0.6",
     "reasonable-colors": "^0.4.0"
-  }
+  },
+  "packageManager": "yarn@3.5.0"
 }

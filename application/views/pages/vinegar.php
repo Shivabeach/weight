@@ -6,7 +6,7 @@
     <aside class="cost-form clay">
       <h2 class="center-align">Stats</h2>
     </aside>
-    <main role="main" id="cost-main" class="clay">
+    <main role="main" id="vin-main" class="clay">
       <section class="fiber-container">
         <h1 class="center-align ul light">Vinegar Record</h1>
         <table class="vinegar-table">
@@ -23,9 +23,9 @@
         </table>
       </section>
     </main>
-    <aside class="cost-notes clay">
+   <!--  <aside class="cost-notes clay">
       <h4 class="center-align">Stats</h4>
-    </aside>
+    </aside> -->
     <footer id="main-footer">
       <p>footer</p>
       <div class="copy"></div>
@@ -33,7 +33,7 @@
       <div class="origin">This page start 1/7/2023</div>
       <div class="locate"></div>
       <div class="color"></div>
-      <p>Page rendered in <strong>{ elapsed_time }</strong> seconds. <?php echo 'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' ;?></p>
+      <p><?php echo 'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' ;?></p>
     </p>
   </footer>
 </div>

@@ -23,6 +23,15 @@
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 1rem;
 }
+
+#vin-main {
+	grid-column: 2/7;
+	grid-row: 2/6;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1rem;
+}
+
 .cost-notes {
 	grid-column: 6/7;
 }
