@@ -76,14 +76,14 @@ function showVits(cs) {
 	}
 }
 function showPot(cs) {
-	if (cs.potassium > 200) {
+	if (cs.potassium > 250) {
 		return `
 		<li>${cs.name} - ${cs.potassium}</li>
 	`;
 	}
 }
 function sugar10(cs) {
-	if (cs.sugars > 10) {
+	if (cs.sugars > 13) {
 		return `
 		<li>${cs.name} - ${cs.sugars}</li>
 	`;

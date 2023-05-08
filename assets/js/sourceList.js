@@ -20,4 +20,9 @@ export const sources = [
 		event:
 			'<a href="https://www.nutritionix.com/" target="_blank">Nutrition Food Values</a>',
 	},
+	{
+		dateEntered: '5/1/2023',
+		event:
+			'<a href="https://www.webmd.com/diet/health-benefits-purslane" target="_blank"/>Purslane</a>',
+	},
 ];

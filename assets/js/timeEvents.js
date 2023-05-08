@@ -36,4 +36,13 @@ export const timing = [
 		date: '4/28/2023',
 		event: 'Created source links page',
 	},
+	{
+		date: '5/2/2023',
+		event:
+			'Started 2 more vinegars, 9 & 10. Decided I am stirring them too much and getting mush',
+	},
+	{
+		date: '5/8/2023',
+		event: 'Today I ran the mbr2gpt, changed the system to GPT',
+	},
 ];

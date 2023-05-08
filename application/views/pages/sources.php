@@ -19,7 +19,7 @@
     </footer>
   </div>
   <script type="module" src="<?php echo base_url('assets/js/script-dist.js');?>"></script>
-  <script type="module" src="<?php echo base_url('assets/js/sources.js');?>"></script>
+  <script type="module" src="<?php echo base_url('assets/js/sources-dist.js');?>"></script>
 </body>
 
 </html>

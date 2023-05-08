@@ -276,8 +276,8 @@ body {
 }
 
 /* Elements */
-p {
-  margin-top: 0.75rem;
+:is(p) {
+  padding: 1rem;
 }
 
 blockquote {
@@ -318,7 +318,7 @@ table.support tr:nth-child(even) {
 
 /* Links */
 a {
-  color: hsl(336deg, 86%, 24%);
+  color: hsl(336, 86%, 24%);
   text-decoration: none;
   outline: none;
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", sans-serif;
@@ -326,13 +326,13 @@ a {
   transition: all 350ms ease;
 }
 a:visited {
-  color: hsl(336deg, 86%, 24%);
+  color: hsl(336, 86%, 24%);
 }
 a:hover, a a:focus {
-  color: hsl(336deg, 86%, 54%);
+  color: hsl(336, 86%, 54%);
 }
 a:active {
-  color: hsla(331.11deg, 67.5%, 15.69%, 0.9);
+  color: hsla(331.11, 67.5%, 15.69%, 0.9);
 }
 
 .inline-list {
@@ -395,7 +395,7 @@ header a:link {
 }
 
 .white {
-  color: hsl(286deg, 96%, 98%);
+  color: hsl(286, 96%, 98%);
 }
 
 .ul {
@@ -598,8 +598,9 @@ select {
 }
 
 /*list properties */
-li {
-  list-style-type: disk;
+ul {
+  list-style-type: none;
+  margin-left: 2rem;
 }
 
 .item {
@@ -695,7 +696,7 @@ li {
 }
 
 .sugars10 {
-  padding: 2rem;
+  padding: 0.25rem;
 }
 
 /** @format */
@@ -1003,7 +1004,7 @@ footer#main-footer {
 
 /* Calendar if needed */
 .calendar {
-  background: hsl(48deg, 100%, 93.14%);
+  background: hsl(48, 100%, 93.14%);
   padding: 1em;
   border: 2px solid #000;
   width: 100%;
@@ -1077,7 +1078,7 @@ div.highlight:has(.day) {
 }
 
 body {
-  background-color: #f5fffa;
+  background-image: linear-gradient(to right, #f5fffa, #D1E8D6);
 }
 
 .col-1 {
@@ -1111,6 +1112,10 @@ section {
   color: #f9c59b;
   font-family: "arial";
   font-weight: 700;
+}
+
+footer#main-footer {
+  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.3));
 }
 
 .dark {

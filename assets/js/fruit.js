@@ -3,6 +3,16 @@
 export const fruit = [
 	{
 		type: 'fruit',
+		name: 'Watermelon',
+		size: '1 wedge',
+		calories: 86,
+		carbs: 22,
+		sugars: 18,
+		potassium: 320,
+		vitC: 12.3,
+	},
+	{
+		type: 'fruit',
 		name: 'Apple',
 		size: '1 medium',
 		calories: 105,
