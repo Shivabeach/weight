@@ -699,6 +699,16 @@ ul {
   padding: 0.25rem;
 }
 
+.bb, .redd {
+  border-bottom: 1px solid #000;
+  font-size: 1.15rem;
+}
+
+.redd {
+  color: #0048BA;
+  text-shadow: 6px 6px 16px #000;
+}
+
 /** @format */
 /** All prime container properties */
 #prime-container {

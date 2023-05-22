@@ -3,10 +3,16 @@
     <header id="header">
       <?php $this->load->view("menus/main-menu.html");?>
     </header>
-    <aside class="cost-form clay">
+    <aside class="clay">
+      <h2 class="center-align">Stats</h2>
+      <p class="projects"></p>
+
       <h2 class="center-align">Comments</h2>
       <p>It occurs that I may be stirring the mix too much. This may be producing the mash that is hard to strain out. Bottle 9 will be the experiemnt to disprove that. I am going for one stir per day</p>
-      <p>Bottle 4,5,6,7 Dumped. Poor taste</p>
+      <p>Bottle 4,5,6,7,8 Dumped. Poor taste</p>
+      <p>Strawberry doesnt seem to be a good fit for vinegar</p>
+      <p>White distilled vinegar typically has a pH of around 2.5.</p>
+      <p>New Meter 5/15/2023. All ph will be using this meter</p>
     </aside>
     <main role="main" id="vin-main" class="clay">
       <section class="fiber-container">

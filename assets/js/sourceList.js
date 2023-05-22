@@ -25,4 +25,9 @@ export const sources = [
 		event:
 			'<a href="https://www.webmd.com/diet/health-benefits-purslane" target="_blank"/>Purslane</a>',
 	},
+	{
+		dateEntered: '5/14/2023',
+		event:
+			'<a href="https://www.thespruce.com/anise-hyssop-plant-profile-5118429" target="_blank"/>Anise Hyssop</a>',
+	},
 ];

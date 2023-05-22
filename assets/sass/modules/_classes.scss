@@ -1,5 +1,5 @@
 /** @format */
-
+@use '../abstracts' as *;
 .head1 {
 	font-size: 1.5rem;
 }
@@ -21,6 +21,19 @@
 .sugars10 {
 	padding: 0.25rem;
 }
+// for vinegar completed items
+
+.bb {
+	border-bottom: 1px solid #000;
+	font-size: 1.15rem;
+}
+
+.redd {
+	@extend .bb;
+	color: $zero;
+	text-shadow: 6px 6px 16px #000;
+}
+
 // background clip
 
 // .demo2 h1 {

@@ -45,4 +45,9 @@ export const timing = [
 		date: '5/8/2023',
 		event: 'Today I ran the mbr2gpt, changed the system to GPT',
 	},
+	{
+		date: '5/15/2023',
+		event:
+			'Resist putting more sugar in vinegar when there is little material left to ferment',
+	},
 ];

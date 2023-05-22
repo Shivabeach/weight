@@ -123,6 +123,16 @@ export const fruit = [
 	},
 	{
 		type: 'fruit',
+		name: 'Blackberry',
+		size: '1 cup',
+		calories: 56,
+		carbs: 12.4,
+		sugars: 6.4,
+		potassium: 210,
+		vitC: 33,
+	},
+	{
+		type: 'fruit',
 		name: 'Raspberry',
 		size: '1 cup',
 		calories: 55,

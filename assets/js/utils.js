@@ -82,3 +82,13 @@ export const returnDate = (str) => {
 
 	return (str = `${day}/${month}/${year}`);
 };
+
+export const days = [
+	'Sunday',
+	'Monday',
+	'Tuesday',
+	'Wednesday',
+	'Thursday',
+	'Friday',
+	'Saturday',
+];

@@ -6,7 +6,7 @@
     <aside class="cost-form clay">
       <h3>Vitamin C > 100</h3>
       <ul class="vitamins"></ul>
-      <h3>Potassium > 200</h3>
+      <h3>Potassium > 250</h3>
       <ul class="potass"></ul>
     </aside>
     <main role="main" id="cost-main" class="clay">

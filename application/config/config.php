@@ -120,7 +120,7 @@ $config['encryption_key'] = hex2bin('1631374b4e1d5bcd395bf8fd39b3ad51');
 |
 */
 $config['sess_driver'] = 'files';
-$config['sess_cookie_name'] = 'ci_session';
+$config['sess_cookie_name'] = '';
 $config['sess_expiration'] = 7200;
 $config['sess_save_path'] = NULL;
 $config['sess_match_ip'] = FALSE;
