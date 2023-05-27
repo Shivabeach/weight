@@ -18,44 +18,56 @@ export const vinegarList = [
 	},
 	{
 		ID: 9,
-		contents: 'Blackberry, Strawberry, Apple',
+		contents: '<p class="redd">* Blackberry, Strawberry, Apple * </p>',
 		started: '5/1/2023',
-		finished: '',
-		ph: '3.63',
+		finished: '5/22/2023',
+		ph: '3.50',
 		comments:
-			'Blackberry,Apple, Strawberry, Mint, Anise 3/4 cup of sugar<br>Strained and added apples 5/17',
+			'Blackberry,Apple, Strawberry, Mint, Anise 3/4 cup of sugar<br>Strained tested 5/22',
 	},
 	{
 		ID: 10,
 		contents: '<p class="redd">* Strawberry, Apple *</p>',
 		started: '5/2/2023',
 		finished: '3/21/2023',
-		ph: '3.31',
+		ph: '3.51',
 		comments:
 			'Apple, Strawberry, thyme 1/3 cup of sugar<br>Bottled 5/21. Decent vinegar taste',
 	},
 	{
 		ID: 11,
-		contents: 'Raisin, apple',
+		contents: '<p class="redd">* Raisin, apple * </p>',
 		started: '5/4/2023',
-		finished: '',
-		ph: '3.71',
-		comments: 'Apple, Raisin 1/4 cup of sugar',
+		finished: '5/22/2023',
+		ph: '3.53',
+		comments:
+			'Apple, Raisin 1/4 cup of sugar<br> Decent taste, strained tested 5/22',
 	},
 	{
 		ID: 12,
 		contents: 'Pineapple, herbs',
 		started: '5/9/2023',
 		finished: '',
-		ph: '3.46',
-		comments: 'Pineapple, mint, anise, thyme, 1/4 cup of sugar<br>Tested 5/19',
+		ph: '3.47',
+		comments:
+			'Pineapple, mint, anise, thyme, 1/4 cup of sugar<br>Strained out 5/25',
 	},
 	{
 		ID: 13,
 		contents: 'Raspberry, Blackberry',
 		started: '5/16/2023',
 		finished: '',
-		ph: '',
-		comments: '1 pkg Raspberry, 1 1/2 pkg Blackberry, 1/3 cup of sugar',
+		ph: '3.50',
+		comments:
+			'1 pkg Raspberry, 1 1/2 pkg Blackberry, 1/3 cup of sugar. Stopped bubbling 5/23.<br> Red color. Is seperating',
+	},
+	{
+		ID: 14,
+		contents: 'Pineapple',
+		started: '5/23/2023',
+		finished: '',
+		ph: '3.50',
+		comments:
+			'Large Jar, Pineapple, Distilled Water, 5/8 cup of sugar<br>Slight bubbling on 5/25, added 1 tbsp sugar 5/26',
 	},
 ];

@@ -50,4 +50,9 @@ export const timing = [
 		event:
 			'Resist putting more sugar in vinegar when there is little material left to ferment',
 	},
+	{
+		date: '5/23/2023',
+		event:
+			'Jar 14. Pineapple, large Jar. I am trying distilled water, which has a lower Ph to start with',
+	},
 ];
