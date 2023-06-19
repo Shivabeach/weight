@@ -64,6 +64,11 @@ font-face {
   margin: 0;
 }
 
+::selection {
+  background-color: black;
+  color: white;
+}
+
 //animations
 $base-duration: 350ms;
 $base-timing: ease;

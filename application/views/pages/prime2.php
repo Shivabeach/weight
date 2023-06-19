@@ -12,9 +12,6 @@
 				<h4 class="center-align scale-125">Meats</h4>
 			<select name="meats" id="meat-choice" class="padding-1">
 				<option value="">Pick One</option>
-				<option value="Garden Of Life Fit">Garden Of Life Fit</option>
-				<option value="Garden Of Life Greens">Garden Of Life Greens</option>
-				<option value="NitroTeck">NitroTeck</option>
 				<option value="Yogurt">Yogurt</option>
 				<option value="Chicken Tenderloin">Chicken Tenderloin</option>
 				<option value="Pink Salmon">Pink Salmon</option>
@@ -72,14 +69,13 @@
 				<option value="Sweet Potato">Sweet Potato</option>
 				<option value="Onion">Onion</option>
 			</select>
-			<h4 class="center-align scale-125">Oils</h4>
+			<h4 class="center-align scale-125">Protein Drinks</h4>
 			<select name="oil" id="oil" class="padding-1">
 				<option value="">Pick an Oil</option>
-				<option value="Coconut oil">Coconut oil</option>
-				<option value="Olive oil">Olive oil</option>
-				<option value="Macadamia Oil">Macadamia Oil</option>
-				<option value="Avocado Oil">Avocado Oil</option>
-				<option value="Grass fed Butter">Grass fed Butter</option>
+				<option value="Garden Of Life Fit">Garden Of Life</option>
+				<option value="NitroTeck">NitroTeck</option>
+				<option value="Garden Of Life Greens">Garden Of Life Greens</option>
+				<option value="Premier Protein">Premier Protein</option>
 			</select>
 			<h4 class="center-align scale-125">Nuts & Seeds</h4>
 			<select name="nuts" id="nuts" class="padding-1">

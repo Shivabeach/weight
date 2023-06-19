@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Config
  *`
@@ -28,6 +29,11 @@ font-face {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+::selection {
+  background-color: black;
+  color: white;
 }
 
 :root {
@@ -600,7 +606,7 @@ select {
 /*list properties */
 ul {
   list-style-type: none;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .item {
@@ -619,12 +625,26 @@ ul {
   transition: width 0.5s, height 0.5s, background-color green, transform 0.5s;
 }
 
+.listStyle {
+  list-style-type: square;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.odd {
+  background-color: #FFEFD8;
+  list-style-type: circle;
+}
+
 /*Cards */
 /**
  * *
  * * classes for clay.css
  * *
  * */
+:root {
+  --special-foreground-color: #a5d8ff;
+}
+
 .card {
   --clay-background: #C6AAAF;
 }
@@ -638,6 +658,31 @@ ul {
 .show-veg,
 .show-profile {
   text-decoration: underline;
+}
+
+.footer-skeleton {
+  display: flex;
+  column-gap: 1rem;
+  background: #5B53AD;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.comment-holder {
+  flex: 1 1 23%;
+  box-sizing: inherit;
+  background: #fad590;
+}
+.comment-holder li {
+  color: #052a6f;
+}
+.comment-holder p {
+  color: #052a6f;
+}
+.comment-holder li:before {
+  content: "✦";
+  color: black;
+  background: var(--special-foreground-color);
 }
 
 /** @format */
@@ -712,7 +757,7 @@ ul {
 /** @format */
 /** All prime container properties */
 #prime-container {
-  width: calc(100% - 100px);
+  width: calc(100% - 25px);
   margin-inline: auto;
   display: grid;
   height: 100vh;
@@ -856,7 +901,7 @@ footer#main-footer {
  * @format
  */
 #cost-container {
-  max-width: 85%;
+  max-width: 90%;
   margin-inline: auto;
   height: auto;
   display: grid;

@@ -4,7 +4,7 @@
 @use '../abstracts' as *;
 // prime page layout
 #prime-container {
-	width: calc(100% - 100px);
+	width: calc(100% - 25px);
 	margin-inline: auto;
 	display: grid;
 	height: 100vh;

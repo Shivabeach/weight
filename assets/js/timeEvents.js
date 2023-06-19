@@ -55,4 +55,8 @@ export const timing = [
 		event:
 			'Jar 14. Pineapple, large Jar. I am trying distilled water, which has a lower Ph to start with',
 	},
+	{
+		date: '5/29/2023',
+		event: 'Stopped taking Jardiance due to cost',
+	},
 ];

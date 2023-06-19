@@ -10,7 +10,7 @@
         <tr class="fs-2">
           <th>Name</th>
           <th>Size</th>
-          <th>Calories</th>
+          <th>Cals</th>
           <th>Carbs</th>
           <th>Potassium</th>
         </tr>

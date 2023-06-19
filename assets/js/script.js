@@ -67,17 +67,19 @@ item12.innerHTML = item111;
 // 	datey.innerHTML = `Today is ${month} / ${day} / ${year}`;
 // }
 // returnDate();
-
+// ==========================================================================
+// New Date method!
+// ==========================================================================
 const today = new Date();
 const f = new Intl.DateTimeFormat('en-us', {
 	dateStyle: 'full',
 	//timeStyle: 'full',
 });
 // datey.style.color = '#4b0082';
-datey.innerHTML = f.format(today);
+datey.innerText = f.format(today);
 
 let yer = new Date();
-copyr.innerHTML = `\u00A92019 - ${yer.getFullYear()}`; //copywright
+copyr.innerText = `\u00A92019 - ${yer.getFullYear()}`; //copywright
 
 for (let i = 0; i < document.links.length; i++) {
 	// this highlights the current active link
@@ -104,5 +106,5 @@ addEventListener('DOMContentLoaded', () => {
 
 const locate = document.querySelector('.locate');
 if (locate != null) {
-	locate.innerHTML = 'Page location is ' + window.location.href;
+	locate.innerHTML = 'Page location is ' + location.href;
 }

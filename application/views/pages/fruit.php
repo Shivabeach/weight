@@ -34,7 +34,7 @@
       <p><span> Sugar -- </span><span class="sugar-average bold-8"></span></p>
       <p> Number of Fruits: <span class="lengthOfFile bold-8"></span></p>
       <hr>
-      <h3 class="center-align">Sugar > 10</h3>
+      <h3 class="center-align">Sugar > 13</h3>
       <ul class="sugars10"></ul>
     </aside>
     <footer id="main-footer">

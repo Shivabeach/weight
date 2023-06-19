@@ -221,4 +221,14 @@ export const fruit = [
 		potassium: 455,
 		vitC: 29,
 	},
+	{
+		type: 'fruit',
+		name: 'Raisin',
+		size: '1/2 cup',
+		calories: 120,
+		carbs: 34,
+		sugars: 26,
+		potassium: 320,
+		vitC: 1,
+	},
 ];
