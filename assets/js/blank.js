@@ -86,3 +86,14 @@ fetch('application/controllers/Form/entry', {
 	.then((res) => res.json())
 	.then((data) => console.log(data))
 	.catch((error) => console.log(error));
+
+//
+// Read a json file with fetch. Use countries.json file
+//
+fetch('http://weight/assets/js/countries.json')
+	.then((response) => response.json())
+	.then((data) => showInfo);
+
+function showInfo() {
+	console.table(data.countries);
+}

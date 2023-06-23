@@ -68,7 +68,7 @@ export const vinegarList = [
 		finished: '',
 		ph: '3.50',
 		comments:
-			'Strawberry, Distilled Water, 1/3 cup of sugar<br> Started bubbling 6/1<br>Still bubbling 6/16<br>Strained & added more strawberries for 2nd ferment 6/18',
+			'Strawberry, Distilled Water, 1/3 cup of sugar<br> Started bubbling 6/1<br>Still bubbling 6/16<br>Strained & added more strawberries for 2nd ferment 6/18. <br>Possible Finish 7/5',
 	},
 	{
 		ID: 16,
