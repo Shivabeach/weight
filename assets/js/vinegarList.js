@@ -66,7 +66,7 @@ export const vinegarList = [
 		contents: 'Strawberry',
 		started: '5/30/2023',
 		finished: '',
-		ph: '3.50',
+		ph: '3.28',
 		comments:
 			'Strawberry, Distilled Water, 1/3 cup of sugar<br> Started bubbling 6/1<br>Still bubbling 6/16<br>Strained & added more strawberries for 2nd ferment 6/18. <br>Possible Finish 7/5',
 	},
@@ -76,6 +76,7 @@ export const vinegarList = [
 		started: '6/16/2023',
 		finished: '',
 		ph: '3.50',
-		comments: 'Raisin, 1/2 tbsp of sugar<br> 2 banana peel, 1 cherry',
+		comments:
+			'Raisin, 1/2 tbsp of sugar<br> 2 banana peel, 1 cherry<bt>Strained 6/26',
 	},
 ];

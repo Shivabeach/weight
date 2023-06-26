@@ -53,6 +53,16 @@ export const fruit = [
 	},
 	{
 		type: 'fruit',
+		name: 'Nectarine',
+		size: '1 fruit',
+		calories: 69,
+		carbs: 16,
+		sugars: 12,
+		potassium: 313,
+		vitC: 7.7,
+	},
+	{
+		type: 'fruit',
 		name: 'Orange',
 		size: '1 medium',
 		calories: 69,
@@ -229,6 +239,6 @@ export const fruit = [
 		carbs: 34,
 		sugars: 26,
 		potassium: 320,
-		vitC: 1,
+		vitC: 2.3,
 	},
 ];
