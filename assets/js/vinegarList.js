@@ -41,11 +41,11 @@ export const vinegarList = [
 		finished: '5/22/2023',
 		ph: '3.53',
 		comments:
-			'Apple, Raisin 1/4 cup of sugar<br> Decent taste, strained tested 5/22',
+			'Apple, Raisin 1/4 cup of sugar<br> Decent taste, strained tested 5/22<br> Sealed up 6/26, started Kahlm yeast',
 	},
 	{
 		ID: 12,
-		contents: 'Pineapple, herbs',
+		contents: '<p class="redd">Pineapple, herbs</p>',
 		started: '5/9/2023',
 		finished: '',
 		ph: '3.31',
@@ -54,10 +54,10 @@ export const vinegarList = [
 	},
 	{
 		ID: 14,
-		contents: 'Pineapple',
+		contents: '<p class="redd">Pineapple</p>',
 		started: '5/23/2023',
 		finished: '',
-		ph: '3.74',
+		ph: '3.63',
 		comments:
 			'Large Jar, Pineapple, Distilled Water, 5/8 cup of sugar<br>Slight bubbling on 5/25, <br>Added 1/2 tbsp sugar daily up to 5/30. Stopped bubbling 6/1<br>Added a few raisins to the small jar for another ferment 6/16',
 	},
@@ -75,8 +75,17 @@ export const vinegarList = [
 		contents: 'Raisins',
 		started: '6/16/2023',
 		finished: '',
+		ph: '3.60',
+		comments:
+			'Raisin, 1/2 tbsp of sugar<br> 2 banana peel, 1 cherry<br>Strained 6/26',
+	},
+	{
+		ID: 17,
+		contents: 'Strawberries',
+		started: '6/27/2023',
+		finished: '',
 		ph: '3.50',
 		comments:
-			'Raisin, 1/2 tbsp of sugar<br> 2 banana peel, 1 cherry<bt>Strained 6/26',
+			'Large Jar, LOTS of strawberries, 1/2 cup of raw sugar<br>Bubbling starts 6/29',
 	},
 ];

@@ -32,7 +32,7 @@
       <section class="fiber-container">
         <h1 class="center-align ul light">Vinegar Record</h1>
         <table class="vinegar-table">
-          <tr>
+          <tr class="table-header">
             <th>Batch</th>
             <th>Contents</th>
             <th>Started</th>
