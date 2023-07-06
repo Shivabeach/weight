@@ -71,11 +71,15 @@
           <ul>
             <li>Bottle 4,5,6,7,8,13 Dumped. Poor taste and/or Kalm yeast</li>
             <li>Strawberry doesnt seem to be a good fit for vinegar</li>
+            <li>{elapsed_time}</li>
           </ul>
         </div>
         <div class="comment-holder">
           <p>It occurs that I may be stirring the mix too much. This may be producing the mash that is hard to strain out. Bottle 9 will be the experiemnt to disprove that. I am going for one stir per day</p></div>
         </div>
+
+
+
       </footer>
     </div>
     <script type="module" src="<?php echo base_url('assets/js/vinegar.js');?>"></script>

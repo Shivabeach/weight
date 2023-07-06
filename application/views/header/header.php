@@ -2,7 +2,6 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 <!DOCTYPE html>
-<?php ob_start(); ?>
 <html lang="en">
 
 <head>
@@ -14,14 +13,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     onload="this.media='all'">
   <link rel="stylesheet" href="<?php echo base_url('node_modules\purecss\build\pure.css');?>">
   <link rel="stylesheet" href="<?php echo base_url('node_modules\claymorphism-css\dist\clay.css');?>">
-  <!-- <link
-  rel=" stylesheet" href="https://unpkg.com/claymorphism-css/dist/clay.css" /> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="C:\wamp64\www\weight\favicon-32x32.png">
-  <!-- <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png"> -->
-  <!--   <base target="_blank"> -->
-  <script>
+ <script>
   let FF_FOUC_FIX;
   </script>
 </head>

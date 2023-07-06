@@ -2,7 +2,7 @@
 export const vinegarList = [
 	{
 		ID: 1,
-		contents: '<p class="redd">* Raisins *</p>',
+		contents: '<p class="redd">✿ Raisins *</p>',
 		started: '3/6/2023',
 		finished: '5/21/2023',
 		ph: '3.53',
@@ -10,7 +10,7 @@ export const vinegarList = [
 	},
 	{
 		ID: 3,
-		contents: '<p class="redd">* Strawberries, Blackberries, Raspberries *</p>',
+		contents: '<p class="redd">❤ Strawberries, Blackberries, Raspberries *</p>',
 		started: '3/18/2023',
 		finished: '5/21/2023',
 		ph: '3.18',
@@ -18,7 +18,7 @@ export const vinegarList = [
 	},
 	{
 		ID: 9,
-		contents: '<p class="redd">* Blackberry, Strawberry, Apple * </p>',
+		contents: '<p class="redd">✿ Blackberry, Strawberry, Apple * </p>',
 		started: '5/1/2023',
 		finished: '5/22/2023',
 		ph: '3.50',
@@ -27,7 +27,7 @@ export const vinegarList = [
 	},
 	{
 		ID: 10,
-		contents: '<p class="redd">* Strawberry, Apple *</p>',
+		contents: '<p class="redd">❤ Strawberry, Apple *</p>',
 		started: '5/2/2023',
 		finished: '3/21/2023',
 		ph: '3.31',
@@ -36,7 +36,7 @@ export const vinegarList = [
 	},
 	{
 		ID: 11,
-		contents: '<p class="redd">* Raisin, apple * </p>',
+		contents: '<p class="redd">✿ Raisin, apple * </p>',
 		started: '5/4/2023',
 		finished: '5/22/2023',
 		ph: '3.53',
@@ -45,47 +45,56 @@ export const vinegarList = [
 	},
 	{
 		ID: 12,
-		contents: '<p class="redd">Pineapple, herbs</p>',
+		contents: '<p class="redd">❤ Pineapple, herbs *</p',
 		started: '5/9/2023',
-		finished: '',
+		finished: '6/9/2023',
 		ph: '3.31',
 		comments:
 			'Pineapple, mint, anise, thyme, 1/4 cup of sugar<br>Strained out 5/25<br>Last test 5/30, Kalm yeast',
 	},
 	{
 		ID: 14,
-		contents: '<p class="redd">Pineapple</p>',
+		contents: '<p class="redd">✿ Pineapple * </p>',
 		started: '5/23/2023',
-		finished: '',
-		ph: '3.63',
+		finished: '6/20/2023',
+		ph: '3.74',
 		comments:
-			'Large Jar, Pineapple, Distilled Water, 5/8 cup of sugar<br>Slight bubbling on 5/25, <br>Added 1/2 tbsp sugar daily up to 5/30. Stopped bubbling 6/1<br>Added a few raisins to the small jar for another ferment 6/16',
+			'Large Jar, Pineapple, Distilled Water, 5/8 cup of sugar<br>Slight bubbling on 5/25, <br>Added 1/2 tbsp sugar daily up to 5/30. Stopped bubbling 6/1<br>Bottled',
 	},
 	{
 		ID: 15,
-		contents: 'Strawberry',
+		contents: ' <p class="redd">❤ Strawberry * </p>',
 		started: '5/30/2023',
-		finished: '',
-		ph: '3.28',
+		finished: '7/4/2023',
+		ph: '3.26',
 		comments:
-			'Strawberry, Distilled Water, 1/3 cup of sugar<br> Started bubbling 6/1<br>Still bubbling 6/16<br>Strained & added more strawberries for 2nd ferment 6/18. <br>Possible Finish 7/5',
+			'Strawberry, Distilled Water, 1/3 cup of sugar<br> Started bubbling 6/1<br>Still bubbling 6/16<br>Strained & added more strawberries for 2nd ferment 6/18. <br>Bottled 7/4',
 	},
 	{
 		ID: 16,
 		contents: 'Raisins',
 		started: '6/16/2023',
 		finished: '',
-		ph: '3.60',
+		ph: '3.73',
 		comments:
-			'Raisin, 1/2 tbsp of sugar<br> 2 banana peel, 1 cherry<br>Strained 6/26',
+			'Raisin, 1/2 tbsp of sugar<br> 2 banana peel, 1 cherry<bt>Strained 6/26, <br> Tastes good but tested 7/5 3.73',
 	},
 	{
 		ID: 17,
-		contents: 'Strawberries',
+		contents: 'Strawberry',
 		started: '6/27/2023',
+		finished: '',
+		ph: '3.35',
+		comments:
+			'Large Jar, LOTS of strawberries, 1/2 cup of raw sugar<br>Bubbling starts 6/29<br>Strained 7/5, tested 3.35',
+	},
+	{
+		ID: 18,
+		contents: 'Strawberry, Apple, Plum, Peach',
+		started: '7/6/2023',
 		finished: '',
 		ph: '3.50',
 		comments:
-			'Large Jar, LOTS of strawberries, 1/2 cup of raw sugar<br>Bubbling starts 6/29',
+			'Large Jar, Purified water <br> strawberries, 1 plum, 1 apple, 1 peach, 1/2 cup of raw sugar<br>Bubbling starts ',
 	},
 ];
