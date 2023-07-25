@@ -417,6 +417,7 @@ header a:link {
   font-family: super;
   font-variation-settings: "wght" 600, "wdth" 1000;
   border-radius: 8px;
+  letter-spacing: 0.1875rem;
 }
 
 .copy {
@@ -466,7 +467,7 @@ header a:link {
 /* typography */
 h1,
 h2 {
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
 }
 
 strong {

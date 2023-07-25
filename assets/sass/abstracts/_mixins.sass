@@ -1,11 +1,14 @@
 // for flex containers only
 @use 'variables' as *
-
+@use 'config' as *
 $mobile1: 568px
 $tablet1: 768px - 1px
 $timeline1: 1000px
 $desktop1: 1024px
 
+
+@mixin letterspace($pixels )
+	letter-spacing: $pixels/16 * 1rem
 
 @mixin center($value, $value2)
 	display: flex

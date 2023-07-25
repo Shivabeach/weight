@@ -74,27 +74,44 @@ export const vinegarList = [
 		ID: 16,
 		contents: 'Raisins',
 		started: '6/16/2023',
-		finished: '',
+		finished: '7/5/2023',
 		ph: '3.73',
 		comments:
 			'Raisin, 1/2 tbsp of sugar<br> 2 banana peel, 1 cherry<bt>Strained 6/26, <br> Tastes good but tested 7/5 3.73',
 	},
 	{
 		ID: 17,
-		contents: 'Strawberry',
+		contents: '<p class="redd">❤Strawberry * </p>',
 		started: '6/27/2023',
-		finished: '',
-		ph: '3.35',
+		finished: '7/11/2023',
+		ph: '2.89',
 		comments:
-			'Large Jar, LOTS of strawberries, 1/2 cup of raw sugar<br>Bubbling starts 6/29<br>Strained 7/5, tested 3.35',
+			'Large Jar, LOTS of strawberries, 1/2 cup of raw sugar<br>Bubbling starts 6/29<br>Strained/bottled 7/11, Weak taste',
 	},
 	{
 		ID: 18,
-		contents: 'Strawberry, Apple, Plum, Peach',
+		contents: '<p class="redd">✿ Strawberry, Apple, Plum, Peach</p>',
 		started: '7/6/2023',
+		finished: '7/20/2023',
+		ph: '3.24',
+		comments:
+			'Large Jar, Purified water <br> strawberries, 1 plum, 1 apple, 1 peach, 1/2 cup of raw sugar<br>Bubbling starts 7/8<br>Strained 7/16, bottled 7/20/2023',
+	},
+	{
+		ID: 19,
+		contents: 'Cantaulope',
+		started: '7/8/2023',
+		finished: '7/21/2023',
+		ph: '2.97',
+		comments:
+			'Large Jar, Purified water <br> Cantaulope 1/4 cup sugar<br>Best one yet tastes like vinegar<br>Bottled 7/21',
+	},
+	{
+		ID: 20,
+		contents: 'Mango',
+		started: '7/14/2023',
 		finished: '',
 		ph: '3.50',
-		comments:
-			'Large Jar, Purified water <br> strawberries, 1 plum, 1 apple, 1 peach, 1/2 cup of raw sugar<br>Bubbling starts ',
+		comments: 'Purified water <br> 1 Mango 1/4 cup sugar<br>Bubbling starts',
 	},
 ];

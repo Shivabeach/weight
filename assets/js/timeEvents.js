@@ -59,4 +59,9 @@ export const timing = [
 		date: '5/29/2023',
 		event: 'Stopped taking Jardiance due to cost',
 	},
+	{
+		date: '7/19/2023',
+		event:
+			'Taking Farxiga samples from Melissa, sugar drops to 180s from over 200',
+	},
 ];
