@@ -64,4 +64,13 @@ export const timing = [
 		event:
 			'Taking Farxiga samples from Melissa, sugar drops to 180s from over 200',
 	},
+	{
+		date: '8/1/2023',
+		event: 'Donald Trump indicted for his Jan 6 crimes. Good luck in prison',
+	},
+	{
+		date: '8/4/2023',
+		event:
+			'Checking distilled water to see if that is causing the white ring in Vinegar',
+	},
 ];

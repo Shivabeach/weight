@@ -108,3 +108,7 @@ const locate = document.querySelector('.locate');
 if (locate != null) {
 	locate.innerHTML = 'Page location is ' + location.href;
 }
+const generateRandomString = (length) =>
+	[...Array(length)].map(() => Math.random().toString(36)[2]).join('');
+
+//console.log(generateRandomString(12)); // cysw0gfljoyx

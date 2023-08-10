@@ -1054,7 +1054,7 @@ footer#main-footer {
 
 .red {
   min-height: 100px;
-  background-color: #dcffed;
+  background-color: oklch(80% 0.3 140/0.5);
   padding: 1rem;
 }
 
