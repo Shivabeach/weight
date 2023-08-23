@@ -99,7 +99,7 @@ export const vinegarList = [
 	},
 	{
 		ID: 19,
-		contents: 'Cantaulope',
+		contents: '<p class="redd">❤ Cantaulope * </p>',
 		started: '7/8/2023',
 		finished: '7/21/2023',
 		ph: '2.97',
@@ -110,7 +110,7 @@ export const vinegarList = [
 		ID: 20,
 		contents: 'Mango',
 		started: '7/14/2023',
-		finished: '',
+		finished: '8/21/2023',
 		ph: '2.97',
 		comments:
 			'Purified water <br> 1 Mango 1/4 cup sugar<br>Strained / tested 8/5/2023',
@@ -120,8 +120,8 @@ export const vinegarList = [
 		contents: 'Peach',
 		started: '8/8/2023',
 		finished: '',
-		ph: '2.97',
+		ph: '2.23',
 		comments:
-			'Distilled water <br> 4 Peaches 1/2 cup sugar<br>Bubbling starts 8/10',
+			'Distilled water <br> 4 Peaches 1/2 cup sugar<br>Bubbling starts 8/10<br>Strained and tested 8/21',
 	},
 ];

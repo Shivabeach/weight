@@ -73,4 +73,8 @@ export const timing = [
 		event:
 			'Checking distilled water to see if that is causing the white ring in Vinegar',
 	},
+	{
+		date: '8/20/2023',
+		event: 'Buy different water. I think this is the problem',
+	},
 ];

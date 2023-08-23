@@ -1,0 +1,8 @@
+/** @format */
+
+@use '../abstracts' as *;
+
+tr:hover {
+	background: $gen25;
+	color: $grad;
+}

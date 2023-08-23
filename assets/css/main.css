@@ -756,6 +756,12 @@ ul {
 }
 
 /** @format */
+tr:hover {
+  background: #1f94f7;
+  color: rgb(255, 255, 255);
+}
+
+/** @format */
 /** All prime container properties */
 #prime-container {
   width: calc(100% - 25px);
