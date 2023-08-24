@@ -124,4 +124,13 @@ export const vinegarList = [
 		comments:
 			'Distilled water <br> 4 Peaches 1/2 cup sugar<br>Bubbling starts 8/10<br>Strained and tested 8/21',
 	},
+	{
+		ID: 22,
+		contents: 'Mixed Fruit',
+		started: '8/24/2023',
+		finished: '',
+		ph: '2.23',
+		comments:
+			'Crystal Geyser Water <br>Raspberrys, strawberries, 2 mangos<br>1/2 cup sugar<br>,',
+	},
 ];
