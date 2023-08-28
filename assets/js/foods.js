@@ -734,4 +734,15 @@ export const foods = [
 		Potassium: 450,
 		Protein: 30,
 	},
+	{
+		type: 'oil',
+		name: 'Atkins Protein',
+		Size: '11 oz',
+		Calories: 160,
+		fat: 9,
+		Carbs: 7,
+		Cholesterol: 15,
+		Potassium: 630,
+		Protein: 15,
+	},
 ];

@@ -84,6 +84,33 @@
                 <h4 class="center-align">Totals</h4>
                 <p><span>Profile Weekly -- </span><span class="over-all bold-8"></span></p>
                 <p><span> Purchases Total -- </span><span class="buying bold-8"></span></p>
+                <p>
+                Maintain weight<br>
+
+2,589 100%<br>
+Calories/day<br>
+</p>
+<p>
+Mild weight loss<br>
+0.5 lb/week<br>
+
+2,339 90%<br>
+Calories/day<br>
+</p>
+<p>
+Weight loss<br>
+1 lb/week<br>
+
+2,089 81%<br>
+Calories/day
+</p>
+<p>
+Extreme weight loss<br>
+2 lb/week<br>
+
+1,589 61%<br>
+Calories/day
+</p>
             </aside>
             <footer id="main-footer">
                 <p>footer</p>

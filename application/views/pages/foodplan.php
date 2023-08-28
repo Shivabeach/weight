@@ -178,6 +178,21 @@
           <td class="equal">22</td>
           <td class="equal">0</td>
         </tr>
+        <tr>
+          <td class="equal">Arnolds Bread</td>
+          <td class="equal">220</td>
+          <td class="equal">32</td>
+          <td class="equal">10</td>
+          <td class="equal">6</td>
+        </tr>
+        <tr>
+          <td class="equal">Atkins Protein</td>
+          <td class="equal">160</td>
+          <td class="equal">7</td>
+          <td class="equal">15</td>
+          <td class="equal">5</td>
+        </tr>
+
 
       </table>
     </div>
