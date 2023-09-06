@@ -12,6 +12,9 @@
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .red {
+	@starting-style {
+		opacity: 0;
+	}
 	min-height: 100px;
 	background-color: $lch4;
 	padding: 1rem;

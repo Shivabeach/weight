@@ -119,10 +119,10 @@ export const vinegarList = [
 		ID: 21,
 		contents: 'Peach',
 		started: '8/8/2023',
-		finished: '',
-		ph: '2.23',
+		finished: '9/5/2023',
+		ph: '2.40',
 		comments:
-			'Distilled water <br> 4 Peaches 1/2 cup sugar<br>Bubbling starts 8/10<br>Strained and tested 8/21',
+			'Distilled water <br> 4 Peaches 1/2 cup sugar<br>Bubbling starts 8/10<br>Strained and tested 8/21<br> Excellent vinegar taste',
 	},
 	{
 		ID: 22,

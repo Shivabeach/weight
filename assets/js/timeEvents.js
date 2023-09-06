@@ -77,4 +77,8 @@ export const timing = [
 		date: '8/20/2023',
 		event: 'Buy different water. I think this is the problem',
 	},
+	{
+		date: '9/1/2023',
+		event: 'Sent paperwork to Melissa to get free Farziga',
+	},
 ];

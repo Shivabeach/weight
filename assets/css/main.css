@@ -1063,6 +1063,11 @@ footer#main-footer {
   background-color: oklch(80% 0.3 140/0.5);
   padding: 1rem;
 }
+@starting-style {
+  .red {
+    opacity: 0;
+  }
+}
 
 /* Calendar if needed */
 .calendar {
