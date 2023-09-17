@@ -108,7 +108,7 @@ export const vinegarList = [
 	},
 	{
 		ID: 20,
-		contents: 'Mango',
+		contents: '<p class="redd">❤ Mango </p>',
 		started: '7/14/2023',
 		finished: '8/21/2023',
 		ph: '2.97',
@@ -117,7 +117,7 @@ export const vinegarList = [
 	},
 	{
 		ID: 21,
-		contents: 'Peach',
+		contents: '<p class="redd">❤ Peach </p>',
 		started: '8/8/2023',
 		finished: '9/5/2023',
 		ph: '2.40',
@@ -129,8 +129,8 @@ export const vinegarList = [
 		contents: 'Mixed Fruit',
 		started: '8/24/2023',
 		finished: '',
-		ph: '2.23',
+		ph: '2.70',
 		comments:
-			'Crystal Geyser Water <br>Strawberries, 1 mango, 1 Banana<br>1/2 cup sugar<br>,',
+			'Crystal Geyser Water <br>Strawberries, 1 mango, 1 Banana<br>1/2 cup sugar<br> Strained - tested 9/15/2023, letting it set another week. Great taste',
 	},
 ];
