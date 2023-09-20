@@ -121,4 +121,13 @@ export const vinegarList = [
 		comments:
 			'Crystal Geyser Water <br>Strawberries, 1 mango, 1 Banana<br>1/2 cup sugar<br> Strained - tested 9/15/2023, letting it set another week. Great taste',
 	},
+	{
+		ID: 23,
+		contents: 'Mixed Fruit',
+		started: '9/20/2023',
+		finished: '',
+		ph: '2.70',
+		comments:
+			'Crystal Geyser Water <br>1 Banana, Dragon fruit, apple<br>1/2 cup sugar<br> ',
+	},
 ];
