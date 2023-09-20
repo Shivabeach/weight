@@ -570,6 +570,10 @@ select {
   width: 90%;
 }
 
+select:focus {
+  outline: 3px solid green;
+}
+
 .addition {
   font-size: 3rem;
   margin: 0;

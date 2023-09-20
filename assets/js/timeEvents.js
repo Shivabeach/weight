@@ -81,4 +81,13 @@ export const timing = [
 		date: '9/1/2023',
 		event: 'Sent paperwork to Melissa to get free Farziga',
 	},
+	{
+		date: '9/17/2023',
+		event: ' Do not use fruits with skins, it creates the white stuff ',
+	},
+	{
+		date: '9/18/2023',
+		event:
+			'I am going through all the Vinegar I have made, and dumping the weak tasting and high Ph bottles ',
+	},
 ];
