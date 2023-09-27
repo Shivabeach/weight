@@ -128,6 +128,6 @@ export const vinegarList = [
 		finished: '',
 		ph: '2.70',
 		comments:
-			'Crystal Geyser Water <br>1 Banana, Dragon fruit, apple<br>1/2 cup sugar<br> ',
+			'Crystal Geyser Water <br>1 Banana, Dragon fruit, apple, dried cranberry<br>1/2 cup sugar<br> ',
 	},
 ];
