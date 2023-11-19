@@ -28,6 +28,7 @@ for (meat of names) {
 	</tr>
 	`;
 }
+
 display.innerHTML = meats;
 
 // Potassium above 600

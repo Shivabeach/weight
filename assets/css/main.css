@@ -1149,7 +1149,7 @@ div.highlight:has(.day) {
 }
 
 body {
-  background-image: linear-gradient(to right, #f5fffa, #D1E8D6);
+  background-image: linear-gradient(to right, #ffe8cc, #d3f9d8, #a5d8ff, #e1bee7, #d1c4e9);
 }
 
 .col-1 {
@@ -1199,4 +1199,5 @@ footer#main-footer {
 }
 
 /** @format */
+
 /*# sourceMappingURL=main.css.map */
