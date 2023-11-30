@@ -11,7 +11,7 @@ export const vinegarList = [
   },
   {
     ID: 22,
-    contents: 'Mixed Fruit',
+    contents: '<p class="redd"> ❤ Mixed Fruit</p>',
     started: '8/24/2023',
     finished: '9/22/2023',
     ph: '2.70',
@@ -20,7 +20,7 @@ export const vinegarList = [
   },
   {
     ID: 23,
-    contents: 'Mixed Fruit',
+    contents: '<p class="redd">❤ Mixed Fruit</p>',
     started: '10/26/2023',
     finished: '',
     ph: '2.50',
@@ -29,12 +29,12 @@ export const vinegarList = [
   },
   {
     ID: 24,
-    contents: 'Pear',
+    contents: '<p class="redd">❤ Pear</p>',
     started: '9/20/2023',
-    finished: '',
-    ph: '2.50',
+    finished: '11/23/2023',
+    ph: '2.23',
     comments:
-      '2 Bartlett pears, 1 banana, few cranberries '
+      '2 Bartlett pears, 1 banana, few cranberries <br>Very vineragy!'
   },
   {
     ID: 25,
