@@ -40,9 +40,9 @@ export const vinegarList = [
     ID: 25,
     contents: 'Plum Apple',
     started: '11/15/2023',
-    finished: '',
-    ph: '2.50',
+    finished: '12/16/2023',
+    ph: '2.40',
     comments:
-      '2 really ripe plums, 1 sliced apple, 1 dried hot pepper '
+      '2 really ripe plums, 1 sliced apple, 1 dried hot pepper<br>Excelent taste. Can slightly taste the hot pepper. '
   },
 ];

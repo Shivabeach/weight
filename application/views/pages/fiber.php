@@ -17,7 +17,7 @@
       <section class="fiber-container">
         <h1 class="center-align ul light">Fiber & Sugar</h1>
         <table class="fiber-table">
-          <tr>
+          <tr class="fix">
             <th>Name</th>
             <th>Size</th>
             <th>Calories</th>

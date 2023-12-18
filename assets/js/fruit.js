@@ -241,4 +241,14 @@ export const fruit = [
 		potassium: 320,
 		vitC: 2.3,
 	},
+	{
+		type: 'fruit',
+		name: 'Pomegranate',
+		size: '282 g',
+		calories: 234,
+		carbs: 53,
+		sugars: 39,
+		potassium: 665,
+		vitC: 28,
+	},
 ];

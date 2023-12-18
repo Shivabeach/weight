@@ -2,6 +2,14 @@
 @use "sass:string";
 //maps
 
+$test: (
+	text: #8e4713,
+	background: #85b5ed,
+	primary: #12159a,
+	secondary: #f3b1f7,
+	accent: #d51a2d,
+	);
+
 $highlights: (
 	magenta: rgb(255, 0, 255),
 	aqua: rgb(0, 255, 255),
