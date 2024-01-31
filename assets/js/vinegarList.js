@@ -48,10 +48,19 @@ export const vinegarList = [
   {
     ID: 26,
     contents: 'Apple',
-    started: '1/11/2023',
+    started: '1/11/2024',
     finished: '',
     ph: '2.40',
     comments:
-      '3 Apples, 2 dried hot pepper'
+      '3 Apples, 2 dried hot pepper<br> Doesnt seem to have much bubble, I think the sugar is old'
+  },
+  {
+    ID: 27,
+    contents: 'Apple',
+    started: '1/26/2024',
+    finished: '',
+    ph: '2.40',
+    comments:
+      '3 Fuji Apples, 3 dried hot pepper, using new sugar'
   },
 ];
