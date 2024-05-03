@@ -90,4 +90,9 @@ export const timing = [
 		event:
 			'I am going through all the Vinegar I have made, and dumping the weak tasting and high Ph bottles ',
 	},
+	{
+		date: '3/18/2024',
+		event:
+			'Tried 2 jars of apples to make vinegar, no luck on either one of them. They didnt turn',
+	},
 ];

@@ -7,7 +7,7 @@ export const vinegarList = [
     finished: '9/5/2023',
     ph: '2.40',
     comments:
-      'Distilled water <br> 4 Peaches 1/2 cup sugar<br>Bubbling starts 8/10<br>Strained and tested 8/21<br> Excellent vinegar taste'
+      'Distilled water <br> 4 Peaches 1/2 cup sugar<br>Bubbling starts 8/10<br>Strained and tested 8/21<br> Excellent vinegar taste',
   },
   {
     ID: 22,
@@ -16,7 +16,7 @@ export const vinegarList = [
     finished: '9/22/2023',
     ph: '2.70',
     comments:
-      'Crystal Geyser Water <br>Strawberries, 1 mango, 1 Banana<br>1/2 cup sugar<br> Strained - tested 9/15/2023, letting it set another week. Great taste'
+      'Crystal Geyser Water <br>Strawberries, 1 mango, 1 Banana<br>1/2 cup sugar<br> Strained - tested 9/15/2023, letting it set another week. Great taste',
   },
   {
     ID: 23,
@@ -25,7 +25,7 @@ export const vinegarList = [
     finished: '',
     ph: '2.50',
     comments:
-      'Crystal Geyser Water <br>1 Banana, Dragon fruit, apple, dried cranberry<br>1/2 cup sugar<br> Good smell,decent taste '
+      'Crystal Geyser Water <br>1 Banana, Dragon fruit, apple, dried cranberry<br>1/2 cup sugar<br> Good smell,decent taste ',
   },
   {
     ID: 24,
@@ -33,8 +33,7 @@ export const vinegarList = [
     started: '9/20/2023',
     finished: '11/23/2023',
     ph: '2.23',
-    comments:
-      '2 Bartlett pears, 1 banana, few cranberries <br>Very vineragy!'
+    comments: '2 Bartlett pears, 1 banana, few cranberries <br>Very vineragy!',
   },
   {
     ID: 25,
@@ -43,24 +42,22 @@ export const vinegarList = [
     finished: '12/16/2023',
     ph: '2.40',
     comments:
-      '2 really ripe plums, 1 sliced apple, 1 dried hot pepper<br>Excelent taste. Can slightly taste the hot pepper. '
-  },
-  {
-    ID: 26,
-    contents: 'Apple',
-    started: '1/11/2024',
-    finished: '',
-    ph: '2.40',
-    comments:
-      '3 Apples, 2 dried hot pepper<br> Doesnt seem to have much bubble, I think the sugar is old'
+      '2 really ripe plums, 1 sliced apple, 1 dried hot pepper<br>Excelent taste. Can slightly taste the hot pepper. ',
   },
   {
     ID: 27,
-    contents: 'Apple',
-    started: '1/26/2024',
+    contents: 'Strawberry',
+    started: '2/20/2024',
+    finished: '3/20/2024',
+    ph: '2.26',
+    comments: 'Pack of strawberries, 1 pear<br/>Good sharp vinegar taste',
+  },
+  {
+    ID: 28,
+    contents: 'Pear',
+    started: '4/29/2024',
     finished: '',
-    ph: '2.40',
-    comments:
-      '3 Fuji Apples, 3 dried hot pepper, using new sugar'
+    ph: '2.26',
+    comments: '4 Pears, thyme, oregano, Anise',
   },
 ];
