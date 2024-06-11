@@ -56,8 +56,8 @@ export const vinegarList = [
     ID: 28,
     contents: 'Pear',
     started: '4/29/2024',
-    finished: '',
-    ph: '2.26',
+    finished: '6/3/2024',
+    ph: '2.60',
     comments: '4 Pears, thyme, oregano, Anise',
   },
 ];
