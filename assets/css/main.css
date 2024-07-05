@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/** @format */
+/** @format */
 /**
  * Config
  *`
@@ -71,8 +73,10 @@ font-face {
   font-weight: 900;
 }
 
+/** @format */
 /** Grid  */
-/** @format */ /** @format */
+/** @format */
+/** @format */
 /* body */
 html,
 body {
@@ -105,6 +109,7 @@ body {
     scrollbar-width: auto;
   }
 }
+/** @format */
 .input-small {
   width: 10%;
 }
@@ -281,6 +286,7 @@ body {
   padding: 10rem;
 }
 
+/** @format */
 /* Elements */
 :is(p) {
   padding: 1rem;
@@ -322,6 +328,7 @@ table.support tr:nth-child(even) {
   background: transparent;
 }
 
+/** @format */
 /* Links */
 a {
   color: hsl(336, 86%, 24%);
@@ -349,6 +356,7 @@ header a:link {
   padding: 5px 8px;
 }
 
+/** @format */
 /*Common*/
 .underline {
   border-bottom: 1px solid #dbe4ff;
@@ -464,6 +472,7 @@ header a:link {
   cursor: pointer;
 }
 
+/** @format */
 /* typography */
 h1,
 h2 {
@@ -520,6 +529,7 @@ h6 {
   font-size: 0.75rem;
 }
 
+/** @format */
 button {
   font-family: "Consolas", "monaco", monospace;
   font-size: 18px;
@@ -608,6 +618,7 @@ select:focus {
   transform: scale(1.25);
 }
 
+/** @format */
 /*list properties */
 ul {
   list-style-type: none;
@@ -640,6 +651,7 @@ ul {
   list-style-type: circle;
 }
 
+/** @format */
 /*Cards */
 /**
  * *
@@ -691,6 +703,7 @@ ul {
 }
 
 /** @format */
+/** @format */
 .show-values {
   font-weight: 700;
   border-bottom: 1px solid var(--prime-text);
@@ -715,6 +728,7 @@ ul {
 }
 
 /** @format */
+/** @format */
 .fiber-container,
 .fruit-container {
   grid-column: 1/5;
@@ -724,6 +738,7 @@ ul {
   width: 100%;
 }
 
+/** @format */
 /** @format */
 .head1 {
   font-size: 1.5rem;
@@ -760,11 +775,13 @@ ul {
 }
 
 /** @format */
+/** @format */
 tr:hover {
   background: #1f94f7;
   color: rgb(255, 255, 255);
 }
 
+/** @format */
 /** @format */
 /** All prime container properties */
 #prime-container {
@@ -838,6 +855,7 @@ tr:hover {
   grid-column: 4/7;
 }
 
+/** @format */
 /**
  * /* Plan page grid
  *
@@ -906,6 +924,7 @@ footer#main-footer {
   padding-left: 1rem;
 }
 
+/** @format */
 /**
  * Costs scss
  *
@@ -952,6 +971,7 @@ footer#main-footer {
   grid-column: 3/5;
 }
 
+/** @format */
 /**
  *  @format
  *  Purchase page
@@ -1014,6 +1034,7 @@ footer#main-footer {
 }
 
 /** @format */
+/** @format */
 /** Calendar page */
 #calendar-container {
   display: flex;
@@ -1051,6 +1072,7 @@ footer#main-footer {
 }
 
 /** @format */
+/** @format */
 #timeline {
   width: calc(100% - 4rem);
   margin: 0 auto;
@@ -1073,6 +1095,7 @@ footer#main-footer {
   }
 }
 
+/** @format */
 /* Calendar if needed */
 .calendar {
   background: hsl(48, 100%, 93.14%);
@@ -1142,6 +1165,7 @@ div.highlight:has(.day) {
   background: var(--green-text);
 }
 
+/** @format */
 /* main theme colors */
 :root {
   --prime-color: #140FA9;
@@ -1189,6 +1213,7 @@ footer#main-footer {
   background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.3));
 }
 
+/** @format */
 .dark {
   background-color: #521B29;
   color: white;
@@ -1197,7 +1222,5 @@ footer#main-footer {
 .wwww {
   color: #907681;
 }
-
-/** @format */
 
 /*# sourceMappingURL=main.css.map */

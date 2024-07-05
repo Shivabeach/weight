@@ -13,7 +13,7 @@
       <section class="fruit-container">
         <h1 class="center-align ul">Fruits</h1>
         <table class="fruit-table">
-          <tr>
+          <tr class="top-row">
             <th>Name</th>
             <th>Size</th>
             <th>Calories</th>
