@@ -1,5 +1,7 @@
 /** @format */
 // @prepros-prepend fiberous.js
+
+//Main veg display
 function display(veg) {
 	return `
 		<tr>
@@ -24,6 +26,7 @@ const topCals = document.querySelector('.topCals');
 const file = document.querySelector('.lengthOfFile');
 const carbs16 = document.querySelector('.carb16');
 
+//average sugar display
 function averageSugar() {
 	const sugary = document.querySelectorAll('.sugary');
 	const addSugarArray = [];

@@ -95,4 +95,12 @@ export const timing = [
 		event:
 			'Tried 2 jars of apples to make vinegar, no luck on either one of them. They didnt turn',
 	},
+	{
+		date: '8/29/2024',
+		event: 'Started taking Metolazone, quit taking it 9/26/2024',
+	},
+	{
+		date: '9/21/2024',
+		event: 'Started taking Spitolacton, quit taking it 10/15/2024',
+	},
 ];
