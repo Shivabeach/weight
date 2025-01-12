@@ -103,4 +103,8 @@ export const timing = [
 		date: '9/21/2024',
 		event: 'Started taking Spitolacton, quit taking it 10/15/2024',
 	},
+	{
+		date: '1/8/2025',
+		event: 'Start ozemic sample, Gedcom G7. Fill out papers for ozemic free',
+	},
 ];
