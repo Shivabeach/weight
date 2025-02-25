@@ -1077,6 +1077,7 @@ footer#main-footer {
 #timeline {
   width: calc(100% - 4rem);
   margin: 0 auto;
+  min-height: 100vh;
 }
 
 #time-main {
@@ -1094,6 +1095,10 @@ footer#main-footer {
   .red {
     opacity: 0;
   }
+}
+
+#time-container {
+  min-height: 100vh;
 }
 
 /** @format */

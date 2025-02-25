@@ -30,4 +30,9 @@ export const sources = [
 		event:
 			'<a href="https://www.thespruce.com/anise-hyssop-plant-profile-5118429" target="_blank"/>Anise Hyssop</a>',
 	},
+	{
+		dateEntered: '2/17/2025',
+		event:
+			'<a href="https://www.nutritionvalue.org/" target="_blank"/>Best Nutritional Values</a>',
+	},
 ];

@@ -107,4 +107,12 @@ export const timing = [
 		date: '1/8/2025',
 		event: 'Start ozemic sample, Gedcom G7. Fill out papers for ozemic free',
 	},
+	{
+		date: '2/17/2025',
+		event: 'Approved for free Ozempic, Insulin and needles by Novo Nordisk',
+	},
+	{
+		date: '2/19/2025',
+		event: 'A1c is down to 8.4 from 9.4 per Lorina. Short period of time',
+	},
 ];

@@ -4,6 +4,7 @@
 #timeline {
 	width: calc(100% - 4rem);
 	margin: 0 auto;
+	min-height: 100vh;
 }
 
 #time-main {
@@ -18,4 +19,7 @@
 	min-height: 100px;
 	background-color: $lch4;
 	padding: 1rem;
+}
+#time-container {
+	min-height: 100vh;
 }
