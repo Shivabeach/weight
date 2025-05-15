@@ -11,20 +11,14 @@
   </main>
   <footer id="cal-footer">
     <div class="box">
-      <h3>2022 Plants</h3>
+      <h3>2025 Plants</h3>
       <ul>
-        <li>Lemon Grass</li>
-        <li>4 - Serranno</li>
-        <li>1 - Jalapeno</li>
-        <li>1 - Kalugeritsa pepper</li>
-        <li>3 - Thai pepper</li>
-        <li>Thyme</li>
-        <li>2 - Oregano</li>
-        <li>Chives</li>
-        <li>Anise Hyssop</li>
-        <li>Melon Sage</li>
+        <li>6 - Serranno</li>
+        <li>1 - Jedi Jalapeno</li>
+        <li>1 - Aji Charapita pepper</li>
+        <li>2 - Tulsi Kapoor</li>
+        <li>1 - Hot Cayenne</li>
         <li><code>$this->load->file(APPPATH . "/views/pages/includes/side.php");</code></li>
-
       </ul>
 
     </div>

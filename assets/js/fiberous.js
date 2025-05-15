@@ -319,4 +319,15 @@ const fibers = [
     Sugars: 7.4,
     Protein: 2.3,
   },
+  {
+    type: 'veggie',
+    name: 'Date',
+    Size: '24gr',
+    Calories: 66,
+    fat: 0,
+    Carbs: 18,
+    SoluableFiber: 1.6,
+    Sugars: 16,
+    Protein: 0.4,
+  },
 ];
