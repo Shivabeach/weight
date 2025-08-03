@@ -35,4 +35,9 @@ export const sources = [
 		event:
 			'<a href="https://www.nutritionvalue.org/" target="_blank"/>Best Nutritional Values</a>',
 	},
+	{
+		dateEntered: '7/26/2025',
+		event:
+			'<a href="https://www.myfooddata.com/articles/high-potassium-vegetables.php" target="_blank"/> High Potassium Vegetables',
+	},
 ];
