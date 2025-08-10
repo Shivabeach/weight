@@ -10,3 +10,7 @@ function display(reading) {
 
 timeLine.innerHTML = `
 	${sources.map(display).join('')}`;
+
+document.addEventListener('DOMContentLoaded', () => {
+	display();
+});
