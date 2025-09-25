@@ -86,7 +86,7 @@
       <div id="datey"></div>
       <div class="origin">Project start 1 / 2 / 2022</div>
       <div class="locate"></div>
-      <div class="color"></div>
+      <div class="color"><p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p></div>
       <div class="last-updated">Last updated: 11/15/2022</div>
     </div>
   </div>

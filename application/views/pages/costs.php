@@ -9,7 +9,7 @@
                 <legend>Costs</legend>
                 <form action="">
                     <p><input type="date" name="date" id="date"></p>
-                    <p><input type="text" pattern=/\w{6,}/ name="purchase" id="purchase" placeholder="Purchase"></p>
+                    <p><input type="text" name="purchase" id="purchase" placeholder="Purchase"></p>
                     <p><input type="number" pattern = /\d{1,2}\.\d{1,2}/ name="cost" id="cost" placeholder="Cost"></p>
                     <button type="submit" id="submit2">Submit</button> --
                     <button type="reset" id="reset">Reset</button>
