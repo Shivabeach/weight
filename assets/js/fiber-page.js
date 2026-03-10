@@ -11,11 +11,12 @@ function display(veg) {
 		<td class="carby">${veg.Carbs}</td>
 		<td class="fibery">${veg.SoluableFiber}</td>
 		<td class="sugary">${veg.Sugars}</td>
+		</tr>
 	`;
 }
 
 document.querySelector('.showFiber').innerHTML = `
-	${fibers.map(display).join('')}`;
+	${fibers.map(display).sort().join('')}`;
 
 const carby = document.querySelectorAll('.carby');
 const fiberAverage = document.querySelector('.fiber-average');
@@ -75,8 +76,8 @@ function cals(fib) {
 	}
 }
 
-document.querySelector('.topCals').innerHTML = `
-	${fibers.map(cals).join('')}`;
+document.querySelector('.topCals').innerHTML =
+	`${fibers.map(cals).sort().join('')}`;
 
 function fibery(fib) {
 	if (fib.SoluableFiber > 6) {
@@ -95,10 +96,10 @@ function carbery(fib) {
 }
 
 document.querySelector('.carb16').innerHTML = `
-	${fibers.map(carbery).join('')}`;
+	${fibers.map(carbery).sort().join('')}`;
 
 document.querySelector('.topFiber').innerHTML = `
-	${fibers.map(fibery).join('')}`;
+	${fibers.map(fibery).sort().join('')}`;
 
 addEventListener('DOMContentLoaded', () => {
 	averageSugar();

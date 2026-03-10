@@ -68,12 +68,22 @@ function calories() {
 	calAverage.innerHTML = `${teeth} Calories`;
 }
 
+function potassium() {
+	const potas1 = document.querySelectorAll('.potas');
+	potas1.forEach((sweet) => {
+		const sweets = sweet.firstChild.nodeValue;
+		if (sweets > 250) {
+			sweet.style.backgroundColor = '#ffc078';
+		}
+	});
+}
 function showVits(cs) {
 	if (cs.vitC > 100) {
 		return `
 		<li>${cs.name} - ${cs.vitC}</li>
 	`;
 	}
+	// Add this line
 }
 function showPot(cs) {
 	if (cs.potassium > 250) {
@@ -96,16 +106,16 @@ function sugar10(cs) {
 
 //Display the table using function display
 showFruit.innerHTML = `
-	${fruit.map(display).join('')}`;
+	${fruit.map(display).sort().join('')}`;
 
 vitamins.innerHTML = `
-	${fruit.map(showVits).join('')}`;
+	${fruit.map(showVits).sort().join('')}`;
 
 potass.innerHTML = `
-	${fruit.map(showPot).join('')}`;
+	${fruit.map(showPot).sort().join('')}`;
 
 sugars.innerHTML = `
-	${fruit.map(sugar10).join('')}`;
+	${fruit.map(sugar10).sort().join('')}`;
 
 // file.innerHTML = `
 // 	${fruit.map(showLength).join('')}`;
@@ -114,4 +124,5 @@ addEventListener('DOMContentLoaded', () => {
 	averageSugar();
 	averagePotassium();
 	calories();
+	potassium();
 });

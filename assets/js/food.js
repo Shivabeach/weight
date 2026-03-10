@@ -28,7 +28,6 @@ for (meat of names) {
 	</tr>
 	`;
 }
-
 display.innerHTML = meats;
 
 // Potassium above 600
@@ -50,6 +49,7 @@ list.innerHTML = foodly;
 const nut = foods.filter((foo) => foo.type == 'nuts');
 let nuts;
 let nutty = '';
+
 for (nuts of nut) {
 	nutty += `
 	<tr>

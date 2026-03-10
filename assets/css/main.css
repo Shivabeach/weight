@@ -773,6 +773,10 @@ ul {
   margin-left: 1rem;
 }
 
+.potass {
+  background-color: #ffc078;
+}
+
 .light {
   font-family: light;
 }
@@ -1102,15 +1106,15 @@ footer#main-footer {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.red {
-  min-height: 100px;
-  background-color: oklch(80% 0.3 140/0.5);
-  padding: 1rem;
-}
 @starting-style {
   .red {
     opacity: 0;
   }
+}
+.red {
+  min-height: 100px;
+  background-color: oklch(80% 0.3 140deg / 0.5);
+  padding: 1rem;
 }
 
 #time-container {
@@ -1242,7 +1246,7 @@ footer#main-footer {
 }
 
 .wwww {
-  color: #907681;
+  color: rgb(144, 117.9, 128.7);
 }
 
 /*# sourceMappingURL=main.css.map */

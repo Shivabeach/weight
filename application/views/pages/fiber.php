@@ -1,7 +1,7 @@
 <body id="cost-analysis">
   <div id="cost-container">
     <header id="header">
-      <?php $this->load->view("menus/main-menu.html");?>
+      <?php $this->load->view('menus/main-menu.html'); ?>
     </header>
     <aside class="cost-form clay">
       <h2 class="center-align">Stats</h2>
@@ -37,6 +37,7 @@
       <p><span> Carb Average -- </span><span class="carb-average bold-8"></span></p>
       <p><span> Sugar Average -- </span><span class="sugar-average bold-8"></span></p>
       <p>Number of Veggies: <span class="lengthOfFile bold-8" ></span></p>
+      <ul class="showed"></ul>
     </aside>
     <footer id="main-footer">
       <p>footer</p>
@@ -46,12 +47,13 @@
       <div class="locate"></div>
       <div class="color"></div>
       <p>Page rendered in <strong>{elapsed_time}</strong> seconds.
-        <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?>
+        <?php echo ENVIRONMENT === 'development' ? 'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : ''; ?>
       </p>
     </footer>
   </div>
-  <script type="module" src="<?php echo base_url('assets/js/fiber-page-dist.js');?>"></script>
-  <script type="module" src="<?php echo base_url('assets/js/script-dist.js');?>"></script>
+  <script type="module" src="<?php echo base_url('assets/js/fiber-page-dist.js'); ?>"></script>
+  <script type="module" src="<?php echo base_url('assets/js/script-dist.js'); ?>"></script>
+  <!--<script type="module" src="<?php echo base_url('assets/js/sortFiber-dist.js'); ?>"></script>-->
 
 </body>
 

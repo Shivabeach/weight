@@ -12,15 +12,15 @@ const showProfile = document.querySelector('.show-profile');
 const added = document.querySelectorAll('.added');
 const purchsed = document.querySelector('.purchased');
 
-$(function() {
+$(function () {
 	'use strict';
-	$('#bought').on('submit', function(e) {
+	$('#bought').on('submit', function (e) {
 		e.preventDefault();
 		var that = $(this),
 			url = that.attr('action'),
 			type = that.attr('method'),
 			data = {};
-		that.find('[name]').each(function(index, value) {
+		that.find('[name]').each(function (index, value) {
 			var that = $(this),
 				name = that.attr('name'),
 				value = that.val();
@@ -30,10 +30,8 @@ $(function() {
 			url: url,
 			type: type,
 			data: data,
-			success: function(response) {
-				$('#shows')
-					.html(response)
-					.fadeOut(7000);
+			success: function (response) {
+				$('#shows').html(response).fadeOut(7000);
 			},
 		});
 		return false;
