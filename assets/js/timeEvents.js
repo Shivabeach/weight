@@ -2,82 +2,87 @@
 
 export const timing = [
 	{
-		date: '4/12/2023',
+		eventDate: '4/12/2023',
 		event:
 			'Blood for Dr Singh, H1c 7.0 <br> 80 Degrees. 1 pasta, Vietnemese lunch<br> Washed car, was very dusty',
 	},
 	{
-		date: '4/13/2023',
+		eventDate: '4/13/2023',
 		event: 'Morning protein drink, Going to Chinese for lunch',
 	},
 	{
-		date: '4/15/2023',
+		eventDate: '4/15/2023',
 		event: 'Protein Drink, Sushi restaurant, Turned 73',
 	},
 	{
-		date: '4/16/2023',
+		eventDate: '4/16/2023',
 		event:
 			'Cooked mandu & sweet potato strips. Didnt do much at all<br>Had to plant more Cosmos',
 	},
 	{
-		date: '4/21/2023',
+		eventDate: '4/21/2023',
 		event: 'Went to Erins Nursery, had Subway for supper',
 	},
 	{
-		date: '4/22/2023',
+		eventDate: '4/22/2023',
 		event: 'Shopping most of the day, had Pizza',
 	},
 	{
-		date: '4/28/2023',
+		eventDate: '4/28/2023',
 		event: 'Most all planted in ground. Planted Purslane, Mesa Yellow & Borage',
 	},
 	{
-		date: '4/28/2023',
+		eventDate: '4/28/2023',
 		event: 'Created source links page',
 	},
 	{
-		date: '5/8/2023',
+		eventDate: '5/8/2023',
 		event: 'Today I ran the mbr2gpt, changed the system to GPT',
 	},
 	{
-		date: '5/29/2023',
+		eventDate: '5/29/2023',
 		event: 'Stopped taking Jardiance due to cost',
 	},
 	{
-		date: '7/19/2023',
+		eventDate: '7/19/2023',
 		event:
 			'Taking Farxiga samples from Melissa, sugar drops to 180s from over 200',
 	},
 	{
-		date: '8/1/2023',
+		eventDate: '8/1/2023',
 		event: 'Donald Trump indicted for his Jan 6 crimes. Good luck in prison',
 	},
 	{
-		date: '9/1/2023',
+		eventDate: '9/1/2023',
 		event: 'Sent paperwork to Melissa to get free Farziga',
 	},
 	{
-		date: '8/29/2024',
+		eventDate: '8/29/2024',
 		event: 'Started taking Metolazone, quit taking it 9/26/2024',
 	},
 	{
-		date: '9/21/2024',
+		eventDate: '9/21/2024',
 		event: 'Started taking Spitolacton, quit taking it 10/15/2024',
 	},
 	{
-		date: '1/8/2025',
+		eventDate: '1/8/2025',
 		event: 'Start ozemic sample, Gedcom G7. Fill out papers for ozemic free',
 	},
 	{
-		date: '2/17/2025',
+		eventDate: '2/17/2025',
 		event: 'Approved for free Ozempic, Insulin and needles by Novo Nordisk',
 	},
 	{
-		date: '2/19/2025',
+		eventDate: '2/19/2025',
 		event: 'A1c is down to 8.4 from 9.4 per Lorina. Short period of time',
 	},
 	{
-		date: '7/30/2025',
+		eventDate: '7/30/2025',
 		event: 'A1c is now 5.8 thanks to Tresiba and Ozempic',
+	},
+	{
+		eventDate: '3/25/2026',
+		event:
+			'A1c is now 6.1, am switching to Mounjaro, which is supposed to be better than Ozempic',
 	},
 ];
